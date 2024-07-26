@@ -7,8 +7,9 @@ outputDir = 'ComponentTesting/Output'
 outputFile = '64-Bit Register test.txt'
 
 numTests = 100
-minVal = 0
-maxVal = 2 ** 64 - 1
+# values passed into the input are in 2's complement notation
+minVal = -2**63
+maxVal = 2**63 - 1
 
 
 lines = []
