@@ -1,0 +1,43 @@
+0 - do nothing
+
+## bitwise operations
+1 - AND
+2 - OR
+3 - NOR
+4 - XOR
+5 - NAND
+6 - XNOR
+7 - NOT
+8 - SHL
+9 - SHR
+10 - ROTL
+11 - ROTR
+12 - ASHR
+
+## integer operations
+16 - Negate
+17 - Add
+18 - Subtract
+19 - Multiply
+20 - Integer divide
+21 - Modulo
+22 - Integer to float
+23 - Integer to double
+
+## float operations
+32 - Negate
+33 - Add
+34 - Subtract
+35 - Multiply
+36 - Divide
+37 - Float to integer
+38 - Float to double
+
+## double operations
+48 - Negate
+49 - Add
+50 - Subtract
+51 - Multiply
+52 - Divide
+53 - Double to integer
+54 - Double to float
