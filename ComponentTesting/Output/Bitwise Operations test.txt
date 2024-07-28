@@ -1,0 +1,4738 @@
+# Bitwise Operations
+# Opcode 1: AND
+set_input 1
+SaveOpcode
+# test 1
+set_input -7361385055269227372
+SaveInput1
+set_input -2953603312820848630
+SaveInput2
+SaveOutput
+expect 0 -7997810974406709248
+
+# test 2
+set_input -7984279441444271179
+SaveInput1
+set_input 3386525493746172612
+SaveInput2
+SaveOutput
+expect 0 14073912061231748
+
+# test 3
+set_input 1677930742432144555
+SaveInput1
+set_input 7392448357325305480
+SaveInput2
+SaveOutput
+expect 0 432627159534670984
+
+# test 4
+set_input -4081425230832391901
+SaveInput1
+set_input -2168059298568684303
+SaveInput2
+SaveOutput
+expect 0 -4518938913942788063
+
+# test 5
+set_input -7004946617480181700
+SaveInput1
+set_input 898834468307282418
+SaveInput2
+SaveOutput
+expect 0 885322546269194288
+
+# test 6
+set_input 8387739435515906526
+SaveInput1
+set_input -6164775641857516376
+SaveInput2
+SaveOutput
+expect 0 2333445231024933000
+
+# test 7
+set_input 3880003648978635713
+SaveInput1
+set_input 6125967923109838338
+SaveInput2
+SaveOutput
+expect 0 1513361493151058432
+
+# test 8
+set_input -6923009187094442364
+SaveInput1
+set_input -1646654975139171360
+SaveInput2
+SaveOutput
+expect 0 -8564579844163108224
+
+# test 9
+set_input 6107861905688239813
+SaveInput1
+set_input 4965001907463540782
+SaveInput2
+SaveOutput
+expect 0 4954865625697619972
+
+# test 10
+set_input -52645803721500690
+SaveInput1
+set_input -3000256515187843852
+SaveInput2
+SaveOutput
+expect 0 -3007011984710216476
+
+# test 11
+set_input -2412144054687671147
+SaveInput1
+set_input -6822133940775378339
+SaveInput2
+SaveOutput
+expect 0 -9222737330190680043
+
+# test 12
+set_input 3419854120806138510
+SaveInput1
+set_input 588058923325121199
+SaveInput2
+SaveOutput
+expect 0 585749632798835342
+
+# test 13
+set_input 7653507230601863737
+SaveInput1
+set_input -5240347309823581008
+SaveInput2
+SaveOutput
+expect 0 2451796866888114224
+
+# test 14
+set_input 1667919860053194418
+SaveInput1
+set_input -4894623022741196119
+SaveInput2
+SaveOutput
+expect 0 1441297299829043872
+
+# test 15
+set_input 130538504420069039
+SaveInput1
+set_input -2812249722878947603
+SaveInput2
+SaveOutput
+expect 0 56506118756109997
+
+# test 16
+set_input 4322264757185531542
+SaveInput1
+set_input 1177545760477671652
+SaveInput2
+SaveOutput
+expect 0 1176354989250560132
+
+# test 17
+set_input -3703864221270098648
+SaveInput1
+set_input 4584025054042786111
+SaveInput2
+SaveOutput
+expect 0 907820697640896808
+
+# test 18
+set_input 7685918294910125606
+SaveInput1
+set_input 3496239323573390549
+SaveInput2
+SaveOutput
+expect 0 2342154535344538628
+
+# test 19
+set_input -7164693867914280550
+SaveInput1
+set_input -4237964878055974860
+SaveInput2
+SaveOutput
+expect 0 -8934683846708543472
+
+# test 20
+set_input -1693456072968007394
+SaveInput1
+set_input -2015483494088032382
+SaveInput2
+SaveOutput
+expect 0 -2303731807167704830
+
+# test 21
+set_input 6820925875809716
+SaveInput1
+set_input -7311095956441681718
+SaveInput2
+SaveOutput
+expect 0 2252420526481536
+
+# test 22
+set_input -8243583260172996727
+SaveInput1
+set_input -4169975966062477772
+SaveInput2
+SaveOutput
+expect 0 -8935070520944611840
+
+# test 23
+set_input 3967412431551747133
+SaveInput1
+set_input 2497178472042570666
+SaveInput2
+SaveOutput
+expect 0 2451929166708736040
+
+# test 24
+set_input 7853037425875334432
+SaveInput1
+set_input 333577107986883389
+SaveInput2
+SaveOutput
+expect 0 333568242054373664
+
+# test 25
+set_input -5486228733621155723
+SaveInput1
+set_input 3344889165768822213
+SaveInput2
+SaveOutput
+expect 0 2470505905531127877
+
+# test 26
+set_input 2076317019190428109
+SaveInput1
+set_input 2047044167373693689
+SaveInput2
+SaveOutput
+expect 0 2035784605362028745
+
+# test 27
+set_input -744491421344442872
+SaveInput1
+set_input -8089110141559397154
+SaveInput2
+SaveOutput
+expect 0 -8815514593128348664
+
+# test 28
+set_input -3648159017447086638
+SaveInput1
+set_input -4308082636244931671
+SaveInput2
+SaveOutput
+expect 0 -4317262493773356672
+
+# test 29
+set_input 5760713923081025652
+SaveInput1
+set_input 1943389421594738249
+SaveInput2
+SaveOutput
+expect 0 788141207005182016
+
+# test 30
+set_input -8572848060421624239
+SaveInput1
+set_input -4918255539097709657
+SaveInput2
+SaveOutput
+expect 0 -8573164822849912319
+
+# test 31
+set_input -1293230799240746047
+SaveInput1
+set_input 1943480550842466288
+SaveInput2
+SaveOutput
+expect 0 722969854562806720
+
+# test 32
+set_input -5919727247335742055
+SaveInput1
+set_input 3541016901025939544
+SaveInput2
+SaveOutput
+expect 0 2377935839184945176
+
+# test 33
+set_input 1759463433472095553
+SaveInput1
+set_input 8026990401299111091
+SaveInput2
+SaveOutput
+expect 0 603649654888076289
+
+# test 34
+set_input 2397196684580962892
+SaveInput1
+set_input -8571804704070582865
+SaveInput2
+SaveOutput
+expect 0 72203867891236876
+
+# test 35
+set_input 1098529013574646366
+SaveInput1
+set_input -5072704902152074429
+SaveInput2
+SaveOutput
+expect 0 655836970623404610
+
+# test 36
+set_input 6051617385373282164
+SaveInput1
+set_input -1941066961560387416
+SaveInput2
+SaveOutput
+expect 0 4687017824726548512
+
+# test 37
+set_input -4257567491553355202
+SaveInput1
+set_input -5455755944139850837
+SaveInput2
+SaveOutput
+expect 0 -8914874583923811798
+
+# test 38
+set_input -5884440889110672125
+SaveInput1
+set_input -5441051801354183209
+SaveInput2
+SaveOutput
+expect 0 -6605654546502890237
+
+# test 39
+set_input -8357678001855816280
+SaveInput1
+set_input -5765794911079286757
+SaveInput2
+SaveOutput
+expect 0 -8357695732554590200
+
+# test 40
+set_input 6038865445463041631
+SaveInput1
+set_input -617349788859308574
+SaveInput2
+SaveOutput
+expect 0 6002761879185826882
+
+# test 41
+set_input -1106145019569927676
+SaveInput1
+set_input 8568792374908645641
+SaveInput2
+SaveOutput
+expect 0 8116091548149547008
+
+# test 42
+set_input 5605315670328204303
+SaveInput1
+set_input -8562030293784229876
+SaveInput2
+SaveOutput
+expect 0 650775399551436812
+
+# test 43
+set_input 6347480471235444213
+SaveInput1
+set_input -5968089041037364822
+SaveInput2
+SaveOutput
+expect 0 577593812727148960
+
+# test 44
+set_input 6695467601851666785
+SaveInput1
+set_input -2428137662138013011
+SaveInput2
+SaveOutput
+expect 0 6649850761700180001
+
+# test 45
+set_input 5834123053384593747
+SaveInput1
+set_input -1027419902215042462
+SaveInput2
+SaveOutput
+expect 0 5815510515707166786
+
+# test 46
+set_input -2171732612179106722
+SaveInput1
+set_input 4542161277863666509
+SaveInput2
+SaveOutput
+expect 0 2380280565015781452
+
+# test 47
+set_input 953192153070338583
+SaveInput1
+set_input 495455168665290519
+SaveInput2
+SaveOutput
+expect 0 297273930196976151
+
+# test 48
+set_input 7805737641014203382
+SaveInput1
+set_input -2045214314623677522
+SaveInput2
+SaveOutput
+expect 0 6922454848961774502
+
+# test 49
+set_input -8324006902256891120
+SaveInput1
+set_input -7231152215716736026
+SaveInput2
+SaveOutput
+expect 0 -8637612358215924992
+
+# test 50
+set_input 9007046953709273430
+SaveInput1
+set_input 506549517433918895
+SaveInput2
+SaveOutput
+expect 0 290235997684957446
+
+# Opcode 2: OR
+set_input 2
+SaveOpcode
+# test 1
+set_input 8373894991276875930
+SaveInput1
+set_input -557737200007210596
+SaveInput2
+SaveOutput
+expect 0 -254860229387241058
+
+# test 2
+set_input 5896607552410186453
+SaveInput1
+set_input -370618611582257301
+SaveInput2
+SaveOutput
+expect 0 -297240496563030017
+
+# test 3
+set_input 4019846338842647181
+SaveInput1
+set_input 3930492728352700545
+SaveInput2
+SaveOutput
+expect 0 4020587467689163405
+
+# test 4
+set_input -1044243256645524489
+SaveInput1
+set_input -8965159676283062031
+SaveInput2
+SaveOutput
+expect 0 -894146158102840329
+
+# test 5
+set_input 4628933415636437509
+SaveInput1
+set_input 127155590733134439
+SaveInput2
+SaveOutput
+expect 0 4755800650841487975
+
+# test 6
+set_input -343820290722294399
+SaveInput1
+set_input -3623148465782196200
+SaveInput2
+SaveOutput
+expect 0 -18016670934237799
+
+# test 7
+set_input 4914775973107759230
+SaveInput1
+set_input 36299994526255548
+SaveInput2
+SaveOutput
+expect 0 4950861953388411390
+
+# test 8
+set_input 4812562550842572966
+SaveInput1
+set_input -5193139570106654769
+SaveInput2
+SaveOutput
+expect 0 -580987203860701201
+
+# test 9
+set_input 3840879489004161685
+SaveInput1
+set_input -2836922163874788588
+SaveInput2
+SaveOutput
+expect 0 -149256660677833835
+
+# test 10
+set_input 8190446496385017029
+SaveInput1
+set_input -4238565642002565202
+SaveInput2
+SaveOutput
+expect 0 -743129458031986705
+
+# test 11
+set_input -77638575101021225
+SaveInput1
+set_input -5653878041551371422
+SaveInput2
+SaveOutput
+expect 0 -5225012533431305
+
+# test 12
+set_input 4427291622802730650
+SaveInput1
+set_input 1561766338873424267
+SaveInput2
+SaveOutput
+expect 0 4466698333225648027
+
+# test 13
+set_input 6774087715684756902
+SaveInput1
+set_input 5376088678564582072
+SaveInput2
+SaveOutput
+expect 0 6817311752703672254
+
+# test 14
+set_input -2000695049815922630
+SaveInput1
+set_input 7280044957238217572
+SaveInput2
+SaveOutput
+expect 0 -1927546739437409410
+
+# test 15
+set_input -7717015840557381106
+SaveInput1
+set_input 2248901427343207296
+SaveInput2
+SaveOutput
+expect 0 -6919859997263533170
+
+# test 16
+set_input 883240686543106742
+SaveInput1
+set_input 6702756380961625670
+SaveInput2
+SaveOutput
+expect 0 6721059476443756278
+
+# test 17
+set_input 1545696960696058659
+SaveInput1
+set_input -3057271261832591326
+SaveInput2
+SaveOutput
+expect 0 -3029959384400278749
+
+# test 18
+set_input 5079398253345907259
+SaveInput1
+set_input 795553082756391303
+SaveInput2
+SaveOutput
+expect 0 5728578575488869311
+
+# test 19
+set_input 1378896496765913749
+SaveInput1
+set_input -5864276076443181441
+SaveInput2
+SaveOutput
+expect 0 -4629709217865179393
+
+# test 20
+set_input 9048909051403835826
+SaveInput1
+set_input -776847373460668885
+SaveInput2
+SaveOutput
+expect 0 -163185122886123589
+
+# test 21
+set_input -237222624249637695
+SaveInput1
+set_input -3068900497512627564
+SaveInput2
+SaveOutput
+expect 0 -144898830645618987
+
+# test 22
+set_input 4030307692538625873
+SaveInput1
+set_input -6764188099659039095
+SaveInput2
+SaveOutput
+expect 0 -5192993422315749415
+
+# test 23
+set_input 2307304547123890872
+SaveInput1
+set_input 4765449593242874773
+SaveInput2
+SaveOutput
+expect 0 7072753040716463037
+
+# test 24
+set_input -3110184758448710713
+SaveInput1
+set_input -6598353235531482735
+SaveInput2
+SaveOutput
+expect 0 -792642391178953769
+
+# test 25
+set_input -9070775623139784742
+SaveInput1
+set_input -4996310465171690287
+SaveInput2
+SaveOutput
+expect 0 -4990081040308506661
+
+# test 26
+set_input 5606787914409050637
+SaveInput1
+set_input -5971259058214652446
+SaveInput2
+SaveOutput
+expect 0 -1301575584101550097
+
+# test 27
+set_input 7631596341348205871
+SaveInput1
+set_input -7183629370735336071
+SaveInput2
+SaveOutput
+expect 0 -148900856065170049
+
+# test 28
+set_input -5781860237617442407
+SaveInput1
+set_input -1435307781574862434
+SaveInput2
+SaveOutput
+expect 0 -1164471052307572321
+
+# test 29
+set_input 4072276135621072317
+SaveInput1
+set_input -8669497337958173229
+SaveInput2
+SaveOutput
+expect 0 -4634235232655051265
+
+# test 30
+set_input -1704694562735193704
+SaveInput1
+set_input -5683023083373237628
+SaveInput2
+SaveOutput
+expect 0 -470628498701980772
+
+# test 31
+set_input -8774185297581003484
+SaveInput1
+set_input -2398519215946837427
+SaveInput2
+SaveOutput
+expect 0 -2395915003325907091
+
+# test 32
+set_input -4350651637921822150
+SaveInput1
+set_input -7784734534082555055
+SaveInput2
+SaveOutput
+expect 0 -3170690887508567173
+
+# test 33
+set_input -9198096059604734356
+SaveInput1
+set_input 7973439664993425229
+SaveInput2
+SaveOutput
+expect 0 -1225017034514366611
+
+# test 34
+set_input -1243646865363252827
+SaveInput1
+set_input 8300609477589266772
+SaveInput2
+SaveOutput
+expect 0 -18650088096204299
+
+# test 35
+set_input 1736717403024849946
+SaveInput1
+set_input -247674714401342606
+SaveInput2
+SaveOutput
+expect 0 -244848668693561478
+
+# test 36
+set_input -4364749467489935244
+SaveInput1
+set_input 7129379259497235196
+SaveInput2
+SaveOutput
+expect 0 -2018193184328260868
+
+# test 37
+set_input 8216211367448642352
+SaveInput1
+set_input -8904692717936399703
+SaveInput2
+SaveOutput
+expect 0 -689616201379370055
+
+# test 38
+set_input 8166287088678286212
+SaveInput1
+set_input -3016956975483565882
+SaveInput2
+SaveOutput
+expect 0 -615304438144336954
+
+# test 39
+set_input -6364181878162680578
+SaveInput1
+set_input 391850666534224550
+SaveInput2
+SaveOutput
+expect 0 -6341663802619603202
+
+# test 40
+set_input 3931412105586592470
+SaveInput1
+set_input 7952872024799740954
+SaveInput2
+SaveOutput
+expect 0 9142147794771693278
+
+# test 41
+set_input -5890141211891579640
+SaveInput1
+set_input 1354299992020433361
+SaveInput2
+SaveOutput
+expect 0 -4698534315897553447
+
+# test 42
+set_input -618878648036883343
+SaveInput1
+set_input -179749532962328712
+SaveInput2
+SaveOutput
+expect 0 -6350888486768775
+
+# test 43
+set_input -5600414945803597712
+SaveInput1
+set_input -554109005709850111
+SaveInput2
+SaveOutput
+expect 0 -409971808342128015
+
+# test 44
+set_input 5978512602367428143
+SaveInput1
+set_input 6931076141694514122
+SaveInput2
+SaveOutput
+expect 0 8284355637361440751
+
+# test 45
+set_input -5788059484658111593
+SaveInput1
+set_input 8689646710691362850
+SaveInput2
+SaveOutput
+expect 0 -18014720925664329
+
+# test 46
+set_input -2232601394486888450
+SaveInput1
+set_input -9019013694401314623
+SaveInput2
+SaveOutput
+expect 0 -2029374261737310209
+
+# test 47
+set_input 8435938617516663030
+SaveInput1
+set_input 1598941454241714366
+SaveInput2
+SaveOutput
+expect 0 8589206715113533694
+
+# test 48
+set_input 1231638753000466929
+SaveInput1
+set_input 4130906900169371350
+SaveInput2
+SaveOutput
+expect 0 4132032849672843255
+
+# test 49
+set_input -2307391084513944099
+SaveInput1
+set_input -2612596564494678834
+SaveInput2
+SaveOutput
+expect 0 -2306211015300768289
+
+# test 50
+set_input 3271897268076909874
+SaveInput1
+set_input -4032816378210709646
+SaveInput2
+SaveOutput
+expect 0 -1339644971889746062
+
+# Opcode 3: NOR
+set_input 3
+SaveOpcode
+# test 1
+set_input -3902673054661120464
+SaveInput1
+set_input -5166896414720948509
+SaveInput2
+SaveOutput
+expect 0 441353181310488844
+
+# test 2
+set_input -8036622250174345893
+SaveInput1
+set_input -5400273710265440300
+SaveInput2
+SaveOutput
+expect 0 5368713326081609760
+
+# test 3
+set_input 4954216979622410301
+SaveInput1
+set_input 4847096781306946946
+SaveInput2
+SaveOutput
+expect 0 -5171534109888970176
+
+# test 4
+set_input -823009098474403273
+SaveInput1
+set_input 3886905476393547415
+SaveInput2
+SaveOutput
+expect 0 723636980751663432
+
+# test 5
+set_input 9048974028953558041
+SaveInput1
+set_input 3752595581792375339
+SaveInput2
+SaveOutput
+expect 0 -9049963590197403196
+
+# test 6
+set_input 2409026829488645357
+SaveInput1
+set_input -9037946020367863882
+SaveInput2
+SaveOutput
+expect 0 6629624124935278592
+
+# test 7
+set_input -6867050837739977188
+SaveInput1
+set_input -5214715478090891986
+SaveInput2
+SaveOutput
+expect 0 5209574156613583041
+
+# test 8
+set_input 848177188933203971
+SaveInput1
+set_input 3251488507574901677
+SaveInput2
+SaveOutput
+expect 0 -3449721833270016944
+
+# test 9
+set_input 7450048515993163393
+SaveInput1
+set_input -188889376893427327
+SaveInput2
+SaveOutput
+expect 0 43927963439270014
+
+# test 10
+set_input 1600164082151476563
+SaveInput1
+set_input 3677898069429748970
+SaveInput2
+SaveOutput
+expect 0 -3980879498722594300
+
+# test 11
+set_input -1749188824614655049
+SaveInput1
+set_input 3003317954231570012
+SaveInput2
+SaveOutput
+expect 0 1171516666584584192
+
+# test 12
+set_input 2534401545568629400
+SaveInput1
+set_input -5380487054947765220
+SaveInput2
+SaveOutput
+expect 0 5225112592379169123
+
+# test 13
+set_input 6561838226836573853
+SaveInput1
+set_input 485497493634492087
+SaveInput2
+SaveOutput
+expect 0 -6898623466089311936
+
+# test 14
+set_input -1307232121283109495
+SaveInput1
+set_input 7766492372463513568
+SaveInput2
+SaveOutput
+expect 0 1163089857732935702
+
+# test 15
+set_input 5741321182651157027
+SaveInput1
+set_input 8292995048487121354
+SaveInput2
+SaveOutput
+expect 0 -9205330420961246188
+
+# test 16
+set_input 7509739350462294297
+SaveInput1
+set_input -32630640821572199
+SaveInput2
+SaveOutput
+expect 0 18024573738160742
+
+# test 17
+set_input -2032615165978286817
+SaveInput1
+set_input 8208882726348141665
+SaveInput2
+SaveOutput
+expect 0 870321320102267520
+
+# test 18
+set_input 8896908485040810077
+SaveInput1
+set_input 1257651883424699418
+SaveInput2
+SaveOutput
+expect 0 -8898052632126782560
+
+# test 19
+set_input -1409485076640806316
+SaveInput1
+set_input -8855115601873111651
+SaveInput2
+SaveOutput
+expect 0 1333962901981134882
+
+# test 20
+set_input 2749225965564642713
+SaveInput1
+set_input 6734215995250838006
+SaveInput2
+SaveOutput
+expect 0 -9185021035809787392
+
+# test 21
+set_input 7410000422440812569
+SaveInput1
+set_input -634774259366632504
+SaveInput2
+SaveOutput
+expect 0 579314810182179878
+
+# test 22
+set_input 7272630749413830179
+SaveInput1
+set_input -2669647914637633591
+SaveInput2
+SaveOutput
+expect 0 72176891218493460
+
+# test 23
+set_input -8894891917671716633
+SaveInput1
+set_input 3677105048151411323
+SaveInput2
+SaveOutput
+expect 0 5219672038049879296
+
+# test 24
+set_input 8176780967623224643
+SaveInput1
+set_input 9031320823966832106
+SaveInput2
+SaveOutput
+expect 0 -9042650773753429484
+
+# test 25
+set_input -7244749355832662666
+SaveInput1
+set_input -5306736378450360639
+SaveInput2
+SaveOutput
+expect 0 4647714843902941192
+
+# test 26
+set_input 5908114877448858534
+SaveInput1
+set_input -8445722565801909046
+SaveInput2
+SaveOutput
+expect 0 2594118190666977297
+
+# test 27
+set_input 86545790194523383
+SaveInput1
+set_input -7689866304093485255
+SaveInput2
+SaveOutput
+expect 0 7675404839951818752
+
+# test 28
+set_input -2862119035128508813
+SaveInput1
+set_input 5158663418149124032
+SaveInput2
+SaveOutput
+expect 0 2317113076968800268
+
+# test 29
+set_input -6144303057140299304
+SaveInput1
+set_input 3475774144916453307
+SaveInput2
+SaveOutput
+expect 0 4990147887179530244
+
+# test 30
+set_input 2329694773570110925
+SaveInput1
+set_input 5064375886480695412
+SaveInput2
+SaveOutput
+expect 0 -7376050725316421118
+
+# test 31
+set_input 3688813489965136624
+SaveInput1
+set_input 2256316908567048792
+SaveInput2
+SaveOutput
+expect 0 -4571519034307836665
+
+# test 32
+set_input 5202039258982769825
+SaveInput1
+set_input -8649514840188392912
+SaveInput2
+SaveOutput
+expect 0 3461056767941808462
+
+# test 33
+set_input 2691636063062491700
+SaveInput1
+set_input 8921183806817254797
+SaveInput2
+SaveOutput
+expect 0 -9214081163323228094
+
+# test 34
+set_input -4723870359328532109
+SaveInput1
+set_input 1204179737500974411
+SaveInput2
+SaveOutput
+expect 0 4686140547889365636
+
+# test 35
+set_input 1846721839926022720
+SaveInput1
+set_input -3395418001008525335
+SaveInput2
+SaveOutput
+expect 0 2746668024361680918
+
+# test 36
+set_input 2546969880302682019
+SaveInput1
+set_input -1029116526849142089
+SaveInput2
+SaveOutput
+expect 0 864699938612740168
+
+# test 37
+set_input -4018564598381564684
+SaveInput1
+set_input -1783600464864818615
+SaveInput2
+SaveOutput
+expect 0 1207122084941795586
+
+# test 38
+set_input 228463411605267080
+SaveInput1
+set_input -5373475808382205096
+SaveInput2
+SaveOutput
+expect 0 5228751202887408679
+
+# test 39
+set_input -731265287947874545
+SaveInput1
+set_input -6358819631551094511
+SaveInput2
+SaveOutput
+expect 0 586893758832840928
+
+# test 40
+set_input 8929293428708419176
+SaveInput1
+set_input -6606400552596809253
+SaveInput2
+SaveOutput
+expect 0 1273563098775556
+
+# test 41
+set_input 3878446491984199595
+SaveInput1
+set_input 294604734402574751
+SaveInput2
+SaveOutput
+expect 0 -3879754296173526976
+
+# test 42
+set_input 7967420907834998669
+SaveInput1
+set_input 6652481456694482130
+SaveInput2
+SaveOutput
+expect 0 -9138929249630552032
+
+# test 43
+set_input -5058367354531657
+SaveInput1
+set_input 7644091606651856386
+SaveInput2
+SaveOutput
+expect 0 202370273773896
+
+# test 44
+set_input 4448114602151347569
+SaveInput1
+set_input 4053758738948539064
+SaveInput2
+SaveOutput
+expect 0 -4466436933173495802
+
+# test 45
+set_input 3857756069701353738
+SaveInput1
+set_input 6701894772391334817
+SaveInput2
+SaveOutput
+expect 0 -9046018602858107820
+
+# test 46
+set_input -4328503726733514326
+SaveInput1
+set_input 3997092875494933978
+SaveInput2
+SaveOutput
+expect 0 576857899354100229
+
+# test 47
+set_input -3839792334557594110
+SaveInput1
+set_input 8047611451278503038
+SaveInput2
+SaveOutput
+expect 0 1171256963732914561
+
+# test 48
+set_input 8497087373423329168
+SaveInput1
+set_input -1281591181815238228
+SaveInput2
+SaveOutput
+expect 0 6459506755
+
+# test 49
+set_input -3459379196514404514
+SaveInput1
+set_input -3207325631379008476
+SaveInput2
+SaveOutput
+expect 0 2306446676012304513
+
+# test 50
+set_input 6016674446334017860
+SaveInput1
+set_input -25682502924270184
+SaveInput2
+SaveOutput
+expect 0 63874771860003
+
+# Opcode 4: XOR
+set_input 4
+SaveOpcode
+# test 1
+set_input 8544238700986285953
+SaveInput1
+set_input 7010311773478786877
+SaveInput2
+SaveOutput
+expect 0 1718856349277726908
+
+# test 2
+set_input -2893891971260256513
+SaveInput1
+set_input -987235132947760165
+SaveInput2
+SaveOutput
+expect 0 2709608371311449380
+
+# test 3
+set_input 283568000063572203
+SaveInput1
+set_input 1576585428633895008
+SaveInput2
+SaveOutput
+expect 0 1589286401884735627
+
+# test 4
+set_input -7563022845956572083
+SaveInput1
+set_input 3169245206814331662
+SaveInput2
+SaveOutput
+expect 0 -4831846232460677309
+
+# test 5
+set_input 132217552361869832
+SaveInput1
+set_input -1076928740515593981
+SaveInput2
+SaveOutput
+expect 0 -1092052343380176117
+
+# test 6
+set_input -7499444764432377031
+SaveInput1
+set_input 4513625865224337204
+SaveInput2
+SaveOutput
+expect 0 -6246773646586647539
+
+# test 7
+set_input -6489344788225909278
+SaveInput1
+set_input 1861244931788348302
+SaveInput2
+SaveOutput
+expect 0 -4889414772593883540
+
+# test 8
+set_input 7397916837983808353
+SaveInput1
+set_input -2654221131137830750
+SaveInput2
+SaveOutput
+expect 0 -4791581674035586109
+
+# test 9
+set_input 1562355218368351057
+SaveInput1
+set_input 1527509007468299483
+SaveInput2
+SaveOutput
+expect 0 44003084531748746
+
+# test 10
+set_input 3890148498062425199
+SaveInput1
+set_input 8723154237645514469
+SaveInput2
+SaveOutput
+expect 0 5544577642877573770
+
+# test 11
+set_input 3552403946744652357
+SaveInput1
+set_input -2926167417180844539
+SaveInput2
+SaveOutput
+expect 0 -1862090365613102016
+
+# test 12
+set_input 8782748212499323110
+SaveInput1
+set_input 318757227282270350
+SaveInput2
+SaveOutput
+expect 0 9047418244268789864
+
+# test 13
+set_input -1094734151531660856
+SaveInput1
+set_input 3368875361583315987
+SaveInput2
+SaveOutput
+expect 0 -2445983067386788389
+
+# test 14
+set_input -8396385394058994455
+SaveInput1
+set_input 2274143526292236070
+SaveInput2
+SaveOutput
+expect 0 -7713141668795188273
+
+# test 15
+set_input 6813940976537214615
+SaveInput1
+set_input -4804183620976457990
+SaveInput2
+SaveOutput
+expect 0 -2027772927268071315
+
+# test 16
+set_input 1428747123201635837
+SaveInput1
+set_input 7580223227425739713
+SaveInput2
+SaveOutput
+expect 0 8854553150370817596
+
+# test 17
+set_input -4718475369907016110
+SaveInput1
+set_input 3686025775311089485
+SaveInput2
+SaveOutput
+expect 0 -8240462177230995169
+
+# test 18
+set_input 1154206715639601550
+SaveInput1
+set_input 3161391928829785739
+SaveInput2
+SaveOutput
+expect 0 4313065056112619269
+
+# test 19
+set_input 2893710286901921642
+SaveInput1
+set_input -3685033518125273261
+SaveInput2
+SaveOutput
+expect 0 -1948748404333811655
+
+# test 20
+set_input -8940066051679937273
+SaveInput1
+set_input -665557390990152926
+SaveInput2
+SaveOutput
+expect 0 8443675762752747045
+
+# test 21
+set_input 1880827234531932232
+SaveInput1
+set_input 4258907199502249966
+SaveInput2
+SaveOutput
+expect 0 2378085248652580774
+
+# test 22
+set_input -7308135563972440494
+SaveInput1
+set_input 7977984997229337114
+SaveInput2
+SaveOutput
+expect 0 -854779609671658424
+
+# test 23
+set_input 5048025359425863287
+SaveInput1
+set_input -1712282503890635433
+SaveInput2
+SaveOutput
+expect 0 -5894384585063101664
+
+# test 24
+set_input -5910441202148187281
+SaveInput1
+set_input 7817186014108976272
+SaveInput2
+SaveOutput
+expect 0 -4501950043812403201
+
+# test 25
+set_input 8183352166458184431
+SaveInput1
+set_input -2030648234304060448
+SaveInput2
+SaveOutput
+expect 0 -7908132651156795121
+
+# test 26
+set_input -386383301345805375
+SaveInput1
+set_input 5531109214396274757
+SaveInput2
+SaveOutput
+expect 0 -5304896309434965116
+
+# test 27
+set_input 7676204174523041473
+SaveInput1
+set_input 2482149278544288339
+SaveInput2
+SaveOutput
+expect 0 5257115393936252050
+
+# test 28
+set_input -7402004854685260512
+SaveInput1
+set_input -4804292318259863775
+SaveInput2
+SaveOutput
+expect 0 2600110092464372225
+
+# test 29
+set_input -71920648038244191
+SaveInput1
+set_input -5177145494660962675
+SaveInput2
+SaveOutput
+expect 0 5127182248450328108
+
+# test 30
+set_input 5505983657217003148
+SaveInput1
+set_input 6204975348008123100
+SaveInput2
+SaveOutput
+expect 0 1906622169695319120
+
+# test 31
+set_input 6017961863282584996
+SaveInput1
+set_input -1688089155177152104
+SaveInput2
+SaveOutput
+expect 0 -4965592743495308228
+
+# test 32
+set_input -6956949913035750873
+SaveInput1
+set_input -4589938817520151420
+SaveInput2
+SaveOutput
+expect 0 6863116530050045603
+
+# test 33
+set_input 5071261841820933036
+SaveInput1
+set_input -1474723349875278312
+SaveInput2
+SaveOutput
+expect 0 -5915470225124399692
+
+# test 34
+set_input 3799801454996712821
+SaveInput1
+set_input -3650815983842924569
+SaveInput2
+SaveOutput
+expect 0 -437366492251682158
+
+# test 35
+set_input 8788896201303519305
+SaveInput1
+set_input -7350567748762041511
+SaveInput2
+SaveOutput
+expect 0 -2304181559703276784
+
+# test 36
+set_input -3463783976469353305
+SaveInput1
+set_input 5436922247317227755
+SaveInput2
+SaveOutput
+expect 0 -8890676134583622580
+
+# test 37
+set_input -3467877999551687050
+SaveInput1
+set_input -2218789932399456452
+SaveInput2
+SaveOutput
+expect 0 3380753178810800458
+
+# test 38
+set_input -2526123366538831209
+SaveInput1
+set_input -625506931054283201
+SaveInput2
+SaveOutput
+expect 0 3143698272532917416
+
+# test 39
+set_input 3220684474110104978
+SaveInput1
+set_input -519095194599302127
+SaveInput2
+SaveOutput
+expect 0 -3136221830139278973
+
+# test 40
+set_input 8217105261291172607
+SaveInput1
+set_input -4266285370008587453
+SaveInput2
+SaveOutput
+expect 0 -5277627510573383236
+
+# test 41
+set_input -7738654364041456647
+SaveInput1
+set_input -1738458475713121403
+SaveInput2
+SaveOutput
+expect 0 8306053751871004796
+
+# test 42
+set_input 5200935543468968903
+SaveInput1
+set_input -3932647178309329954
+SaveInput2
+SaveOutput
+expect 0 -9133017023045578727
+
+# test 43
+set_input -6031545478562560595
+SaveInput1
+set_input -8976928200051012464
+SaveInput2
+SaveOutput
+expect 0 3395764743186647357
+
+# test 44
+set_input 5672623075454387955
+SaveInput1
+set_input -8989854608962714594
+SaveInput2
+SaveOutput
+expect 0 -3637595145840753939
+
+# test 45
+set_input -5796332545298506940
+SaveInput1
+set_input 8831131973951761587
+SaveInput2
+SaveOutput
+expect 0 -3098140097190594569
+
+# test 46
+set_input -2817251224780583709
+SaveInput1
+set_input -4229660270680774613
+SaveInput2
+SaveOutput
+expect 0 2137563352700167368
+
+# test 47
+set_input -6842162741232671519
+SaveInput1
+set_input 2182071692905538649
+SaveInput2
+SaveOutput
+expect 0 -4664735701123202888
+
+# test 48
+set_input -8034020092675144707
+SaveInput1
+set_input -6759946482051620573
+SaveInput2
+SaveOutput
+expect 0 3652055596562522846
+
+# test 49
+set_input -5050802408210132829
+SaveInput1
+set_input 7604184211208375427
+SaveInput2
+SaveOutput
+expect 0 -3431588194015568864
+
+# test 50
+set_input 8099308714856759073
+SaveInput1
+set_input -661947705367290653
+SaveInput2
+SaveOutput
+expect 0 -8739573397745196094
+
+# Opcode 5: NAND
+set_input 5
+SaveOpcode
+# test 1
+set_input -68106374797018664
+SaveInput1
+set_input -5080071054248828048
+SaveInput2
+SaveOutput
+expect 0 5112148489953861295
+
+# test 2
+set_input 744150264170339768
+SaveInput1
+set_input -4587441841202821251
+SaveInput2
+SaveOutput
+expect 0 -23081705669821753
+
+# test 3
+set_input -1888334658681370131
+SaveInput1
+set_input 4844259821894680850
+SaveInput2
+SaveOutput
+expect 0 -4686629419651432705
+
+# test 4
+set_input 8136051699430790418
+SaveInput1
+set_input 4994309527499838141
+SaveInput2
+SaveOutput
+expect 0 -4632244729269456913
+
+# test 5
+set_input -2043645574006034059
+SaveInput1
+set_input -1918027190360683943
+SaveInput2
+SaveOutput
+expect 0 2224355811927130030
+
+# test 6
+set_input -5068963338536686300
+SaveInput1
+set_input -5998035747580171848
+SaveInput2
+SaveOutput
+expect 0 6304441343003154143
+
+# test 7
+set_input -808955432123360805
+SaveInput1
+set_input -2148916748689579099
+SaveInput2
+SaveOutput
+expect 0 2304713733258608254
+
+# test 8
+set_input -4011255810292368325
+SaveInput1
+set_input -1681448194735020460
+SaveInput2
+SaveOutput
+expect 0 4035216442046012399
+
+# test 9
+set_input 8021182040547809798
+SaveInput1
+set_input -7666955232015182787
+SaveInput2
+SaveOutput
+expect 0 -364932927198859269
+
+# test 10
+set_input 4350917584770061585
+SaveInput1
+set_input 3168610171685243500
+SaveInput2
+SaveOutput
+expect 0 -2909607012536418305
+
+# test 11
+set_input -3385878614231301170
+SaveInput1
+set_input 4797637357166651421
+SaveInput2
+SaveOutput
+expect 0 -4611863318469459981
+
+# test 12
+set_input 9001474531190718949
+SaveInput1
+set_input 5114951309334035428
+SaveInput2
+SaveOutput
+expect 0 -4966240055011049957
+
+# test 13
+set_input 5307865744420169153
+SaveInput1
+set_input -2937514278397479961
+SaveInput2
+SaveOutput
+expect 0 -4695374528071655874
+
+# test 14
+set_input 5202599313137893112
+SaveInput1
+set_input 6495473423076498937
+SaveInput2
+SaveOutput
+expect 0 -5197163319060208889
+
+# test 15
+set_input -4038104444541811253
+SaveInput1
+set_input 8756107401300355402
+SaveInput2
+SaveOutput
+expect 0 -4720266373692391755
+
+# test 16
+set_input 4018068015584781031
+SaveInput1
+set_input -1584941706732404900
+SaveInput2
+SaveOutput
+expect 0 -2450243530220773957
+
+# test 17
+set_input 7259764569541827784
+SaveInput1
+set_input -7926543696214480762
+SaveInput2
+SaveOutput
+expect 0 -53832093599271041
+
+# test 18
+set_input -3150805775147784068
+SaveInput1
+set_input -6654452562770239276
+SaveInput2
+SaveOutput
+expect 0 9221680412445630379
+
+# test 19
+set_input -1905272401558474937
+SaveInput1
+set_input -1634672209753431477
+SaveInput2
+SaveOutput
+expect 0 2233758716983762364
+
+# test 20
+set_input -2438141889437855948
+SaveInput1
+set_input 8200345306870628445
+SaveInput2
+SaveOutput
+expect 0 -5767275602084134933
+
+# test 21
+set_input 7676955146302753620
+SaveInput1
+set_input -5458828497805036713
+SaveInput2
+SaveOutput
+expect 0 -2308657759023334229
+
+# test 22
+set_input 1087264115610741789
+SaveInput1
+set_input 1981390177721102561
+SaveInput2
+SaveOutput
+expect 0 -798840081195573250
+
+# test 23
+set_input -5044130492317499008
+SaveInput1
+set_input 522541118332346373
+SaveInput2
+SaveOutput
+expect 0 -90107180286476289
+
+# test 24
+set_input 3313821136138253704
+SaveInput1
+set_input 2177845227518221391
+SaveInput2
+SaveOutput
+expect 0 -880737951175185417
+
+# test 25
+set_input 1349419861201222195
+SaveInput1
+set_input -3923795997711849250
+SaveInput2
+SaveOutput
+expect 0 -38843633780205587
+
+# test 26
+set_input -8931881416200428367
+SaveInput1
+set_input -8151668490079416947
+SaveInput2
+SaveOutput
+expect 0 8932023305837198206
+
+# test 27
+set_input 1211431011371874228
+SaveInput1
+set_input 3768310977997033076
+SaveInput2
+SaveOutput
+expect 0 -1174201547655366197
+
+# test 28
+set_input 7338561016706002004
+SaveInput1
+set_input 3919367144770518398
+SaveInput2
+SaveOutput
+expect 0 -2613286273028336725
+
+# test 29
+set_input -357560510698487844
+SaveInput1
+set_input -5465147630016376707
+SaveInput2
+SaveOutput
+expect 0 5764150074086371235
+
+# test 30
+set_input 4228495833654047432
+SaveInput1
+set_input 2843927172809369161
+SaveInput2
+SaveOutput
+expect 0 -2460830727183409737
+
+# test 31
+set_input 262037068612392700
+SaveInput1
+set_input -2015885920740375795
+SaveInput2
+SaveOutput
+expect 0 -598422230925837
+
+# test 32
+set_input 5512152541212421960
+SaveInput1
+set_input -858061271221562052
+SaveInput2
+SaveOutput
+expect 0 -4906400764472165641
+
+# test 33
+set_input -1487002784577480416
+SaveInput1
+set_input 2026516654633680630
+SaveInput2
+SaveOutput
+expect 0 -584625760012736545
+
+# test 34
+set_input 6166192045047746897
+SaveInput1
+set_input 8123050481585087233
+SaveInput2
+SaveOutput
+expect 0 -5805868208919478530
+
+# test 35
+set_input -1756886253396784848
+SaveInput1
+set_input -8978317306463675199
+SaveInput2
+SaveOutput
+expect 0 9005500223475906559
+
+# test 36
+set_input 3932407649784293692
+SaveInput1
+set_input -939809483594094013
+SaveInput2
+SaveOutput
+expect 0 -3643447557880850433
+
+# test 37
+set_input 5877378883445802941
+SaveInput1
+set_input 8457729322415387652
+SaveInput2
+SaveOutput
+expect 0 -5841349038421132293
+
+# test 38
+set_input 3235792945865847096
+SaveInput1
+set_input 8238495018334966092
+SaveInput2
+SaveOutput
+expect 0 -2325265333722304777
+
+# test 39
+set_input 109885091799121181
+SaveInput1
+set_input 6317679578458590753
+SaveInput2
+SaveOutput
+expect 0 -109317881237343234
+
+# test 40
+set_input 4207341353166732533
+SaveInput1
+set_input 6243884482547963015
+SaveInput2
+SaveOutput
+expect 0 -1306671207618204806
+
+# test 41
+set_input 2052991215040976428
+SaveInput1
+set_input 932443410903273001
+SaveInput2
+SaveOutput
+expect 0 -896409848483350057
+
+# test 42
+set_input -5968064129474285065
+SaveInput1
+set_input -3676078606146258719
+SaveInput2
+SaveOutput
+expect 0 8347103841230180126
+
+# test 43
+set_input 8501703112193162405
+SaveInput1
+set_input -7969503898928889054
+SaveInput2
+SaveOutput
+expect 0 -1253127066681868321
+
+# test 44
+set_input 2967328478986387624
+SaveInput1
+set_input 3648863245670781632
+SaveInput2
+SaveOutput
+expect 0 -2315432408735940737
+
+# test 45
+set_input -2458231135692605479
+SaveInput1
+set_input 6857768171429164857
+SaveInput2
+SaveOutput
+expect 0 -6711080053096101658
+
+# test 46
+set_input 1959641432414692030
+SaveInput1
+set_input 8410652114550887626
+SaveInput2
+SaveOutput
+expect 0 -1166436151782867083
+
+# test 47
+set_input -5550702906092324070
+SaveInput1
+set_input 3388539599207467004
+SaveInput2
+SaveOutput
+expect 0 -2451787843224404761
+
+# test 48
+set_input 7134220416740291108
+SaveInput1
+set_input -174842224541733538
+SaveInput2
+SaveOutput
+expect 0 -6989821539480788997
+
+# test 49
+set_input -471872465414160397
+SaveInput1
+set_input -1905692099086783843
+SaveInput2
+SaveOutput
+expect 0 2233343273414333806
+
+# test 50
+set_input 3835765051769306220
+SaveInput1
+set_input 4618221162520612978
+SaveInput2
+SaveOutput
+expect 0 -5374059710845025
+
+# Opcode 6: XNOR
+set_input 6
+SaveOpcode
+# test 1
+set_input 2036281817590439112
+SaveInput1
+set_input 3683247212253997400
+SaveInput2
+SaveOutput
+expect 0 -3413682704913823121
+
+# test 2
+set_input -7498152194030731863
+SaveInput1
+set_input 4284503775506857780
+SaveInput2
+SaveOutput
+expect 0 6015494954999315810
+
+# test 3
+set_input 2771927349504793339
+SaveInput1
+set_input -7753455064276710988
+SaveInput2
+SaveOutput
+expect 0 5615447165091900592
+
+# test 4
+set_input 5381596398698905514
+SaveInput1
+set_input 3827748046151418219
+SaveInput2
+SaveOutput
+expect 0 -9201313601031585474
+
+# test 5
+set_input 5616510973117992647
+SaveInput1
+set_input -1351867627084493613
+SaveInput2
+SaveOutput
+expect 0 6859851436330630635
+
+# test 6
+set_input -8695147504708036871
+SaveInput1
+set_input 4790285664920576801
+SaveInput2
+SaveOutput
+expect 0 4238412783861074471
+
+# test 7
+set_input 6394427641257093121
+SaveInput1
+set_input 274823549204063670
+SaveInput2
+SaveOutput
+expect 0 -6588146681536646584
+
+# test 8
+set_input 3375949452739114139
+SaveInput1
+set_input 3623800861401591175
+SaveInput2
+SaveOutput
+expect 0 -2059160476187154717
+
+# test 9
+set_input -5963826934838350649
+SaveInput1
+set_input 3043390569353055850
+SaveInput2
+SaveOutput
+expect 0 8718845075215506770
+
+# test 10
+set_input -1504863391952110708
+SaveInput1
+set_input 3553549817006112536
+SaveInput2
+SaveOutput
+expect 0 2716488556364577643
+
+# test 11
+set_input -304794345581123471
+SaveInput1
+set_input 4331523729843955418
+SaveInput2
+SaveOutput
+expect 0 4046045790579142996
+
+# test 12
+set_input 7226201120108411389
+SaveInput1
+set_input -5837676449035690727
+SaveInput2
+SaveOutput
+expect 0 3840172371071261467
+
+# test 13
+set_input 4729204774304154535
+SaveInput1
+set_input 7349534138794766512
+SaveInput2
+SaveOutput
+expect 0 -2620893718899389208
+
+# test 14
+set_input 7129105953509627400
+SaveInput1
+set_input 5871577595459038581
+SaveInput2
+SaveOutput
+expect 0 -3716495128998329214
+
+# test 15
+set_input 967401312984359116
+SaveInput1
+set_input 6876318128408971613
+SaveInput2
+SaveOutput
+expect 0 -5909128128403909010
+
+# test 16
+set_input 8807085048751240971
+SaveInput1
+set_input -776917940336285843
+SaveInput2
+SaveOutput
+expect 0 8138329915530932121
+
+# test 17
+set_input 3722935534679605810
+SaveInput1
+set_input 5527637168016524985
+SaveInput2
+SaveOutput
+expect 0 -9159365700003742860
+
+# test 18
+set_input 3798754782357688797
+SaveInput1
+set_input -2464733966378853156
+SaveInput2
+SaveOutput
+expect 0 1622313063844082430
+
+# test 19
+set_input -3664188240409422862
+SaveInput1
+set_input 8236572283776842064
+SaveInput2
+SaveOutput
+expect 0 4654436199528453469
+
+# test 20
+set_input -1708718264806437000
+SaveInput1
+set_input -13749742201256173
+SaveInput2
+SaveOutput
+expect 0 -1695129601617610860
+
+# test 21
+set_input -6443369487736798011
+SaveInput1
+set_input -7886172006341065303
+SaveInput2
+SaveOutput
+expect 0 -3754381138818417005
+
+# test 22
+set_input 1592891893794979284
+SaveInput1
+set_input -7240960570342240313
+SaveInput2
+SaveOutput
+expect 0 8243304732247215596
+
+# test 23
+set_input 5221283466996803745
+SaveInput1
+set_input -1878550227702505296
+SaveInput2
+SaveOutput
+expect 0 5936952521680041966
+
+# test 24
+set_input 7044722833305352149
+SaveInput1
+set_input -6314837240026337120
+SaveInput2
+SaveOutput
+expect 0 3918462717095196810
+
+# test 25
+set_input -7907071842197859698
+SaveInput1
+set_input -1502730806965367889
+SaveInput2
+SaveOutput
+expect 0 -8746353621903776034
+
+# test 26
+set_input -2967205329338683282
+SaveInput1
+set_input -5632203572171146457
+SaveInput2
+SaveOutput
+expect 0 -7423122717740780362
+
+# test 27
+set_input 5793468863975790635
+SaveInput1
+set_input 4311974909680987066
+SaveInput2
+SaveOutput
+expect 0 -7760194091526042514
+
+# test 28
+set_input 4843720722130247508
+SaveInput1
+set_input 8589859249364198312
+SaveInput2
+SaveOutput
+expect 0 -3750677345626848509
+
+# test 29
+set_input 3952606191748839832
+SaveInput1
+set_input -4764949959181011111
+SaveInput2
+SaveOutput
+expect 0 8429325485129724222
+
+# test 30
+set_input 5105834075234188858
+SaveInput1
+set_input -8971098759247492085
+SaveInput2
+SaveOutput
+expect 0 4225554853227646414
+
+# test 31
+set_input 6207876322388240166
+SaveInput1
+set_input -2586644100612749619
+SaveInput2
+SaveOutput
+expect 0 8485720152697183764
+
+# test 32
+set_input 9141548151798807650
+SaveInput1
+set_input 8055699181514403740
+SaveInput2
+SaveOutput
+expect 0 -1231411403509371903
+
+# test 33
+set_input 920363914613093757
+SaveInput1
+set_input -1577509479339877638
+SaveInput2
+SaveOutput
+expect 0 1810933695016898680
+
+# test 34
+set_input -5685117140545350954
+SaveInput1
+set_input 3742769828061377873
+SaveInput2
+SaveOutput
+expect 0 9013227597975607416
+
+# test 35
+set_input 4487079989506943774
+SaveInput1
+set_input -3024671884911815078
+SaveInput2
+SaveOutput
+expect 0 1710387608805475003
+
+# test 36
+set_input -3875109693678092587
+SaveInput1
+set_input -8939181333569855351
+SaveInput2
+SaveOutput
+expect 0 -5316919045379907165
+
+# test 37
+set_input -8832118211354220658
+SaveInput1
+set_input -809805625858499732
+SaveInput2
+SaveOutput
+expect 0 -8191200389034310883
+
+# test 38
+set_input 6379488027690059833
+SaveInput1
+set_input 4504419231371336306
+SaveInput2
+SaveOutput
+expect 0 -7352856344023618124
+
+# test 39
+set_input -5398217997026128471
+SaveInput1
+set_input -9185707634022027634
+SaveInput2
+SaveOutput
+expect 0 -3859693483411825448
+
+# test 40
+set_input 2752390341872548666
+SaveInput1
+set_input 6653127286580193174
+SaveInput2
+SaveOutput
+expect 0 -8819979270502046893
+
+# test 41
+set_input 1243130989118323823
+SaveInput1
+set_input 3944740589057626275
+SaveInput2
+SaveOutput
+expect 0 -2882010905723612365
+
+# test 42
+set_input -7577076931116633974
+SaveInput1
+set_input -2131930186676388262
+SaveInput2
+SaveOutput
+expect 0 -8408515617774423761
+
+# test 43
+set_input 488755933402636884
+SaveInput1
+set_input -6884716858924293925
+SaveInput2
+SaveOutput
+expect 0 6431990667970837872
+
+# test 44
+set_input -3520329281318502859
+SaveInput1
+set_input 5999144905260050797
+SaveInput2
+SaveOutput
+expect 0 7177478134457690279
+
+# test 45
+set_input 8806687270358210124
+SaveInput1
+set_input 7823287097564205507
+SaveInput2
+SaveOutput
+expect 0 -1632068073187035024
+
+# test 46
+set_input -2325873722509582064
+SaveInput1
+set_input 4388953215724078174
+SaveInput2
+SaveOutput
+expect 0 2067038300418579121
+
+# test 47
+set_input 1225108766646596368
+SaveInput1
+set_input -1430982382263958158
+SaveInput2
+SaveOutput
+expect 0 205946274686470557
+
+# test 48
+set_input -1192949049320528537
+SaveInput1
+set_input 2999995911029245707
+SaveInput2
+SaveOutput
+expect 0 4119690522789289363
+
+# test 49
+set_input 6328363382247108023
+SaveInput1
+set_input -3646996952344645184
+SaveInput2
+SaveOutput
+expect 0 7299878218696418184
+
+# test 50
+set_input -7488238131013653938
+SaveInput1
+set_input -7914002561838031401
+SaveInput2
+SaveOutput
+expect 0 -738519427795498906
+
+# Opcode 7: NOT
+set_input 7
+SaveOpcode
+# test 1
+set_input -3365471858735270701
+SaveInput1
+SaveOutput
+expect 0 3365471858735270700
+
+# test 2
+set_input -5354266650667128468
+SaveInput1
+SaveOutput
+expect 0 5354266650667128467
+
+# test 3
+set_input 3478006194787807079
+SaveInput1
+SaveOutput
+expect 0 -3478006194787807080
+
+# test 4
+set_input -7491674311516125437
+SaveInput1
+SaveOutput
+expect 0 7491674311516125436
+
+# test 5
+set_input 7719590491594977783
+SaveInput1
+SaveOutput
+expect 0 -7719590491594977784
+
+# test 6
+set_input 7642360817180978718
+SaveInput1
+SaveOutput
+expect 0 -7642360817180978719
+
+# test 7
+set_input -911406806219112266
+SaveInput1
+SaveOutput
+expect 0 911406806219112265
+
+# test 8
+set_input -4023777008746353080
+SaveInput1
+SaveOutput
+expect 0 4023777008746353079
+
+# test 9
+set_input -1177443510171131093
+SaveInput1
+SaveOutput
+expect 0 1177443510171131092
+
+# test 10
+set_input 3286426151320258470
+SaveInput1
+SaveOutput
+expect 0 -3286426151320258471
+
+# test 11
+set_input -346518532185544439
+SaveInput1
+SaveOutput
+expect 0 346518532185544438
+
+# test 12
+set_input -1091391755928240262
+SaveInput1
+SaveOutput
+expect 0 1091391755928240261
+
+# test 13
+set_input 8078257200462626829
+SaveInput1
+SaveOutput
+expect 0 -8078257200462626830
+
+# test 14
+set_input -5178849361057059468
+SaveInput1
+SaveOutput
+expect 0 5178849361057059467
+
+# test 15
+set_input 8748199455849766930
+SaveInput1
+SaveOutput
+expect 0 -8748199455849766931
+
+# test 16
+set_input -4849133817595340285
+SaveInput1
+SaveOutput
+expect 0 4849133817595340284
+
+# test 17
+set_input 5165158626569626570
+SaveInput1
+SaveOutput
+expect 0 -5165158626569626571
+
+# test 18
+set_input 479420823461501851
+SaveInput1
+SaveOutput
+expect 0 -479420823461501852
+
+# test 19
+set_input 3538826641517700810
+SaveInput1
+SaveOutput
+expect 0 -3538826641517700811
+
+# test 20
+set_input 8617897353174430662
+SaveInput1
+SaveOutput
+expect 0 -8617897353174430663
+
+# test 21
+set_input 7512270854170267124
+SaveInput1
+SaveOutput
+expect 0 -7512270854170267125
+
+# test 22
+set_input -7589928105837975622
+SaveInput1
+SaveOutput
+expect 0 7589928105837975621
+
+# test 23
+set_input 2021800395361007918
+SaveInput1
+SaveOutput
+expect 0 -2021800395361007919
+
+# test 24
+set_input 316493641675785798
+SaveInput1
+SaveOutput
+expect 0 -316493641675785799
+
+# test 25
+set_input 939810592274212355
+SaveInput1
+SaveOutput
+expect 0 -939810592274212356
+
+# test 26
+set_input 8426735875337625468
+SaveInput1
+SaveOutput
+expect 0 -8426735875337625469
+
+# test 27
+set_input 5671722900690265485
+SaveInput1
+SaveOutput
+expect 0 -5671722900690265486
+
+# test 28
+set_input 8427578425224340960
+SaveInput1
+SaveOutput
+expect 0 -8427578425224340961
+
+# test 29
+set_input 6233899387060493710
+SaveInput1
+SaveOutput
+expect 0 -6233899387060493711
+
+# test 30
+set_input -5573092031557428298
+SaveInput1
+SaveOutput
+expect 0 5573092031557428297
+
+# test 31
+set_input 1756742278107692503
+SaveInput1
+SaveOutput
+expect 0 -1756742278107692504
+
+# test 32
+set_input -8201205449311664548
+SaveInput1
+SaveOutput
+expect 0 8201205449311664547
+
+# test 33
+set_input -608462886686713809
+SaveInput1
+SaveOutput
+expect 0 608462886686713808
+
+# test 34
+set_input 9173844345956376713
+SaveInput1
+SaveOutput
+expect 0 -9173844345956376714
+
+# test 35
+set_input -4744178816259440723
+SaveInput1
+SaveOutput
+expect 0 4744178816259440722
+
+# test 36
+set_input 9044570813243079988
+SaveInput1
+SaveOutput
+expect 0 -9044570813243079989
+
+# test 37
+set_input 7665361694397895349
+SaveInput1
+SaveOutput
+expect 0 -7665361694397895350
+
+# test 38
+set_input -2609769575583038440
+SaveInput1
+SaveOutput
+expect 0 2609769575583038439
+
+# test 39
+set_input -8503573944806285580
+SaveInput1
+SaveOutput
+expect 0 8503573944806285579
+
+# test 40
+set_input 5614982576409763
+SaveInput1
+SaveOutput
+expect 0 -5614982576409764
+
+# test 41
+set_input -1177527676552480458
+SaveInput1
+SaveOutput
+expect 0 1177527676552480457
+
+# test 42
+set_input -8216916837211060005
+SaveInput1
+SaveOutput
+expect 0 8216916837211060004
+
+# test 43
+set_input -7563083975430740081
+SaveInput1
+SaveOutput
+expect 0 7563083975430740080
+
+# test 44
+set_input -3724861739523909663
+SaveInput1
+SaveOutput
+expect 0 3724861739523909662
+
+# test 45
+set_input 5112956002931531524
+SaveInput1
+SaveOutput
+expect 0 -5112956002931531525
+
+# test 46
+set_input 932458345293898524
+SaveInput1
+SaveOutput
+expect 0 -932458345293898525
+
+# test 47
+set_input -5913780936946210766
+SaveInput1
+SaveOutput
+expect 0 5913780936946210765
+
+# test 48
+set_input 8921556814028485736
+SaveInput1
+SaveOutput
+expect 0 -8921556814028485737
+
+# test 49
+set_input 478922371666866817
+SaveInput1
+SaveOutput
+expect 0 -478922371666866818
+
+# test 50
+set_input -6736249876112652143
+SaveInput1
+SaveOutput
+expect 0 6736249876112652142
+
+# Opcode 8: SHL
+set_input 8
+SaveOpcode
+# test 1
+set_input 5392110011576504374
+SaveInput1
+set_input 90
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 2
+set_input 5903327663025985679
+SaveInput1
+set_input 57
+SaveInput2
+SaveOutput
+expect 0 2161727821137838080
+
+# test 3
+set_input 5976185347619143918
+SaveInput1
+set_input -19
+SaveInput2
+SaveOutput
+expect 0 11398668952215
+
+# test 4
+set_input 4234575064335199859
+SaveInput1
+set_input 24
+SaveInput2
+SaveOutput
+expect 0 -7650369820730327040
+
+# test 5
+set_input 4284693810626801365
+SaveInput1
+set_input 75
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 6
+set_input -4046724931693971731
+SaveInput1
+set_input 6
+SaveInput2
+SaveOutput
+expect 0 -735978596480468160
+
+# test 7
+set_input -2945142706840418720
+SaveInput1
+set_input 97
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 8
+set_input 8739103953979992551
+SaveInput1
+set_input -80
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 9
+set_input 7852160362454829546
+SaveInput1
+set_input -14
+SaveInput2
+SaveOutput
+expect 0 479257834622487
+
+# test 10
+set_input -5505925347069887545
+SaveInput1
+set_input -77
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 11
+set_input -5087958527396669494
+SaveInput1
+set_input -32
+SaveInput2
+SaveOutput
+expect 0 3110334637
+
+# test 12
+set_input -1208193708864711537
+SaveInput1
+set_input -37
+SaveInput2
+SaveOutput
+expect 0 125426961
+
+# test 13
+set_input -4934371884285848037
+SaveInput1
+set_input 11
+SaveInput2
+SaveOutput
+expect 0 3222133375417505792
+
+# test 14
+set_input 2203896108716597630
+SaveInput1
+set_input 76
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 15
+set_input 8960179336153200374
+SaveInput1
+set_input 15
+SaveInput2
+SaveOutput
+expect 0 8777809906846334976
+
+# test 16
+set_input -5246231056943537135
+SaveInput1
+set_input 5
+SaveInput2
+SaveOutput
+expect 0 -1858697158807223776
+
+# test 17
+set_input 5341996768689259631
+SaveInput1
+set_input 64
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 18
+set_input 6378848173821997429
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 47526122434
+
+# test 19
+set_input 5452673026931451729
+SaveInput1
+set_input -79
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 20
+set_input 569800523981987930
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 4245344728
+
+# test 21
+set_input 160120238310855009
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 -8428486702623883264
+
+# test 22
+set_input 5391157678403180628
+SaveInput1
+set_input 17
+SaveInput2
+SaveOutput
+expect 0 8840736143607070720
+
+# test 23
+set_input 2918898520719315260
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 91215578772478601
+
+# test 24
+set_input 3219622667291244078
+SaveInput1
+set_input -37
+SaveInput2
+SaveOutput
+expect 0 23425838
+
+# test 25
+set_input -2145599915987356211
+SaveInput1
+set_input -80
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 26
+set_input 305100415216755286
+SaveInput1
+set_input -6
+SaveInput2
+SaveOutput
+expect 0 4767193987761801
+
+# test 27
+set_input 6924717927925386780
+SaveInput1
+set_input 98
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 28
+set_input -7078287114115299096
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 -1729382256910270464
+
+# test 29
+set_input 6869113167716172532
+SaveInput1
+set_input 99
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 30
+set_input -1565542476295279175
+SaveInput1
+set_input -23
+SaveInput2
+SaveOutput
+expect 0 2012396049191
+
+# test 31
+set_input 7364846547451121235
+SaveInput1
+set_input -32
+SaveInput2
+SaveOutput
+expect 0 1714761962
+
+# test 32
+set_input 354760692797630677
+SaveInput1
+set_input -17
+SaveInput2
+SaveOutput
+expect 0 2706609289532
+
+# test 33
+set_input 4194235182631174124
+SaveInput1
+set_input 2
+SaveInput2
+SaveOutput
+expect 0 -1669803343184855120
+
+# test 34
+set_input -2472094609867312880
+SaveInput1
+set_input -65
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 35
+set_input 3839511811497372957
+SaveInput1
+set_input -66
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 36
+set_input -8146928721869806255
+SaveInput1
+set_input 13
+SaveInput2
+SaveOutput
+expect 0 679969123704905728
+
+# test 37
+set_input -6331868951048625548
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 38
+set_input -7178888208427146734
+SaveInput1
+set_input 6
+SaveInput2
+SaveOutput
+expect 0 1719756503401399424
+
+# test 39
+set_input 1624870240027526096
+SaveInput1
+set_input 18
+SaveInput2
+SaveOutput
+expect 0 -3783204251455455232
+
+# test 40
+set_input 4204099827279786513
+SaveInput1
+set_input 89
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 41
+set_input -5831357748038416441
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 42
+set_input 6557252846144509752
+SaveInput1
+set_input 86
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 43
+set_input 4068507085800988466
+SaveInput1
+set_input -19
+SaveInput2
+SaveOutput
+expect 0 7760061427690
+
+# test 44
+set_input -1691470465193686372
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 -7205759403792793600
+
+# test 45
+set_input 30665233912634201
+SaveInput1
+set_input -97
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 46
+set_input -8172117255481775705
+SaveInput1
+set_input -3
+SaveInput2
+SaveOutput
+expect 0 1284328352278471988
+
+# test 47
+set_input 8773592882873850613
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 65368360898
+
+# test 48
+set_input 2603320981173283911
+SaveInput1
+set_input -9
+SaveInput2
+SaveOutput
+expect 0 5084611291354070
+
+# test 49
+set_input -3653087524852598599
+SaveInput1
+set_input -26
+SaveInput2
+SaveOutput
+expect 0 220442660880
+
+# test 50
+set_input -8224274673636624507
+SaveInput1
+set_input 93
+SaveInput2
+SaveOutput
+expect 0 0
+
+# Opcode 9: SHR
+set_input 9
+SaveOpcode
+# test 1
+set_input -1171702110952931584
+SaveInput1
+set_input 95
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 2
+set_input -2094647721439275031
+SaveInput1
+set_input 20
+SaveInput2
+SaveOutput
+expect 0 15594574310560
+
+# test 3
+set_input 827839331965766869
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 4
+set_input -8722596069916886086
+SaveInput1
+set_input 27
+SaveInput2
+SaveOutput
+expect 0 72450548438
+
+# test 5
+set_input 5492570212337046783
+SaveInput1
+set_input 30
+SaveInput2
+SaveOutput
+expect 0 5115354631
+
+# test 6
+set_input -1461172234640535666
+SaveInput1
+set_input -11
+SaveInput2
+SaveOutput
+expect 0 -4108196602869682176
+
+# test 7
+set_input 6800095580786648222
+SaveInput1
+set_input 33
+SaveInput2
+SaveOutput
+expect 0 791635315
+
+# test 8
+set_input 3605314041054372508
+SaveInput1
+set_input -79
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 9
+set_input -8873109311307583263
+SaveInput1
+set_input -28
+SaveInput2
+SaveOutput
+expect 0 9035574411716984832
+
+# test 10
+set_input 6500318522932516810
+SaveInput1
+set_input -44
+SaveInput2
+SaveOutput
+expect 0 -8251544495389147136
+
+# test 11
+set_input 197658397282950489
+SaveInput1
+set_input 19
+SaveInput2
+SaveOutput
+expect 0 377003473821
+
+# test 12
+set_input 7536571707656461084
+SaveInput1
+set_input -55
+SaveInput2
+SaveOutput
+expect 0 -8214565720323784704
+
+# test 13
+set_input 5924517139756030671
+SaveInput1
+set_input 41
+SaveInput2
+SaveOutput
+expect 0 2694158
+
+# test 14
+set_input -3056801943937117542
+SaveInput1
+set_input 47
+SaveInput2
+SaveOutput
+expect 0 109352
+
+# test 15
+set_input 3724725883564279364
+SaveInput1
+set_input -91
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 16
+set_input -3385669798347268433
+SaveInput1
+set_input 79
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 17
+set_input 4098149495578073191
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 18
+set_input 2016947904207696423
+SaveInput1
+set_input -87
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 19
+set_input -1371050704181243286
+SaveInput1
+set_input 85
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 20
+set_input 663069495669894356
+SaveInput1
+set_input -80
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 21
+set_input 1795723016027554166
+SaveInput1
+set_input 9
+SaveInput2
+SaveOutput
+expect 0 3507271515678816
+
+# test 22
+set_input 913095320358865927
+SaveInput1
+set_input 54
+SaveInput2
+SaveOutput
+expect 0 50
+
+# test 23
+set_input 6944404349713521808
+SaveInput1
+set_input -41
+SaveInput2
+SaveOutput
+expect 0 -5460297888837926912
+
+# test 24
+set_input 5421561036054550212
+SaveInput1
+set_input 38
+SaveInput2
+SaveOutput
+expect 0 19723524
+
+# test 25
+set_input 140197430532205425
+SaveInput1
+set_input -7
+SaveInput2
+SaveOutput
+expect 0 -501472965587257216
+
+# test 26
+set_input -9035184219295374129
+SaveInput1
+set_input -89
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 27
+set_input -6710269354732280570
+SaveInput1
+set_input -26
+SaveInput2
+SaveOutput
+expect 0 5489879785729425408
+
+# test 28
+set_input 1911041834129513937
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 29
+set_input 1099411750671567449
+SaveInput1
+set_input 85
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 30
+set_input -2267598333945927788
+SaveInput1
+set_input -96
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 31
+set_input 9133004033091229559
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -180736007527092498
+
+# test 32
+set_input 8793202363820784886
+SaveInput1
+set_input 19
+SaveInput2
+SaveOutput
+expect 0 16771702506677
+
+# test 33
+set_input 4863118545732080525
+SaveInput1
+set_input 76
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 34
+set_input 4723474277047086144
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 2097
+
+# test 35
+set_input 4877980740843832990
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 277281
+
+# test 36
+set_input 1771082714187458481
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 -3503237560140824576
+
+# test 37
+set_input 2965915701357289959
+SaveInput1
+set_input -96
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 38
+set_input 9152087635799137406
+SaveInput1
+set_input 90
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 39
+set_input 6802592367348951078
+SaveInput1
+set_input 58
+SaveInput2
+SaveOutput
+expect 0 23
+
+# test 40
+set_input 4698837230120170984
+SaveInput1
+set_input 68
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 41
+set_input -5228330347711717463
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 -783626335162466304
+
+# test 42
+set_input 6592677760443720125
+SaveInput1
+set_input 54
+SaveInput2
+SaveOutput
+expect 0 365
+
+# test 43
+set_input 3322001734924497827
+SaveInput1
+set_input -15
+SaveInput2
+SaveOutput
+expect 0 1116071045880709120
+
+# test 44
+set_input 7113689509261582364
+SaveInput1
+set_input -89
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 45
+set_input 4295153191722579920
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 2048088641988
+
+# test 46
+set_input -1212513370842140717
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 9122041045238939648
+
+# test 47
+set_input 4559390186841530842
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 7157202708844093440
+
+# test 48
+set_input 1355982732605235168
+SaveInput1
+set_input 59
+SaveInput2
+SaveOutput
+expect 0 2
+
+# test 49
+set_input 1670896819761663787
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 23
+
+# test 50
+set_input -1551395172114682701
+SaveInput1
+set_input 36
+SaveInput2
+SaveOutput
+expect 0 245859684
+
+# Opcode 10: ROTL
+set_input 10
+SaveOpcode
+# test 1
+set_input 8786587623151399162
+SaveInput1
+set_input 2473632853284286216
+SaveInput2
+SaveOutput
+expect 0 -1136345465807111559
+
+# test 2
+set_input 976427666098470281
+SaveInput1
+set_input -3675408289598089348
+SaveInput2
+SaveOutput
+expect 0 -8009423803116774440
+
+# test 3
+set_input 1017759272856859244
+SaveInput1
+set_input 3217657657601509173
+SaveInput2
+SaveOutput
+expect 0 5584960490709364678
+
+# test 4
+set_input -5065734550064071377
+SaveInput1
+set_input -7519140193332276797
+SaveInput2
+SaveOutput
+expect 0 -3632388253093467779
+
+# test 5
+set_input 5784710452730194957
+SaveInput1
+set_input 5061457466098081254
+SaveInput2
+SaveOutput
+expect 0 -2433347514051927933
+
+# test 6
+set_input -4103209983389886932
+SaveInput1
+set_input -6747245384968300942
+SaveInput2
+SaveOutput
+expect 0 6391483331083113686
+
+# test 7
+set_input -8012507767885750719
+SaveInput1
+set_input -4234069963857533671
+SaveInput2
+SaveOutput
+expect 0 5061545963271855029
+
+# test 8
+set_input -1297214714383155528
+SaveInput1
+set_input 1208284983910359389
+SaveInput2
+SaveOutput
+expect 0 -2091631931438404670
+
+# test 9
+set_input -9159038483634403250
+SaveInput1
+set_input -6972134562932233267
+SaveInput2
+SaveOutput
+expect 0 -7935110156284997604
+
+# test 10
+set_input -6660353584675547662
+SaveInput1
+set_input -3770875303920294016
+SaveInput2
+SaveOutput
+expect 0 -6660353584675547662
+
+# test 11
+set_input -6868661360185996025
+SaveInput1
+set_input -4940395276046400496
+SaveInput2
+SaveOutput
+expect 0 -7142014488956919635
+
+# test 12
+set_input 499151046209915806
+SaveInput1
+set_input -4744410991310806724
+SaveInput2
+SaveOutput
+expect 0 -2274646068825574215
+
+# test 13
+set_input 5938009616241033803
+SaveInput1
+set_input -890874574897568847
+SaveInput2
+SaveOutput
+expect 0 330632836330680781
+
+# test 14
+set_input -3627549721167618931
+SaveInput1
+set_input 8997522792395819760
+SaveInput2
+SaveOutput
+expect 0 -7165845309115889476
+
+# test 15
+set_input 8499945855339428881
+SaveInput1
+set_input 5106642022157308420
+SaveInput2
+SaveOutput
+expect 0 6871925169464000791
+
+# test 16
+set_input -4613623962796170800
+SaveInput1
+set_input 6280743165715098159
+SaveInput2
+SaveOutput
+expect 0 -1087513771679050458
+
+# test 17
+set_input 4527576441395625849
+SaveInput1
+set_input -5452908363841152657
+SaveInput2
+SaveOutput
+expect 0 2286877990952666472
+
+# test 18
+set_input -1649535471509600971
+SaveInput1
+set_input 5756578942608866637
+SaveInput2
+SaveOutput
+expect 0 8468823422450187555
+
+# test 19
+set_input -6868457120764809214
+SaveInput1
+set_input 5683705998248004736
+SaveInput2
+SaveOutput
+expect 0 -6868457120764809214
+
+# test 20
+set_input -6133067005433504273
+SaveInput1
+set_input -3674664448434675156
+SaveInput2
+SaveOutput
+expect 0 8781731949447272663
+
+# test 21
+set_input 3082392587452313091
+SaveInput1
+set_input -7173184483623364818
+SaveInput2
+SaveOutput
+expect 0 1981806700670126169
+
+# test 22
+set_input -3381757868651309597
+SaveInput1
+set_input 2496294475905357393
+SaveInput2
+SaveOutput
+expect 0 3045987302364389923
+
+# test 23
+set_input -1423287180026251499
+SaveInput1
+set_input 21838017891745776
+SaveInput2
+SaveOutput
+expect 0 -642347614492572374
+
+# test 24
+set_input 3997370039328189279
+SaveInput1
+set_input 2510065072891392373
+SaveInput2
+SaveOutput
+expect 0 7775164797680991813
+
+# test 25
+set_input -8721969697946974255
+SaveInput1
+set_input -6322453849171576282
+SaveInput2
+SaveOutput
+expect 0 689600918589911379
+
+# test 26
+set_input 916611359218928622
+SaveInput1
+set_input 1324013591715541850
+SaveInput2
+SaveOutput
+expect 0 -5549186601920044588
+
+# test 27
+set_input 4219589312112769773
+SaveInput1
+set_input -6468688897073323407
+SaveInput2
+SaveOutput
+expect 0 8492228819006979336
+
+# test 28
+set_input 8368612256556439287
+SaveInput1
+set_input 3643183023714694860
+SaveInput2
+SaveOutput
+expect 0 3785313902828418882
+
+# test 29
+set_input 7896048505885925693
+SaveInput1
+set_input -4717395884926578393
+SaveInput2
+SaveOutput
+expect 0 5390983261876069369
+
+# test 30
+set_input -5415055394900939394
+SaveInput1
+set_input -5471045136161122016
+SaveInput2
+SaveOutput
+expect 0 -297820871880746034
+
+# test 31
+set_input -527029521194345014
+SaveInput1
+set_input 7394997819830391502
+SaveInput2
+SaveOutput
+expect 0 -1775448752078537173
+
+# test 32
+set_input -3203091324927837874
+SaveInput1
+set_input -2874032820242628033
+SaveInput2
+SaveOutput
+expect 0 7621826374390856871
+
+# test 33
+set_input 7842606211217978442
+SaveInput1
+set_input 590751561471488296
+SaveInput2
+SaveOutput
+expect 0 -1480476546181837804
+
+# test 34
+set_input 2322084804420410641
+SaveInput1
+set_input 1166745495230843088
+SaveInput2
+SaveOutput
+expect 0 -5488865607769055175
+
+# test 35
+set_input -6616639763583120930
+SaveInput1
+set_input -6782574310879388257
+SaveInput2
+SaveOutput
+expect 0 -9046705878675850088
+
+# test 36
+set_input -2038130697827679025
+SaveInput1
+set_input 6513679547956808637
+SaveInput2
+SaveOutput
+expect 0 -254766337228459879
+
+# test 37
+set_input 2200424141834809655
+SaveInput1
+set_input 2044608160113714859
+SaveInput2
+SaveOutput
+expect 0 1119629341761784330
+
+# test 38
+set_input -4055994962357216765
+SaveInput1
+set_input 3762524330601813353
+SaveInput2
+SaveOutput
+expect 0 -2795601156109491069
+
+# test 39
+set_input 1563663968846545004
+SaveInput1
+set_input 854846862085445539
+SaveInput2
+SaveOutput
+expect 0 -7392655074564374334
+
+# test 40
+set_input 4928570780661323706
+SaveInput1
+set_input -9099138371075904640
+SaveInput2
+SaveOutput
+expect 0 4928570780661323706
+
+# test 41
+set_input -4130772557058479110
+SaveInput1
+set_input -5757106202132550974
+SaveInput2
+SaveOutput
+expect 0 1923653845475635179
+
+# test 42
+set_input 4784257131697393922
+SaveInput1
+set_input 6158643640489154565
+SaveInput2
+SaveOutput
+expect 0 5522275624640192584
+
+# test 43
+set_input -4267763298242948161
+SaveInput1
+set_input -7905615824188819298
+SaveInput2
+SaveOutput
+expect 0 1419167076793284345
+
+# test 44
+set_input 2267573894332952722
+SaveInput1
+set_input -8336097560873185311
+SaveInput2
+SaveOutput
+expect 0 -5524684034574117662
+
+# test 45
+set_input -5279024636248717869
+SaveInput1
+set_input 5476125456552554740
+SaveInput2
+SaveOutput
+expect 0 6718081819662695872
+
+# test 46
+set_input -5756254187005801743
+SaveInput1
+set_input 6053749332171959341
+SaveInput2
+SaveOutput
+expect 0 4710261649836741461
+
+# test 47
+set_input -8300760344546265875
+SaveInput1
+set_input -6559096267183009357
+SaveInput2
+SaveOutput
+expect 0 -6382613948393239203
+
+# test 48
+set_input -2053702595425069781
+SaveInput1
+set_input -5451862637359669384
+SaveInput2
+SaveOutput
+expect 0 3162511861905450005
+
+# test 49
+set_input 5302250492106553276
+SaveInput1
+set_input 6787675257246271043
+SaveInput2
+SaveOutput
+expect 0 5524515789433322978
+
+# test 50
+set_input 7167191080016044639
+SaveInput1
+set_input 1911653520396293431
+SaveInput2
+SaveOutput
+expect 0 3436734136879733297
+
+# Opcode 11: ROTR
+set_input 11
+SaveOpcode
+# test 1
+set_input 90534634087319317
+SaveInput1
+set_input -6197889470231520041
+SaveInput2
+SaveOutput
+expect 0 5336248798761552449
+
+# test 2
+set_input 7992233231312221995
+SaveInput1
+set_input 4879342761859568453
+SaveInput2
+SaveOutput
+expect 0 6590825563816165305
+
+# test 3
+set_input -6864112783099027913
+SaveInput1
+set_input -5404646444679051826
+SaveInput2
+SaveOutput
+expect 0 8709542727138305192
+
+# test 4
+set_input 2779307211119961107
+SaveInput1
+set_input -4595448540920760247
+SaveInput2
+SaveOutput
+expect 0 689975477757034066
+
+# test 5
+set_input -3479947819751300167
+SaveInput1
+set_input 7760071021806463630
+SaveInput2
+SaveOutput
+expect 0 -8149475924885832880
+
+# test 6
+set_input 1741829713140784482
+SaveInput1
+set_input -1434756474179944348
+SaveInput2
+SaveOutput
+expect 0 6048230765639156622
+
+# test 7
+set_input -5368104825498914624
+SaveInput1
+set_input 4056359391543904898
+SaveInput2
+SaveOutput
+expect 0 3269659812052659248
+
+# test 8
+set_input 1534176637952601962
+SaveInput1
+set_input -5056842097728424636
+SaveInput2
+SaveOutput
+expect 0 -6821642987769044234
+
+# test 9
+set_input -2489601225118281277
+SaveInput1
+set_input -4104418056782011965
+SaveInput2
+SaveOutput
+expect 0 8912171883714990648
+
+# test 10
+set_input -4998821255489426432
+SaveInput1
+set_input 6321615860086288689
+SaveInput2
+SaveOutput
+expect 0 5712474663293050192
+
+# test 11
+set_input 6616440263959984434
+SaveInput1
+set_input -2002185507403760489
+SaveInput2
+SaveOutput
+expect 0 -2705989686192325963
+
+# test 12
+set_input -8876606741511784029
+SaveInput1
+set_input -8783005025214531529
+SaveInput2
+SaveOutput
+expect 0 -6923609521483725047
+
+# test 13
+set_input 3333671134220450825
+SaveInput1
+set_input -8344229435761850561
+SaveInput2
+SaveOutput
+expect 0 6667342268440901650
+
+# test 14
+set_input -1702702212912141553
+SaveInput1
+set_input 2385960262183237660
+SaveInput2
+SaveOutput
+expect 0 1268520852273272253
+
+# test 15
+set_input -5566831665555327201
+SaveInput1
+set_input -8823315346189431732
+SaveInput2
+SaveOutput
+expect 0 8213206630561686235
+
+# test 16
+set_input 5768291381426590778
+SaveInput1
+set_input 1434935687123373518
+SaveInput2
+SaveOutput
+expect 0 5830261786196867972
+
+# test 17
+set_input -325326524144024243
+SaveInput1
+set_input -8404679048707936418
+SaveInput2
+SaveOutput
+expect 0 -1042559983776901889
+
+# test 18
+set_input 6525229969709011989
+SaveInput1
+set_input 2334885737545339922
+SaveInput2
+SaveOutput
+expect 0 4973476624021681551
+
+# test 19
+set_input 2140555961847969713
+SaveInput1
+set_input -6101315004991112435
+SaveInput2
+SaveOutput
+expect 0 -4789316905373335977
+
+# test 20
+set_input 344051716613603258
+SaveInput1
+set_input -8705419897347211472
+SaveInput2
+SaveOutput
+expect 0 5852041916031042758
+
+# test 21
+set_input 1115094152354832574
+SaveInput1
+set_input 7411157547443331544
+SaveInput2
+SaveOutput
+expect 0 4152527830109665594
+
+# test 22
+set_input -10367448384869022
+SaveInput1
+set_input -6984631241467109075
+SaveInput2
+SaveOutput
+expect 0 6260722938108444377
+
+# test 23
+set_input 2318887183248392809
+SaveInput1
+set_input -6568781141417578361
+SaveInput2
+SaveOutput
+expect 0 -3296533019625556988
+
+# test 24
+set_input 8064232210716253713
+SaveInput1
+set_input 7259013185254103434
+SaveInput2
+SaveOutput
+expect 0 -8909252035425304489
+
+# test 25
+set_input 8480145323784869819
+SaveInput1
+set_input -2430357206678081459
+SaveInput2
+SaveOutput
+expect 0 -4766025031581950184
+
+# test 26
+set_input 6945409344024347549
+SaveInput1
+set_input 2109717499381797951
+SaveInput2
+SaveOutput
+expect 0 -4555925385660856518
+
+# test 27
+set_input 6542328086954822103
+SaveInput1
+set_input -8951345591461933079
+SaveInput2
+SaveOutput
+expect 0 6754696187064706434
+
+# test 28
+set_input 2065068247522527807
+SaveInput1
+set_input -5579920951233734585
+SaveInput2
+SaveOutput
+expect 0 9095390194462689684
+
+# test 29
+set_input 331082116998986865
+SaveInput1
+set_input 8557110105654350806
+SaveInput2
+SaveOutput
+expect 0 -3030425491028461156
+
+# test 30
+set_input -622131384580017071
+SaveInput1
+set_input 2947920493774607098
+SaveInput2
+SaveOutput
+expect 0 -2922920465701989251
+
+# test 31
+set_input 1508861022061289209
+SaveInput1
+set_input -3750560250134506934
+SaveInput2
+SaveOutput
+expect 0 -4736313310901905065
+
+# test 32
+set_input 2983806605742402943
+SaveInput1
+set_input 9222405429479604016
+SaveInput2
+SaveOutput
+expect 0 -7184211460837398168
+
+# test 33
+set_input 1986737971790421556
+SaveInput1
+set_input -1628609139462574832
+SaveInput2
+SaveOutput
+expect 0 2176394835142426201
+
+# test 34
+set_input 7160207070002154983
+SaveInput1
+set_input 9003555109463267425
+SaveInput2
+SaveOutput
+expect 0 7411806730472854834
+
+# test 35
+set_input -1539181606717117064
+SaveInput1
+set_input 7740666991577340618
+SaveInput2
+SaveOutput
+expect 0 6789925131036898283
+
+# test 36
+set_input -8565443863685131190
+SaveInput1
+set_input 2964321438294365788
+SaveInput2
+SaveOutput
+expect 0 -7495884613985312000
+
+# test 37
+set_input 5202829582252974368
+SaveInput1
+set_input 3176782235609443698
+SaveInput2
+SaveOutput
+expect 0 755511020894032397
+
+# test 38
+set_input -4707064286590528684
+SaveInput1
+set_input 2647425855279344957
+SaveInput2
+SaveOutput
+expect 0 -763026145305126235
+
+# test 39
+set_input -5832474806736772083
+SaveInput1
+set_input -5474105892184284215
+SaveInput2
+SaveOutput
+expect 0 493011605908587794
+
+# test 40
+set_input -1660972002309706152
+SaveInput1
+set_input -1704547817294271351
+SaveInput2
+SaveOutput
+expect 0 3203318848745782007
+
+# test 41
+set_input -4734850465156593791
+SaveInput1
+set_input -4366892809544561486
+SaveInput2
+SaveOutput
+expect 0 -7231191176968114286
+
+# test 42
+set_input 6474192894256058184
+SaveInput1
+set_input -2038381541931217701
+SaveInput2
+SaveOutput
+expect 0 -5786587811748608938
+
+# test 43
+set_input 2179437848625070183
+SaveInput1
+set_input -8224555028018180278
+SaveInput2
+SaveOutput
+expect 0 1857611403750692272
+
+# test 44
+set_input 7632444392470929554
+SaveInput1
+set_input 5755788456327728978
+SaveInput2
+SaveOutput
+expect 0 -5177843818616118455
+
+# test 45
+set_input -5190280040268157234
+SaveInput1
+set_input 428740042087366348
+SaveInput2
+SaveOutput
+expect 0 -1374865044560957374
+
+# test 46
+set_input -1842882408712675494
+SaveInput1
+set_input -7792430546269184553
+SaveInput2
+SaveOutput
+expect 0 -4990351445652378317
+
+# test 47
+set_input 8523560956058630013
+SaveInput1
+set_input 1683165219074194821
+SaveInput2
+SaveOutput
+expect 0 -1463020977033438277
+
+# test 48
+set_input -7735659989611497386
+SaveInput1
+set_input 4729803621355717966
+SaveInput2
+SaveOutput
+expect 0 -2208361864534548476
+
+# test 49
+set_input -238707296487605084
+SaveInput1
+set_input -7269006259691135919
+SaveInput2
+SaveOutput
+expect 0 -120895323689369145
+
+# test 50
+set_input 3819288710432935647
+SaveInput1
+set_input -228033671706571831
+SaveInput2
+SaveOutput
+expect 0 8041881283491529191
+
+# Opcode 12: ASHR
+set_input 12
+SaveOpcode
+# test 1
+set_input 1651904523688065378
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 733
+
+# test 2
+set_input 7017923310400542159
+SaveInput1
+set_input 34
+SaveInput2
+SaveOutput
+expect 0 408496900
+
+# test 3
+set_input -766619747018498805
+SaveInput1
+set_input -89
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 4
+set_input 882477494019936076
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 205467802
+
+# test 5
+set_input 8553712367478121795
+SaveInput1
+set_input 50
+SaveInput2
+SaveOutput
+expect 0 7597
+
+# test 6
+set_input -6951845752207687297
+SaveInput1
+set_input 75
+SaveInput2
+SaveOutput
+expect 0 -1
+
+# test 7
+set_input 2436710379105985619
+SaveInput1
+set_input 37
+SaveInput2
+SaveOutput
+expect 0 17729401
+
+# test 8
+set_input -5302940176859246390
+SaveInput1
+set_input 37
+SaveInput2
+SaveOutput
+expect 0 -38583968
+
+# test 9
+set_input -9078331033302888766
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -4539165516651444383
+
+# test 10
+set_input 2944747065040974539
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 11
+set_input 8217971009922560683
+SaveInput1
+set_input 58
+SaveInput2
+SaveOutput
+expect 0 28
+
+# test 12
+set_input -4654001469537258009
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 -5820902518376366080
+
+# test 13
+set_input 3774590007132843975
+SaveInput1
+set_input -43
+SaveInput2
+SaveOutput
+expect 0 2557543211044175872
+
+# test 14
+set_input -1210531206829470187
+SaveInput1
+set_input -67
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 15
+set_input 7478074603852550303
+SaveInput1
+set_input 97
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 16
+set_input -6951595439073771721
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 17
+set_input 313249596099082417
+SaveInput1
+set_input -94
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 18
+set_input -1640091554814193922
+SaveInput1
+set_input -19
+SaveInput2
+SaveOutput
+expect 0 -3792838527063949312
+
+# test 19
+set_input -7672284360437080407
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 -1
+
+# test 20
+set_input -8292104149944857071
+SaveInput1
+set_input 22
+SaveInput2
+SaveOutput
+expect 0 -1976991689193
+
+# test 21
+set_input 5538807658232764791
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 -5553501290501242880
+
+# test 22
+set_input 1415988451824943279
+SaveInput1
+set_input -7
+SaveInput2
+SaveOutput
+expect 0 -3220918903502776448
+
+# test 23
+set_input 5846610766379137980
+SaveInput1
+set_input -28
+SaveInput2
+SaveOutput
+expect 0 4530634126142734336
+
+# test 24
+set_input 4623064352114205480
+SaveInput1
+set_input -100
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 25
+set_input 3390336281503160390
+SaveInput1
+set_input -83
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 26
+set_input -5736375369840723122
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 -2706663376049668096
+
+# test 27
+set_input 2349946663502102004
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 32
+
+# test 28
+set_input 1813503701707000883
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 4927854462665490432
+
+# test 29
+set_input 5710555532636254321
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 -1729663692735377888
+
+# test 30
+set_input 1423489916750977006
+SaveInput1
+set_input -33
+SaveInput2
+SaveOutput
+expect 0 1915630575943680000
+
+# test 31
+set_input 8238423466031755643
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 234150
+
+# test 32
+set_input 7091155547988927029
+SaveInput1
+set_input 7
+SaveInput2
+SaveOutput
+expect 0 55399652718663492
+
+# test 33
+set_input -2439142018008212394
+SaveInput1
+set_input 86
+SaveInput2
+SaveOutput
+expect 0 -1
+
+# test 34
+set_input 7059841840359688096
+SaveInput1
+set_input -86
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 35
+set_input -7684616900214933297
+SaveInput1
+set_input -23
+SaveInput2
+SaveOutput
+expect 0 -3282599814189023232
+
+# test 36
+set_input 7578954227308808103
+SaveInput1
+set_input 62
+SaveInput2
+SaveOutput
+expect 0 1
+
+# test 37
+set_input 8848095756545636706
+SaveInput1
+set_input 41
+SaveInput2
+SaveOutput
+expect 0 4023648
+
+# test 38
+set_input -5948015966003792815
+SaveInput1
+set_input -71
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 39
+set_input -1759861660958593802
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 -51218716
+
+# test 40
+set_input -3317014592247751639
+SaveInput1
+set_input 96
+SaveInput2
+SaveOutput
+expect 0 -1
+
+# test 41
+set_input 4364710373474241590
+SaveInput1
+set_input -56
+SaveInput2
+SaveOutput
+expect 0 3891110078048108544
+
+# test 42
+set_input -2029148650298444606
+SaveInput1
+set_input -15
+SaveInput2
+SaveOutput
+expect 0 -9077331330208825344
+
+# test 43
+set_input 4675164463545203536
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 44
+set_input 3529556909112116175
+SaveInput1
+set_input 36
+SaveInput2
+SaveOutput
+expect 0 51361812
+
+# test 45
+set_input -457213186005539547
+SaveInput1
+set_input -88
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 46
+set_input 4398707693127133334
+SaveInput1
+set_input 60
+SaveInput2
+SaveOutput
+expect 0 3
+
+# test 47
+set_input 5107492025021411904
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 48
+set_input 874751622717728389
+SaveInput1
+set_input 64
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 49
+set_input 5825188232655827691
+SaveInput1
+set_input -67
+SaveInput2
+SaveOutput
+expect 0 0
+
+# test 50
+set_input 8334256253848124591
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 0
+
+1 1 1 1
