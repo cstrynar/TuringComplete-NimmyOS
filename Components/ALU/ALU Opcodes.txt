@@ -18,11 +18,16 @@
 16 - Negate
 17 - Add
 18 - Subtract
-19 - Multiply
-20 - Integer divide
-21 - Modulo
-22 - Integer to float
-23 - Integer to double
+19 - Unsigned Multiply
+20 - Signed Multiply
+21 - Unsigned Integer divide
+22 - Unsigned Modulo
+23 - Signed Integer divide
+24 - Signed Modulo
+25 - Unsigned Integer to float
+26 - Signed Integer to float
+27 - Unsigned Integer to double
+28 - Signed Integer to double
 
 ## float operations
 32 - Negate
