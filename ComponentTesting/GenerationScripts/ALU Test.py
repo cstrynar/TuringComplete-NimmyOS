@@ -256,12 +256,4 @@ def GenerateIntegerOpsTest():
 GenerateBitwiseOpsTest()
 GenerateIntegerOpsTest()
 
-
-# testing
-
 print(f'Total runtime: {time.time() - globalStartTime}')
-
-
-
-
-
