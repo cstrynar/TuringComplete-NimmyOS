@@ -1,0 +1,9762 @@
+# Integer Operations
+# Opcode 16: Negate
+set_input 16
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 1
+SaveInput1
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input -9223372036854775808
+SaveInput1
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 5: edge case
+set_input 9223372036854775807
+SaveInput1
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 6: random low-range
+set_input 35
+SaveInput1
+SaveOutput
+expect 0 -35
+expect 2 0
+expect 3 0
+
+# test 7: random low-range
+set_input -65
+SaveInput1
+SaveOutput
+expect 0 65
+expect 2 0
+expect 3 0
+
+# test 8: random low-range
+set_input -64
+SaveInput1
+SaveOutput
+expect 0 64
+expect 2 0
+expect 3 0
+
+# test 9: random low-range
+set_input 56
+SaveInput1
+SaveOutput
+expect 0 -56
+expect 2 0
+expect 3 0
+
+# test 10: random low-range
+set_input 22
+SaveInput1
+SaveOutput
+expect 0 -22
+expect 2 0
+expect 3 0
+
+# test 11: random low-range
+set_input -95
+SaveInput1
+SaveOutput
+expect 0 95
+expect 2 0
+expect 3 0
+
+# test 12: random low-range
+set_input -96
+SaveInput1
+SaveOutput
+expect 0 96
+expect 2 0
+expect 3 0
+
+# test 13: random low-range
+set_input -42
+SaveInput1
+SaveOutput
+expect 0 42
+expect 2 0
+expect 3 0
+
+# test 14: random low-range
+set_input 92
+SaveInput1
+SaveOutput
+expect 0 -92
+expect 2 0
+expect 3 0
+
+# test 15: random low-range
+set_input -50
+SaveInput1
+SaveOutput
+expect 0 50
+expect 2 0
+expect 3 0
+
+# test 16: random low-range
+set_input 82
+SaveInput1
+SaveOutput
+expect 0 -82
+expect 2 0
+expect 3 0
+
+# test 17: random low-range
+set_input 97
+SaveInput1
+SaveOutput
+expect 0 -97
+expect 2 0
+expect 3 0
+
+# test 18: random low-range
+set_input -71
+SaveInput1
+SaveOutput
+expect 0 71
+expect 2 0
+expect 3 0
+
+# test 19: random low-range
+set_input -12
+SaveInput1
+SaveOutput
+expect 0 12
+expect 2 0
+expect 3 0
+
+# test 20: random low-range
+set_input -69
+SaveInput1
+SaveOutput
+expect 0 69
+expect 2 0
+expect 3 0
+
+# test 21: random low-range
+set_input 81
+SaveInput1
+SaveOutput
+expect 0 -81
+expect 2 0
+expect 3 0
+
+# test 22: random low-range
+set_input 24
+SaveInput1
+SaveOutput
+expect 0 -24
+expect 2 0
+expect 3 0
+
+# test 23: random low-range
+set_input -34
+SaveInput1
+SaveOutput
+expect 0 34
+expect 2 0
+expect 3 0
+
+# test 24: random low-range
+set_input -35
+SaveInput1
+SaveOutput
+expect 0 35
+expect 2 0
+expect 3 0
+
+# test 25: random low-range
+set_input 39
+SaveInput1
+SaveOutput
+expect 0 -39
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -12
+SaveInput1
+SaveOutput
+expect 0 12
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input -19
+SaveInput1
+SaveOutput
+expect 0 19
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input 54
+SaveInput1
+SaveOutput
+expect 0 -54
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 6
+SaveInput1
+SaveOutput
+expect 0 -6
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 95
+SaveInput1
+SaveOutput
+expect 0 -95
+expect 2 0
+expect 3 0
+
+# test 31: random
+set_input -1101167078072236567
+SaveInput1
+SaveOutput
+expect 0 1101167078072236567
+expect 2 0
+expect 3 0
+
+# test 32: random
+set_input -7413089408020402638
+SaveInput1
+SaveOutput
+expect 0 7413089408020402638
+expect 2 0
+expect 3 0
+
+# test 33: random
+set_input -8660281848519716484
+SaveInput1
+SaveOutput
+expect 0 8660281848519716484
+expect 2 0
+expect 3 0
+
+# test 34: random
+set_input -4282235082855134529
+SaveInput1
+SaveOutput
+expect 0 4282235082855134529
+expect 2 0
+expect 3 0
+
+# test 35: random
+set_input -3335792383982631421
+SaveInput1
+SaveOutput
+expect 0 3335792383982631421
+expect 2 0
+expect 3 0
+
+# test 36: random
+set_input -2797741723497874866
+SaveInput1
+SaveOutput
+expect 0 2797741723497874866
+expect 2 0
+expect 3 0
+
+# test 37: random
+set_input -3178086972227119832
+SaveInput1
+SaveOutput
+expect 0 3178086972227119832
+expect 2 0
+expect 3 0
+
+# test 38: random
+set_input -1430108655580326655
+SaveInput1
+SaveOutput
+expect 0 1430108655580326655
+expect 2 0
+expect 3 0
+
+# test 39: random
+set_input -1937052316652826990
+SaveInput1
+SaveOutput
+expect 0 1937052316652826990
+expect 2 0
+expect 3 0
+
+# test 40: random
+set_input 698401807899753215
+SaveInput1
+SaveOutput
+expect 0 -698401807899753215
+expect 2 0
+expect 3 0
+
+# test 41: random
+set_input 8962433852802196220
+SaveInput1
+SaveOutput
+expect 0 -8962433852802196220
+expect 2 0
+expect 3 0
+
+# test 42: random
+set_input -1949509103318676723
+SaveInput1
+SaveOutput
+expect 0 1949509103318676723
+expect 2 0
+expect 3 0
+
+# test 43: random
+set_input 7270944573526445316
+SaveInput1
+SaveOutput
+expect 0 -7270944573526445316
+expect 2 0
+expect 3 0
+
+# test 44: random
+set_input 2147333504432609265
+SaveInput1
+SaveOutput
+expect 0 -2147333504432609265
+expect 2 0
+expect 3 0
+
+# test 45: random
+set_input 247710456310123783
+SaveInput1
+SaveOutput
+expect 0 -247710456310123783
+expect 2 0
+expect 3 0
+
+# test 46: random
+set_input -6178188939168562419
+SaveInput1
+SaveOutput
+expect 0 6178188939168562419
+expect 2 0
+expect 3 0
+
+# test 47: random
+set_input 7431241334943290711
+SaveInput1
+SaveOutput
+expect 0 -7431241334943290711
+expect 2 0
+expect 3 0
+
+# test 48: random
+set_input -4790173734551603332
+SaveInput1
+SaveOutput
+expect 0 4790173734551603332
+expect 2 0
+expect 3 0
+
+# test 49: random
+set_input 5035514188401789517
+SaveInput1
+SaveOutput
+expect 0 -5035514188401789517
+expect 2 0
+expect 3 0
+
+# test 50: random
+set_input 2974070476602680362
+SaveInput1
+SaveOutput
+expect 0 -2974070476602680362
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 380448904195193477
+SaveInput1
+SaveOutput
+expect 0 -380448904195193477
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 4200951625690225249
+SaveInput1
+SaveOutput
+expect 0 -4200951625690225249
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input 5697634536329049673
+SaveInput1
+SaveOutput
+expect 0 -5697634536329049673
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input -2446825690357056548
+SaveInput1
+SaveOutput
+expect 0 2446825690357056548
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -5126915792800987347
+SaveInput1
+SaveOutput
+expect 0 5126915792800987347
+expect 2 0
+expect 3 0
+
+# Opcode 17: Unsigned Addition
+set_input 17
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 1
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 1
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 1
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -45
+SaveInput1
+set_input -33
+SaveInput2
+SaveOutput
+expect 0 -78
+expect 2 1
+expect 3 0
+
+# test 27: random low-range
+set_input 16
+SaveInput1
+set_input -32
+SaveInput2
+SaveOutput
+expect 0 -16
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input 70
+SaveInput1
+set_input 54
+SaveInput2
+SaveOutput
+expect 0 124
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input -10
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 -82
+expect 2 1
+expect 3 0
+
+# test 30: random low-range
+set_input -52
+SaveInput1
+set_input 34
+SaveInput2
+SaveOutput
+expect 0 -18
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input -54
+SaveInput1
+set_input 60
+SaveInput2
+SaveOutput
+expect 0 6
+expect 2 1
+expect 3 0
+
+# test 32: random low-range
+set_input 9
+SaveInput1
+set_input 12
+SaveInput2
+SaveOutput
+expect 0 21
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input 7
+SaveInput1
+set_input -42
+SaveInput2
+SaveOutput
+expect 0 -35
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 32
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 126
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input -10
+SaveInput1
+set_input -2
+SaveInput2
+SaveOutput
+expect 0 -12
+expect 2 1
+expect 3 0
+
+# test 36: random low-range
+set_input 68
+SaveInput1
+set_input -62
+SaveInput2
+SaveOutput
+expect 0 6
+expect 2 1
+expect 3 0
+
+# test 37: random low-range
+set_input -90
+SaveInput1
+set_input -2
+SaveInput2
+SaveOutput
+expect 0 -92
+expect 2 1
+expect 3 0
+
+# test 38: random low-range
+set_input -16
+SaveInput1
+set_input 62
+SaveInput2
+SaveOutput
+expect 0 46
+expect 2 1
+expect 3 0
+
+# test 39: random low-range
+set_input -76
+SaveInput1
+set_input -7
+SaveInput2
+SaveOutput
+expect 0 -83
+expect 2 1
+expect 3 0
+
+# test 40: random low-range
+set_input -30
+SaveInput1
+set_input -93
+SaveInput2
+SaveOutput
+expect 0 -123
+expect 2 1
+expect 3 0
+
+# test 41: random low-range
+set_input -63
+SaveInput1
+set_input -87
+SaveInput2
+SaveOutput
+expect 0 -150
+expect 2 1
+expect 3 0
+
+# test 42: random low-range
+set_input 6
+SaveInput1
+set_input -35
+SaveInput2
+SaveOutput
+expect 0 -29
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 24
+SaveInput1
+set_input -79
+SaveInput2
+SaveOutput
+expect 0 -55
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input -13
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 -89
+expect 2 1
+expect 3 0
+
+# test 45: random low-range
+set_input 88
+SaveInput1
+set_input -69
+SaveInput2
+SaveOutput
+expect 0 19
+expect 2 1
+expect 3 0
+
+# test 46: random low-range
+set_input -57
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 -69
+expect 2 1
+expect 3 0
+
+# test 47: random low-range
+set_input 93
+SaveInput1
+set_input 100
+SaveInput2
+SaveOutput
+expect 0 193
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input -64
+SaveInput1
+set_input 25
+SaveInput2
+SaveOutput
+expect 0 -39
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input -32
+SaveInput1
+set_input 49
+SaveInput2
+SaveOutput
+expect 0 17
+expect 2 1
+expect 3 0
+
+# test 50: random low-range
+set_input -80
+SaveInput1
+set_input 75
+SaveInput2
+SaveOutput
+expect 0 -5
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -8093610296327994072
+SaveInput1
+set_input -5638214195499605944
+SaveInput2
+SaveOutput
+expect 0 4714919581881951600
+expect 2 1
+expect 3 0
+
+# test 52: random
+set_input -559204286481435230
+SaveInput1
+set_input -4893769808884284856
+SaveInput2
+SaveOutput
+expect 0 -5452974095365720086
+expect 2 1
+expect 3 0
+
+# test 53: random
+set_input 9208563265136935939
+SaveInput1
+set_input -2970061366437307166
+SaveInput2
+SaveOutput
+expect 0 6238501898699628773
+expect 2 1
+expect 3 0
+
+# test 54: random
+set_input -4838790164598141241
+SaveInput1
+set_input 127579067657583863
+SaveInput2
+SaveOutput
+expect 0 -4711211096940557378
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -8383601841710891177
+SaveInput1
+set_input -6240029049866228253
+SaveInput2
+SaveOutput
+expect 0 3823113182132432186
+expect 2 1
+expect 3 0
+
+# test 56: random
+set_input -809603055982001262
+SaveInput1
+set_input -3903731781406164439
+SaveInput2
+SaveOutput
+expect 0 -4713334837388165701
+expect 2 1
+expect 3 0
+
+# test 57: random
+set_input -6454170238345586740
+SaveInput1
+set_input -1720800985198928472
+SaveInput2
+SaveOutput
+expect 0 -8174971223544515212
+expect 2 1
+expect 3 0
+
+# test 58: random
+set_input -3550423293243277269
+SaveInput1
+set_input -6799399659284953768
+SaveInput2
+SaveOutput
+expect 0 8096921121181320579
+expect 2 1
+expect 3 0
+
+# test 59: random
+set_input 8643621544505528663
+SaveInput1
+set_input -7136219927153079563
+SaveInput2
+SaveOutput
+expect 0 1507401617352449100
+expect 2 1
+expect 3 0
+
+# test 60: random
+set_input 7699434811688751921
+SaveInput1
+set_input -7406125321195134182
+SaveInput2
+SaveOutput
+expect 0 293309490493617739
+expect 2 1
+expect 3 0
+
+# test 61: random
+set_input -4208807288287837670
+SaveInput1
+set_input 3584900807369517642
+SaveInput2
+SaveOutput
+expect 0 -623906480918320028
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input 389133148007532126
+SaveInput1
+set_input 3572509709107862690
+SaveInput2
+SaveOutput
+expect 0 3961642857115394816
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input -8092727141212027864
+SaveInput1
+set_input 3723025815293495172
+SaveInput2
+SaveOutput
+expect 0 -4369701325918532692
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input -3036109091296813372
+SaveInput1
+set_input 238840338623230216
+SaveInput2
+SaveOutput
+expect 0 -2797268752673583156
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -3905279372090857712
+SaveInput1
+set_input -4524093602862854149
+SaveInput2
+SaveOutput
+expect 0 -8429372974953711861
+expect 2 1
+expect 3 0
+
+# test 66: random
+set_input 5831470451867746428
+SaveInput1
+set_input 4026629064130965426
+SaveInput2
+SaveOutput
+expect 0 -8588644557710839762
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input 6331991771772851538
+SaveInput1
+set_input -907552874130142366
+SaveInput2
+SaveOutput
+expect 0 5424438897642709172
+expect 2 1
+expect 3 0
+
+# test 68: random
+set_input 4178250686538629831
+SaveInput1
+set_input 6715908829727026267
+SaveInput2
+SaveOutput
+expect 0 -7552584557443895518
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -2786300118736864701
+SaveInput1
+set_input 1699928093543942786
+SaveInput2
+SaveOutput
+expect 0 -1086372025192921915
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input -1716583061042128207
+SaveInput1
+set_input 3429143307655607395
+SaveInput2
+SaveOutput
+expect 0 1712560246613479188
+expect 2 1
+expect 3 0
+
+# test 71: random
+set_input -3318606715301407489
+SaveInput1
+set_input -7095622098422648331
+SaveInput2
+SaveOutput
+expect 0 8032515259985495796
+expect 2 1
+expect 3 0
+
+# test 72: random
+set_input -2968787031086047983
+SaveInput1
+set_input -3836834245959979361
+SaveInput2
+SaveOutput
+expect 0 -6805621277046027344
+expect 2 1
+expect 3 0
+
+# test 73: random
+set_input 7717017980714310313
+SaveInput1
+set_input 5787321903105918055
+SaveInput2
+SaveOutput
+expect 0 -4942404189889323248
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input -4167455027738741985
+SaveInput1
+set_input -8290653087835456680
+SaveInput2
+SaveOutput
+expect 0 5988635958135352951
+expect 2 1
+expect 3 0
+
+# test 75: random
+set_input -7889522180211708619
+SaveInput1
+set_input -416852193246683704
+SaveInput2
+SaveOutput
+expect 0 -8306374373458392323
+expect 2 1
+expect 3 0
+
+# Opcode 18: Signed Addition
+set_input 18
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 1
+expect 3 0
+
+# test 26: random low-range
+set_input -38
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 -17
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input -86
+SaveInput1
+set_input 3
+SaveInput2
+SaveOutput
+expect 0 -83
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -72
+SaveInput1
+set_input -59
+SaveInput2
+SaveOutput
+expect 0 -131
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 72
+SaveInput1
+set_input -62
+SaveInput2
+SaveOutput
+expect 0 10
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 10
+SaveInput1
+set_input 29
+SaveInput2
+SaveOutput
+expect 0 39
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input -49
+SaveInput1
+set_input -18
+SaveInput2
+SaveOutput
+expect 0 -67
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input 8
+SaveInput1
+set_input 50
+SaveInput2
+SaveOutput
+expect 0 58
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input -5
+SaveInput1
+set_input 23
+SaveInput2
+SaveOutput
+expect 0 18
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input -71
+SaveInput1
+set_input -100
+SaveInput2
+SaveOutput
+expect 0 -171
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 69
+SaveInput1
+set_input -52
+SaveInput2
+SaveOutput
+expect 0 17
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input -11
+SaveInput1
+set_input 24
+SaveInput2
+SaveOutput
+expect 0 13
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input 71
+SaveInput1
+set_input -81
+SaveInput2
+SaveOutput
+expect 0 -10
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input 84
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 128
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input 24
+SaveInput1
+set_input 77
+SaveInput2
+SaveOutput
+expect 0 101
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -6
+SaveInput1
+set_input 91
+SaveInput2
+SaveOutput
+expect 0 85
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input -10
+SaveInput1
+set_input 48
+SaveInput2
+SaveOutput
+expect 0 38
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 98
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 47
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input -91
+SaveInput1
+set_input 15
+SaveInput2
+SaveOutput
+expect 0 -76
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input -73
+SaveInput1
+set_input 40
+SaveInput2
+SaveOutput
+expect 0 -33
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input -32
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 -61
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input 13
+SaveInput1
+set_input -14
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input -5
+SaveInput1
+set_input 29
+SaveInput2
+SaveOutput
+expect 0 24
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 65
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 110
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 6
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 -93
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input -78
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 -43
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -6182266663450193116
+SaveInput1
+set_input -218229723227560453
+SaveInput2
+SaveOutput
+expect 0 -6400496386677753569
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input -9161166441740476389
+SaveInput1
+set_input -3850127177261607944
+SaveInput2
+SaveOutput
+expect 0 5435450454707467283
+expect 2 1
+expect 3 0
+
+# test 53: random
+set_input -1722781805181349952
+SaveInput1
+set_input -5284646904299882572
+SaveInput2
+SaveOutput
+expect 0 -7007428709481232524
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 4711694360545368687
+SaveInput1
+set_input 5951923262887333045
+SaveInput2
+SaveOutput
+expect 0 -7783126450276849884
+expect 2 1
+expect 3 0
+
+# test 55: random
+set_input 8059794548569253552
+SaveInput1
+set_input -5125213560077973285
+SaveInput2
+SaveOutput
+expect 0 2934580988491280267
+expect 2 0
+expect 3 0
+
+# test 56: random
+set_input -3459380927484235080
+SaveInput1
+set_input -2486313591686896824
+SaveInput2
+SaveOutput
+expect 0 -5945694519171131904
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input 2196889821814483722
+SaveInput1
+set_input 3084332326317722039
+SaveInput2
+SaveOutput
+expect 0 5281222148132205761
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input 8058612817234181871
+SaveInput1
+set_input 3463801887993762310
+SaveInput2
+SaveOutput
+expect 0 -6924329368481607435
+expect 2 1
+expect 3 0
+
+# test 59: random
+set_input 3419434456521943878
+SaveInput1
+set_input -76077540123231002
+SaveInput2
+SaveOutput
+expect 0 3343356916398712876
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input -1770826450319470370
+SaveInput1
+set_input 6072540880735123288
+SaveInput2
+SaveOutput
+expect 0 4301714430415652918
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input 3596284117855854613
+SaveInput1
+set_input 3851761604089294370
+SaveInput2
+SaveOutput
+expect 0 7448045721945148983
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input 1850036638011910628
+SaveInput1
+set_input 1218189669300112145
+SaveInput2
+SaveOutput
+expect 0 3068226307312022773
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input -2676737470556189934
+SaveInput1
+set_input 3808839950162035322
+SaveInput2
+SaveOutput
+expect 0 1132102479605845388
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input 519265941393811944
+SaveInput1
+set_input -1533468526663604846
+SaveInput2
+SaveOutput
+expect 0 -1014202585269792902
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -9075942647190961965
+SaveInput1
+set_input -4185941961147874854
+SaveInput2
+SaveOutput
+expect 0 5184859465370714797
+expect 2 1
+expect 3 0
+
+# test 66: random
+set_input -8313979609748802618
+SaveInput1
+set_input -5854457664982367267
+SaveInput2
+SaveOutput
+expect 0 4278306798978381731
+expect 2 1
+expect 3 0
+
+# test 67: random
+set_input -3521364789025062794
+SaveInput1
+set_input -6276275688363318561
+SaveInput2
+SaveOutput
+expect 0 8649103596321170261
+expect 2 1
+expect 3 0
+
+# test 68: random
+set_input 7324120392511678867
+SaveInput1
+set_input -8446006614426609093
+SaveInput2
+SaveOutput
+expect 0 -1121886221914930226
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input 2647038943898999264
+SaveInput1
+set_input -7195568144820392867
+SaveInput2
+SaveOutput
+expect 0 -4548529200921393603
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input 2593355966498645920
+SaveInput1
+set_input -4957364252949369610
+SaveInput2
+SaveOutput
+expect 0 -2364008286450723690
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input -1036389663967579522
+SaveInput1
+set_input 8251754926453824307
+SaveInput2
+SaveOutput
+expect 0 7215365262486244785
+expect 2 0
+expect 3 0
+
+# test 72: random
+set_input -5154998797351478233
+SaveInput1
+set_input 6640701450187960430
+SaveInput2
+SaveOutput
+expect 0 1485702652836482197
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input -627372263712434463
+SaveInput1
+set_input -8000189570987855685
+SaveInput2
+SaveOutput
+expect 0 -8627561834700290148
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input -4702488044429496964
+SaveInput1
+set_input 1062918410338780726
+SaveInput2
+SaveOutput
+expect 0 -3639569634090716238
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input 6920901533747965065
+SaveInput1
+set_input 2417918389367968559
+SaveInput2
+SaveOutput
+expect 0 -9107924150593617992
+expect 2 1
+expect 3 0
+
+# Opcode 19: Unsigned Subtraction
+set_input 19
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 1
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 1
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 1
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775806
+expect 2 1
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 1
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -90
+SaveInput1
+set_input 70
+SaveInput2
+SaveOutput
+expect 0 -160
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 5
+SaveInput1
+set_input 13
+SaveInput2
+SaveOutput
+expect 0 -8
+expect 2 1
+expect 3 0
+
+# test 28: random low-range
+set_input 87
+SaveInput1
+set_input -61
+SaveInput2
+SaveOutput
+expect 0 148
+expect 2 1
+expect 3 0
+
+# test 29: random low-range
+set_input -62
+SaveInput1
+set_input -64
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input -54
+SaveInput1
+set_input -43
+SaveInput2
+SaveOutput
+expect 0 -11
+expect 2 1
+expect 3 0
+
+# test 31: random low-range
+set_input 42
+SaveInput1
+set_input -9
+SaveInput2
+SaveOutput
+expect 0 51
+expect 2 1
+expect 3 0
+
+# test 32: random low-range
+set_input 19
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 70
+expect 2 1
+expect 3 0
+
+# test 33: random low-range
+set_input 74
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 173
+expect 2 1
+expect 3 0
+
+# test 34: random low-range
+set_input 41
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 -32
+expect 2 1
+expect 3 0
+
+# test 35: random low-range
+set_input -14
+SaveInput1
+set_input 70
+SaveInput2
+SaveOutput
+expect 0 -84
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 78
+SaveInput1
+set_input -66
+SaveInput2
+SaveOutput
+expect 0 144
+expect 2 1
+expect 3 0
+
+# test 37: random low-range
+set_input -12
+SaveInput1
+set_input -98
+SaveInput2
+SaveOutput
+expect 0 86
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input -18
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 -112
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input -30
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 2 1
+expect 3 0
+
+# test 40: random low-range
+set_input 82
+SaveInput1
+set_input -6
+SaveInput2
+SaveOutput
+expect 0 88
+expect 2 1
+expect 3 0
+
+# test 41: random low-range
+set_input -16
+SaveInput1
+set_input -19
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 7
+SaveInput1
+set_input 12
+SaveInput2
+SaveOutput
+expect 0 -5
+expect 2 1
+expect 3 0
+
+# test 43: random low-range
+set_input 17
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 -18
+expect 2 1
+expect 3 0
+
+# test 44: random low-range
+set_input 88
+SaveInput1
+set_input 82
+SaveInput2
+SaveOutput
+expect 0 6
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input -24
+SaveInput1
+set_input 25
+SaveInput2
+SaveOutput
+expect 0 -49
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -54
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 -86
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input -21
+SaveInput1
+set_input -94
+SaveInput2
+SaveOutput
+expect 0 73
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input -20
+SaveInput1
+set_input 98
+SaveInput2
+SaveOutput
+expect 0 -118
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input -83
+SaveInput1
+set_input 34
+SaveInput2
+SaveOutput
+expect 0 -117
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input 22
+SaveInput1
+set_input -63
+SaveInput2
+SaveOutput
+expect 0 85
+expect 2 1
+expect 3 0
+
+# test 51: random
+set_input -8627736223619721355
+SaveInput1
+set_input 1435881926257198427
+SaveInput2
+SaveOutput
+expect 0 8383125923832631834
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 3777239374507491841
+SaveInput1
+set_input 1707929864232943493
+SaveInput2
+SaveOutput
+expect 0 2069309510274548348
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input 8085525178040080957
+SaveInput1
+set_input 5196146363393843576
+SaveInput2
+SaveOutput
+expect 0 2889378814646237381
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 5245543256530348846
+SaveInput1
+set_input -2024622115530697931
+SaveInput2
+SaveOutput
+expect 0 7270165372061046777
+expect 2 1
+expect 3 0
+
+# test 55: random
+set_input -2508529982621837243
+SaveInput1
+set_input -1339115865846413459
+SaveInput2
+SaveOutput
+expect 0 -1169414116775423784
+expect 2 1
+expect 3 0
+
+# test 56: random
+set_input 2380453384307991935
+SaveInput1
+set_input -3641297499147626201
+SaveInput2
+SaveOutput
+expect 0 6021750883455618136
+expect 2 1
+expect 3 0
+
+# test 57: random
+set_input 8716196631197319874
+SaveInput1
+set_input 6393365048183380158
+SaveInput2
+SaveOutput
+expect 0 2322831583013939716
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input 5850392802561451677
+SaveInput1
+set_input -5524702883301267195
+SaveInput2
+SaveOutput
+expect 0 -7071648387846832744
+expect 2 1
+expect 3 0
+
+# test 59: random
+set_input 4544350299361952975
+SaveInput1
+set_input -7550441953557431736
+SaveInput2
+SaveOutput
+expect 0 -6351951820790166905
+expect 2 1
+expect 3 0
+
+# test 60: random
+set_input -2194469205844883716
+SaveInput1
+set_input -6993010821162945209
+SaveInput2
+SaveOutput
+expect 0 4798541615318061493
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input 3348605792233671774
+SaveInput1
+set_input 6243478418957430139
+SaveInput2
+SaveOutput
+expect 0 -2894872626723758365
+expect 2 1
+expect 3 0
+
+# test 62: random
+set_input -4208798188164819008
+SaveInput1
+set_input -3939678700746548512
+SaveInput2
+SaveOutput
+expect 0 -269119487418270496
+expect 2 1
+expect 3 0
+
+# test 63: random
+set_input -826476267480013389
+SaveInput1
+set_input 8728391196440371336
+SaveInput2
+SaveOutput
+expect 0 8891876609789166891
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input 7979281900849467272
+SaveInput1
+set_input -4552373544501212901
+SaveInput2
+SaveOutput
+expect 0 -5915088628358871443
+expect 2 1
+expect 3 0
+
+# test 65: random
+set_input -6508595225702594644
+SaveInput1
+set_input -178427367609752115
+SaveInput2
+SaveOutput
+expect 0 -6330167858092842529
+expect 2 1
+expect 3 0
+
+# test 66: random
+set_input 1359482987484940328
+SaveInput1
+set_input -6631107896590672415
+SaveInput2
+SaveOutput
+expect 0 7990590884075612743
+expect 2 1
+expect 3 0
+
+# test 67: random
+set_input -2339631798685801157
+SaveInput1
+set_input -8730692056396732251
+SaveInput2
+SaveOutput
+expect 0 6391060257710931094
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input -2912821597022726637
+SaveInput1
+set_input 4213098584999957894
+SaveInput2
+SaveOutput
+expect 0 -7125920182022684531
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -8670030841170451534
+SaveInput1
+set_input 7421762146561944439
+SaveInput2
+SaveOutput
+expect 0 2354951085977155643
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input -4177772561001836100
+SaveInput1
+set_input 1126326855782572944
+SaveInput2
+SaveOutput
+expect 0 -5304099416784409044
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input 7594431157667370526
+SaveInput1
+set_input -1920314632759425512
+SaveInput2
+SaveOutput
+expect 0 -8931998283282755578
+expect 2 1
+expect 3 0
+
+# test 72: random
+set_input -6824773960893460037
+SaveInput1
+set_input 196796240285632226
+SaveInput2
+SaveOutput
+expect 0 -7021570201179092263
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input -8729434842802366009
+SaveInput1
+set_input 8411608258074297942
+SaveInput2
+SaveOutput
+expect 0 1305700972832887665
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input -3137392387997761400
+SaveInput1
+set_input 291563063551199547
+SaveInput2
+SaveOutput
+expect 0 -3428955451548960947
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input 8610574416882034111
+SaveInput1
+set_input 3804555659143387279
+SaveInput2
+SaveOutput
+expect 0 4806018757738646832
+expect 2 0
+expect 3 0
+
+# Opcode 20: Signed Subtraction
+set_input 20
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 1
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 1
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -84
+SaveInput1
+set_input 65
+SaveInput2
+SaveOutput
+expect 0 -149
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input -42
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 7
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -58
+SaveInput1
+set_input 78
+SaveInput2
+SaveOutput
+expect 0 -136
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 39
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 -5
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input -39
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 -71
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input 22
+SaveInput1
+set_input -14
+SaveInput2
+SaveOutput
+expect 0 36
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input 64
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 93
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input 4
+SaveInput1
+set_input -66
+SaveInput2
+SaveOutput
+expect 0 70
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 33
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 -61
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 37
+SaveInput1
+set_input 49
+SaveInput2
+SaveOutput
+expect 0 -12
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 21
+SaveInput1
+set_input 2
+SaveInput2
+SaveOutput
+expect 0 19
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input -35
+SaveInput1
+set_input -71
+SaveInput2
+SaveOutput
+expect 0 36
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input 35
+SaveInput1
+set_input 38
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input -67
+SaveInput1
+set_input 39
+SaveInput2
+SaveOutput
+expect 0 -106
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -40
+SaveInput1
+set_input -35
+SaveInput2
+SaveOutput
+expect 0 -5
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input -73
+SaveInput1
+set_input -71
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input -18
+SaveInput1
+set_input 91
+SaveInput2
+SaveOutput
+expect 0 -109
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 51
+SaveInput1
+set_input 18
+SaveInput2
+SaveOutput
+expect 0 33
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input -100
+SaveInput1
+set_input -23
+SaveInput2
+SaveOutput
+expect 0 -77
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input -56
+SaveInput1
+set_input 18
+SaveInput2
+SaveOutput
+expect 0 -74
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -48
+SaveInput1
+set_input -52
+SaveInput2
+SaveOutput
+expect 0 4
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input 23
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 118
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 37
+SaveInput1
+set_input -6
+SaveInput2
+SaveOutput
+expect 0 43
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input -94
+SaveInput1
+set_input -21
+SaveInput2
+SaveOutput
+expect 0 -73
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input -83
+SaveInput1
+set_input 14
+SaveInput2
+SaveOutput
+expect 0 -97
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 2215598256436392720
+SaveInput1
+set_input -5286615826800956511
+SaveInput2
+SaveOutput
+expect 0 7502214083237349231
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 2217315844681247346
+SaveInput1
+set_input 5711240022583546929
+SaveInput2
+SaveOutput
+expect 0 -3493924177902299583
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input 5568964922382165322
+SaveInput1
+set_input -2440438460538589253
+SaveInput2
+SaveOutput
+expect 0 8009403382920754575
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 4726893328229360549
+SaveInput1
+set_input -420186034617175606
+SaveInput2
+SaveOutput
+expect 0 5147079362846536155
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -7318236741780791348
+SaveInput1
+set_input 2345271026049546988
+SaveInput2
+SaveOutput
+expect 0 8783236305879213280
+expect 2 1
+expect 3 0
+
+# test 56: random
+set_input -6616273524014376929
+SaveInput1
+set_input -6846935321790424785
+SaveInput2
+SaveOutput
+expect 0 230661797776047856
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input 6761617306782536149
+SaveInput1
+set_input -4364970691592883798
+SaveInput2
+SaveOutput
+expect 0 -7320156075334131669
+expect 2 1
+expect 3 0
+
+# test 58: random
+set_input -2728058262735829777
+SaveInput1
+set_input 682103076385875081
+SaveInput2
+SaveOutput
+expect 0 -3410161339121704858
+expect 2 0
+expect 3 0
+
+# test 59: random
+set_input -4030930566005596851
+SaveInput1
+set_input 1265668194101645966
+SaveInput2
+SaveOutput
+expect 0 -5296598760107242817
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input -1829096616498391031
+SaveInput1
+set_input -303772992768787250
+SaveInput2
+SaveOutput
+expect 0 -1525323623729603781
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input -7056227058625577500
+SaveInput1
+set_input 7643506498327399433
+SaveInput2
+SaveOutput
+expect 0 3747010516756574683
+expect 2 1
+expect 3 0
+
+# test 62: random
+set_input 1668156515016416031
+SaveInput1
+set_input -4839679084481639123
+SaveInput2
+SaveOutput
+expect 0 6507835599498055154
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input 1405864950607266340
+SaveInput1
+set_input -1407455800042331982
+SaveInput2
+SaveOutput
+expect 0 2813320750649598322
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input -2859784194043831602
+SaveInput1
+set_input -2652852436059161241
+SaveInput2
+SaveOutput
+expect 0 -206931757984670361
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -1854328190771513951
+SaveInput1
+set_input -4983973957211646378
+SaveInput2
+SaveOutput
+expect 0 3129645766440132427
+expect 2 0
+expect 3 0
+
+# test 66: random
+set_input 2171951956365751816
+SaveInput1
+set_input 702659915411818325
+SaveInput2
+SaveOutput
+expect 0 1469292040953933491
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input -8332371241629296135
+SaveInput1
+set_input -4204851989641809175
+SaveInput2
+SaveOutput
+expect 0 -4127519251987486960
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input 5990726966884315350
+SaveInput1
+set_input 6893559533020371130
+SaveInput2
+SaveOutput
+expect 0 -902832566136055780
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -2386993282664352684
+SaveInput1
+set_input 3351111150592939337
+SaveInput2
+SaveOutput
+expect 0 -5738104433257292021
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input 6926184221048006188
+SaveInput1
+set_input -1184332668051202952
+SaveInput2
+SaveOutput
+expect 0 8110516889099209140
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input -6361625039841035495
+SaveInput1
+set_input 5464651464460951655
+SaveInput2
+SaveOutput
+expect 0 6620467569407564466
+expect 2 1
+expect 3 0
+
+# test 72: random
+set_input -7135112362254511110
+SaveInput1
+set_input 4750863423119200172
+SaveInput2
+SaveOutput
+expect 0 6560768288335840334
+expect 2 1
+expect 3 0
+
+# test 73: random
+set_input 4947893160229127022
+SaveInput1
+set_input 2431969614242948709
+SaveInput2
+SaveOutput
+expect 0 2515923545986178313
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input 4162307830747446581
+SaveInput1
+set_input 2575827917550813118
+SaveInput2
+SaveOutput
+expect 0 1586479913196633463
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input -5675862072066994430
+SaveInput1
+set_input -238526276475736131
+SaveInput2
+SaveOutput
+expect 0 -5437335795591258299
+expect 2 0
+expect 3 0
+
+# Opcode 21: Unsigned Multiplication
+set_input 21
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 1
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 1
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 1
+expect 3 0
+
+# test 26: random low-range
+set_input -18
+SaveInput1
+set_input 5
+SaveInput2
+SaveOutput
+expect 0 -90
+expect 2 1
+expect 3 0
+
+# test 27: random low-range
+set_input 59
+SaveInput1
+set_input -42
+SaveInput2
+SaveOutput
+expect 0 -2478
+expect 2 1
+expect 3 0
+
+# test 28: random low-range
+set_input 13
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 663
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 28
+SaveInput1
+set_input -34
+SaveInput2
+SaveOutput
+expect 0 -952
+expect 2 1
+expect 3 0
+
+# test 30: random low-range
+set_input -86
+SaveInput1
+set_input 71
+SaveInput2
+SaveOutput
+expect 0 -6106
+expect 2 1
+expect 3 0
+
+# test 31: random low-range
+set_input -14
+SaveInput1
+set_input -83
+SaveInput2
+SaveOutput
+expect 0 1162
+expect 2 1
+expect 3 0
+
+# test 32: random low-range
+set_input -18
+SaveInput1
+set_input 87
+SaveInput2
+SaveOutput
+expect 0 -1566
+expect 2 1
+expect 3 0
+
+# test 33: random low-range
+set_input -91
+SaveInput1
+set_input 12
+SaveInput2
+SaveOutput
+expect 0 -1092
+expect 2 1
+expect 3 0
+
+# test 34: random low-range
+set_input 55
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 55
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 17
+SaveInput1
+set_input 98
+SaveInput2
+SaveOutput
+expect 0 1666
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 25
+SaveInput1
+set_input -14
+SaveInput2
+SaveOutput
+expect 0 -350
+expect 2 1
+expect 3 0
+
+# test 37: random low-range
+set_input -85
+SaveInput1
+set_input -31
+SaveInput2
+SaveOutput
+expect 0 2635
+expect 2 1
+expect 3 0
+
+# test 38: random low-range
+set_input 74
+SaveInput1
+set_input 95
+SaveInput2
+SaveOutput
+expect 0 7030
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input 74
+SaveInput1
+set_input 42
+SaveInput2
+SaveOutput
+expect 0 3108
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -10
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 -800
+expect 2 1
+expect 3 0
+
+# test 41: random low-range
+set_input 27
+SaveInput1
+set_input 60
+SaveInput2
+SaveOutput
+expect 0 1620
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 55
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 4400
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input -92
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 9108
+expect 2 1
+expect 3 0
+
+# test 44: random low-range
+set_input 61
+SaveInput1
+set_input 67
+SaveInput2
+SaveOutput
+expect 0 4087
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input -86
+SaveInput1
+set_input 23
+SaveInput2
+SaveOutput
+expect 0 -1978
+expect 2 1
+expect 3 0
+
+# test 46: random low-range
+set_input 51
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 -5049
+expect 2 1
+expect 3 0
+
+# test 47: random low-range
+set_input -46
+SaveInput1
+set_input 13
+SaveInput2
+SaveOutput
+expect 0 -598
+expect 2 1
+expect 3 0
+
+# test 48: random low-range
+set_input 70
+SaveInput1
+set_input 84
+SaveInput2
+SaveOutput
+expect 0 5880
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 100
+SaveInput1
+set_input -82
+SaveInput2
+SaveOutput
+expect 0 -8200
+expect 2 1
+expect 3 0
+
+# test 50: random low-range
+set_input -20
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 -880
+expect 2 1
+expect 3 0
+
+# test 51: random
+set_input -905002001870003284
+SaveInput1
+set_input -8414313541725369706
+SaveInput2
+SaveOutput
+expect 0 -2097046746252435768
+expect 2 1
+expect 3 0
+
+# test 52: random
+set_input -4243729635615136685
+SaveInput1
+set_input -4804340307365668255
+SaveInput2
+SaveOutput
+expect 0 8272974486994219379
+expect 2 1
+expect 3 0
+
+# test 53: random
+set_input 8614339672971254335
+SaveInput1
+set_input -4519606304266848915
+SaveInput2
+SaveOutput
+expect 0 6265518738557040595
+expect 2 1
+expect 3 0
+
+# test 54: random
+set_input -6566254470509792820
+SaveInput1
+set_input 7372066294175639127
+SaveInput2
+SaveOutput
+expect 0 8854105839365125204
+expect 2 1
+expect 3 0
+
+# test 55: random
+set_input -9182799479193540617
+SaveInput1
+set_input -4808350432907860373
+SaveInput2
+SaveOutput
+expect 0 7200041835114356285
+expect 2 1
+expect 3 0
+
+# test 56: random
+set_input -3701385250003053589
+SaveInput1
+set_input 1815042098999252644
+SaveInput2
+SaveOutput
+expect 0 1907942445002994828
+expect 2 1
+expect 3 0
+
+# test 57: random
+set_input -1403901081568666741
+SaveInput1
+set_input 2314445822428693077
+SaveInput2
+SaveOutput
+expect 0 -1459787174501319897
+expect 2 1
+expect 3 0
+
+# test 58: random
+set_input -645879186783660708
+SaveInput1
+set_input -5355745789111682165
+SaveInput2
+SaveOutput
+expect 0 3275202004342983924
+expect 2 1
+expect 3 0
+
+# test 59: random
+set_input 6908990604556249928
+SaveInput1
+set_input 6611691752621810964
+SaveInput2
+SaveOutput
+expect 0 -29543126960649824
+expect 2 1
+expect 3 0
+
+# test 60: random
+set_input -6894164317782434909
+SaveInput1
+set_input -7927074712638049161
+SaveInput2
+SaveOutput
+expect 0 -3846749970867391291
+expect 2 1
+expect 3 0
+
+# test 61: random
+set_input -3179759435852613272
+SaveInput1
+set_input -4482093859577763921
+SaveInput2
+SaveOutput
+expect 0 -3606744164217825768
+expect 2 1
+expect 3 0
+
+# test 62: random
+set_input -1380490310947735191
+SaveInput1
+set_input 8276747658916808338
+SaveInput2
+SaveOutput
+expect 0 -8531076934642306078
+expect 2 1
+expect 3 0
+
+# test 63: random
+set_input -3579122641607080268
+SaveInput1
+set_input -8727685054313397773
+SaveInput2
+SaveOutput
+expect 0 5595863452136788188
+expect 2 1
+expect 3 0
+
+# test 64: random
+set_input -7644348430202867785
+SaveInput1
+set_input 5403780849854707105
+SaveInput2
+SaveOutput
+expect 0 -8004620492089301737
+expect 2 1
+expect 3 0
+
+# test 65: random
+set_input -3785479785115216437
+SaveInput1
+set_input -6475775070760339767
+SaveInput2
+SaveOutput
+expect 0 2203284282339241571
+expect 2 1
+expect 3 0
+
+# test 66: random
+set_input 4068005046336724716
+SaveInput1
+set_input 8006318621763212094
+SaveInput2
+SaveOutput
+expect 0 1925777010762055976
+expect 2 1
+expect 3 0
+
+# test 67: random
+set_input 2121559016621498649
+SaveInput1
+set_input -7314156240096498250
+SaveInput2
+SaveOutput
+expect 0 1502531613267569862
+expect 2 1
+expect 3 0
+
+# test 68: random
+set_input 7575043375950227384
+SaveInput1
+set_input 1375295062648356322
+SaveInput2
+SaveOutput
+expect 0 -5044339727898220432
+expect 2 1
+expect 3 0
+
+# test 69: random
+set_input -4064896186684047326
+SaveInput1
+set_input -4186151011599160252
+SaveInput2
+SaveOutput
+expect 0 -7032672590276173560
+expect 2 1
+expect 3 0
+
+# test 70: random
+set_input -654356310384231521
+SaveInput1
+set_input -5997180002959053084
+SaveInput2
+SaveOutput
+expect 0 6859898181763410844
+expect 2 1
+expect 3 0
+
+# test 71: random
+set_input 6917660540059483264
+SaveInput1
+set_input -4741838577998619436
+SaveInput2
+SaveOutput
+expect 0 5838757237062965760
+expect 2 1
+expect 3 0
+
+# test 72: random
+set_input -967078728483281770
+SaveInput1
+set_input -2822086777856594642
+SaveInput2
+SaveOutput
+expect 0 -5167927165036138252
+expect 2 1
+expect 3 0
+
+# test 73: random
+set_input -6310966643840100888
+SaveInput1
+set_input 1562661363877109141
+SaveInput2
+SaveOutput
+expect 0 -1173304066991110136
+expect 2 1
+expect 3 0
+
+# test 74: random
+set_input -653950071238207421
+SaveInput1
+set_input 2951118413795153528
+SaveInput2
+SaveOutput
+expect 0 744916979282239848
+expect 2 1
+expect 3 0
+
+# test 75: random
+set_input 3572482065979955631
+SaveInput1
+set_input 342856377387902987
+SaveInput2
+SaveOutput
+expect 0 3101935024049255045
+expect 2 1
+expect 3 0
+
+# Opcode 22: Signed Multiplication
+set_input 22
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 1
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 1
+expect 3 0
+
+# test 26: random low-range
+set_input -53
+SaveInput1
+set_input 49
+SaveInput2
+SaveOutput
+expect 0 -2597
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 42
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 1470
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -50
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 4750
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input -85
+SaveInput1
+set_input -67
+SaveInput2
+SaveOutput
+expect 0 5695
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 27
+SaveInput1
+set_input 76
+SaveInput2
+SaveOutput
+expect 0 2052
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input -23
+SaveInput1
+set_input 18
+SaveInput2
+SaveOutput
+expect 0 -414
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input -69
+SaveInput1
+set_input 12
+SaveInput2
+SaveOutput
+expect 0 -828
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input -10
+SaveInput1
+set_input 42
+SaveInput2
+SaveOutput
+expect 0 -420
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 29
+SaveInput1
+set_input -17
+SaveInput2
+SaveOutput
+expect 0 -493
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 60
+SaveInput1
+set_input -25
+SaveInput2
+SaveOutput
+expect 0 -1500
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input -51
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 4590
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input -75
+SaveInput1
+set_input 29
+SaveInput2
+SaveOutput
+expect 0 -2175
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input 93
+SaveInput1
+set_input 47
+SaveInput2
+SaveOutput
+expect 0 4371
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input -98
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 7056
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -79
+SaveInput1
+set_input -40
+SaveInput2
+SaveOutput
+expect 0 3160
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input -88
+SaveInput1
+set_input 4
+SaveInput2
+SaveOutput
+expect 0 -352
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 19
+SaveInput1
+set_input -40
+SaveInput2
+SaveOutput
+expect 0 -760
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 24
+SaveInput1
+set_input -59
+SaveInput2
+SaveOutput
+expect 0 -1416
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input -54
+SaveInput1
+set_input -41
+SaveInput2
+SaveOutput
+expect 0 2214
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input 93
+SaveInput1
+set_input 72
+SaveInput2
+SaveOutput
+expect 0 6696
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -27
+SaveInput1
+set_input 100
+SaveInput2
+SaveOutput
+expect 0 -2700
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input -33
+SaveInput1
+set_input 77
+SaveInput2
+SaveOutput
+expect 0 -2541
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 45
+SaveInput1
+set_input 63
+SaveInput2
+SaveOutput
+expect 0 2835
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 26
+SaveInput1
+set_input 12
+SaveInput2
+SaveOutput
+expect 0 312
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input 83
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 6142
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -1621948002431729913
+SaveInput1
+set_input -4654012323411232264
+SaveInput2
+SaveOutput
+expect 0 -247553838225465912
+expect 2 1
+expect 3 0
+
+# test 52: random
+set_input -6786953529965650640
+SaveInput1
+set_input 4928931126364125531
+SaveInput2
+SaveOutput
+expect 0 -4439267663416864752
+expect 2 1
+expect 3 0
+
+# test 53: random
+set_input -5507994023118878398
+SaveInput1
+set_input -8993431248891466988
+SaveInput2
+SaveOutput
+expect 0 128463578027380520
+expect 2 1
+expect 3 0
+
+# test 54: random
+set_input 3717846918805716741
+SaveInput1
+set_input -1943325338508671529
+SaveInput2
+SaveOutput
+expect 0 8187804294206457395
+expect 2 1
+expect 3 0
+
+# test 55: random
+set_input 549259352605394415
+SaveInput1
+set_input -4041325119194791497
+SaveInput2
+SaveOutput
+expect 0 3549814173125782745
+expect 2 1
+expect 3 0
+
+# test 56: random
+set_input 5629487938078009193
+SaveInput1
+set_input -4566172692628526241
+SaveInput2
+SaveOutput
+expect 0 3955038797278642935
+expect 2 1
+expect 3 0
+
+# test 57: random
+set_input 340893686966583254
+SaveInput1
+set_input 1059054523744548110
+SaveInput2
+SaveOutput
+expect 0 120090112971951028
+expect 2 1
+expect 3 0
+
+# test 58: random
+set_input 2417373693326714220
+SaveInput1
+set_input 6531136856920571415
+SaveInput2
+SaveOutput
+expect 0 -8582625167833774924
+expect 2 1
+expect 3 0
+
+# test 59: random
+set_input 1718665509075446473
+SaveInput1
+set_input 3562025837446270541
+SaveInput2
+SaveOutput
+expect 0 5041239145248889973
+expect 2 1
+expect 3 0
+
+# test 60: random
+set_input 8914171004196844429
+SaveInput1
+set_input 7843103186645451496
+SaveInput2
+SaveOutput
+expect 0 -8384791901828918840
+expect 2 1
+expect 3 0
+
+# test 61: random
+set_input 525421564841451045
+SaveInput1
+set_input -3010636779398480339
+SaveInput2
+SaveOutput
+expect 0 -5920662560609959295
+expect 2 1
+expect 3 0
+
+# test 62: random
+set_input 6306589553909111507
+SaveInput1
+set_input 3319167017217997660
+SaveInput2
+SaveOutput
+expect 0 7827212262655247572
+expect 2 1
+expect 3 0
+
+# test 63: random
+set_input 8874358621442095975
+SaveInput1
+set_input -4770530989555412702
+SaveInput2
+SaveOutput
+expect 0 -3641366282019456338
+expect 2 1
+expect 3 0
+
+# test 64: random
+set_input 7818712783236522614
+SaveInput1
+set_input -1021549143876222162
+SaveInput2
+SaveOutput
+expect 0 -914468964225739980
+expect 2 1
+expect 3 0
+
+# test 65: random
+set_input -8443562362955735226
+SaveInput1
+set_input -3250980429136484383
+SaveInput2
+SaveOutput
+expect 0 5665293500041684614
+expect 2 1
+expect 3 0
+
+# test 66: random
+set_input 4417750251187057766
+SaveInput1
+set_input -3051979379403589618
+SaveInput2
+SaveOutput
+expect 0 1186617392441765268
+expect 2 1
+expect 3 0
+
+# test 67: random
+set_input -500042364374989500
+SaveInput1
+set_input -7132174177557567769
+SaveInput2
+SaveOutput
+expect 0 3192744072737232988
+expect 2 1
+expect 3 0
+
+# test 68: random
+set_input -7103403767235862200
+SaveInput1
+set_input 1111473500151810871
+SaveInput2
+SaveOutput
+expect 0 4670788649092202104
+expect 2 1
+expect 3 0
+
+# test 69: random
+set_input -6888225224378051260
+SaveInput1
+set_input -1505758079178648022
+SaveInput2
+SaveOutput
+expect 0 3699216389208888616
+expect 2 1
+expect 3 0
+
+# test 70: random
+set_input -9784456001380719
+SaveInput1
+set_input -7429876806105357907
+SaveInput2
+SaveOutput
+expect 0 5088635873797593341
+expect 2 1
+expect 3 0
+
+# test 71: random
+set_input -4771348106503575797
+SaveInput1
+set_input -7855845337396333322
+SaveInput2
+SaveOutput
+expect 0 -3526499549159571310
+expect 2 1
+expect 3 0
+
+# test 72: random
+set_input -8398618474219206532
+SaveInput1
+set_input 627280553573307117
+SaveInput2
+SaveOutput
+expect 0 6795978988981785292
+expect 2 1
+expect 3 0
+
+# test 73: random
+set_input 2085188437370688732
+SaveInput1
+set_input 6499830263234986514
+SaveInput2
+SaveOutput
+expect 0 7866377038061612920
+expect 2 1
+expect 3 0
+
+# test 74: random
+set_input -3931516391168024370
+SaveInput1
+set_input 1604143532854516041
+SaveInput2
+SaveOutput
+expect 0 -2145246545052682050
+expect 2 1
+expect 3 0
+
+# test 75: random
+set_input -8003656906336250242
+SaveInput1
+set_input -3747365062417077
+SaveInput2
+SaveOutput
+expect 0 -3083845839142417174
+expect 2 1
+expect 3 0
+
+# Opcode 23: Unsigned Integer Division
+set_input 23
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input 55
+SaveInput1
+set_input 30
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 33
+SaveInput1
+set_input 67
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -12
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 249280325320399346
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 82
+SaveInput1
+set_input -85
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 28
+SaveInput1
+set_input -48
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input 89
+SaveInput1
+set_input 60
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input -90
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input 7
+SaveInput1
+set_input -88
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 18
+SaveInput1
+set_input 6
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 79
+SaveInput1
+set_input 61
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 2
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input -60
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input -90
+SaveInput1
+set_input 57
+SaveInput2
+SaveOutput
+expect 0 323627089012448272
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input -41
+SaveInput1
+set_input 58
+SaveInput2
+SaveOutput
+expect 0 318047311615681923
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -22
+SaveInput1
+set_input 23
+SaveInput2
+SaveOutput
+expect 0 802032351030850069
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input -37
+SaveInput1
+set_input -18
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 62
+SaveInput1
+set_input 40
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 5
+SaveInput1
+set_input 36
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input 77
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input 47
+SaveInput1
+set_input -67
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input 98
+SaveInput1
+set_input -24
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input -21
+SaveInput1
+set_input -63
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 27
+SaveInput1
+set_input 64
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 69
+SaveInput1
+set_input 62
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input -33
+SaveInput1
+set_input -9
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 8342225720465394631
+SaveInput1
+set_input -9099268592357931585
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input -7797098502704477136
+SaveInput1
+set_input 7638896925547898907
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -5988318313758249932
+SaveInput1
+set_input -536940823820825236
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 1092369149199224134
+SaveInput1
+set_input -8657298785818840262
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -4329178370628162543
+SaveInput1
+set_input 6377800414583807829
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 56: random
+set_input 4419242577705888845
+SaveInput1
+set_input 5606967461846998479
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input -487984879740470869
+SaveInput1
+set_input 7007045898361792692
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input -8869794477254464289
+SaveInput1
+set_input 7882332036347204687
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 59: random
+set_input -6623530710301527339
+SaveInput1
+set_input -4927583587247347627
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input -6320898647992795049
+SaveInput1
+set_input 3749614484618947626
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input -6000562560182003744
+SaveInput1
+set_input 5453008734516849101
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input -3385172592845683675
+SaveInput1
+set_input 8433353687247319757
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input -1446405536234568844
+SaveInput1
+set_input 6855952137809047994
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input -6083383932822868041
+SaveInput1
+set_input 5573461880159452217
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -3629246426980195078
+SaveInput1
+set_input -7727343933472522446
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 66: random
+set_input 1581971803075295906
+SaveInput1
+set_input -5018245404865630065
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input 8666879462635118517
+SaveInput1
+set_input -2246568545575276363
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input -8991916125408424074
+SaveInput1
+set_input -7900596477673100209
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -6103749785899048547
+SaveInput1
+set_input 6267575860539020742
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input -4789457533260843031
+SaveInput1
+set_input -7141361114806273656
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input 719339541291526238
+SaveInput1
+set_input 1515020862402058391
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 72: random
+set_input 1756200480681837201
+SaveInput1
+set_input 6252472327123930067
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input -6464101695425160533
+SaveInput1
+set_input -6974961770415311501
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input 8832192832908118783
+SaveInput1
+set_input 2951173546619787617
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input 2870579851991179970
+SaveInput1
+set_input 4635667309080256727
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# Opcode 24: Unsigned Integer Modulo
+set_input 24
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -43
+SaveInput1
+set_input 41
+SaveInput2
+SaveOutput
+expect 0 14
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 72
+SaveInput1
+set_input -79
+SaveInput2
+SaveOutput
+expect 0 72
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -94
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 54
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 1
+SaveInput1
+set_input 99
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 57
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 12
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input -46
+SaveInput1
+set_input -78
+SaveInput2
+SaveOutput
+expect 0 32
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input 55
+SaveInput1
+set_input 14
+SaveInput2
+SaveOutput
+expect 0 13
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input -88
+SaveInput1
+set_input -81
+SaveInput2
+SaveOutput
+expect 0 -88
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 67
+SaveInput1
+set_input -56
+SaveInput2
+SaveOutput
+expect 0 67
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 47
+SaveInput1
+set_input -35
+SaveInput2
+SaveOutput
+expect 0 47
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input -43
+SaveInput1
+set_input 92
+SaveInput2
+SaveOutput
+expect 0 9
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input -36
+SaveInput1
+set_input -62
+SaveInput2
+SaveOutput
+expect 0 26
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input -8
+SaveInput1
+set_input 3
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input 87
+SaveInput1
+set_input -77
+SaveInput2
+SaveOutput
+expect 0 87
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input -10
+SaveInput1
+set_input -32
+SaveInput2
+SaveOutput
+expect 0 22
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input 61
+SaveInput1
+set_input -94
+SaveInput2
+SaveOutput
+expect 0 61
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 75
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 11
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 9
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 9
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input -77
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input -90
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 -90
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -75
+SaveInput1
+set_input -28
+SaveInput2
+SaveOutput
+expect 0 -75
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input -82
+SaveInput1
+set_input -16
+SaveInput2
+SaveOutput
+expect 0 -82
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 55
+SaveInput1
+set_input -15
+SaveInput2
+SaveOutput
+expect 0 55
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input -99
+SaveInput1
+set_input -13
+SaveInput2
+SaveOutput
+expect 0 -99
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input 62
+SaveInput1
+set_input -73
+SaveInput2
+SaveOutput
+expect 0 62
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 1424785435611761416
+SaveInput1
+set_input 5580880571522566508
+SaveInput2
+SaveOutput
+expect 0 1424785435611761416
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input -2888258093534021736
+SaveInput1
+set_input -6498059675175212585
+SaveInput2
+SaveOutput
+expect 0 3609801581641190849
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -3542464632408887204
+SaveInput1
+set_input -64297928393549447
+SaveInput2
+SaveOutput
+expect 0 -3542464632408887204
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input -8870571481138548121
+SaveInput1
+set_input -5462538512997201280
+SaveInput2
+SaveOutput
+expect 0 -8870571481138548121
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input 5353635179648029368
+SaveInput1
+set_input -1049010778613646269
+SaveInput2
+SaveOutput
+expect 0 5353635179648029368
+expect 2 0
+expect 3 0
+
+# test 56: random
+set_input 155631173266310574
+SaveInput1
+set_input 3763201776333216887
+SaveInput2
+SaveOutput
+expect 0 155631173266310574
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input 7740512752371285296
+SaveInput1
+set_input -7659442616928062285
+SaveInput2
+SaveOutput
+expect 0 7740512752371285296
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input 7345581682060124633
+SaveInput1
+set_input -4065418829389160880
+SaveInput2
+SaveOutput
+expect 0 7345581682060124633
+expect 2 0
+expect 3 0
+
+# test 59: random
+set_input 2191591291034578300
+SaveInput1
+set_input -4099223035524142021
+SaveInput2
+SaveOutput
+expect 0 2191591291034578300
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input 6262589955567965864
+SaveInput1
+set_input 4760347026658169201
+SaveInput2
+SaveOutput
+expect 0 1502242928909796663
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input -6056334185132072070
+SaveInput1
+set_input -5365854251055686588
+SaveInput2
+SaveOutput
+expect 0 -6056334185132072070
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input 4855304450120515762
+SaveInput1
+set_input -7901007590572028664
+SaveInput2
+SaveOutput
+expect 0 4855304450120515762
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input -8365552499626357040
+SaveInput1
+set_input -6717906990720174912
+SaveInput2
+SaveOutput
+expect 0 -8365552499626357040
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input 6159791800854982749
+SaveInput1
+set_input 3484860458904294478
+SaveInput2
+SaveOutput
+expect 0 2674931341950688271
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -5972958298547220131
+SaveInput1
+set_input 5827790914623184658
+SaveInput2
+SaveOutput
+expect 0 818203945915962169
+expect 2 0
+expect 3 0
+
+# test 66: random
+set_input 8917792051081024551
+SaveInput1
+set_input 5110656435895325937
+SaveInput2
+SaveOutput
+expect 0 3807135615185698614
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input -3068624191226569689
+SaveInput1
+set_input 8428087005112567216
+SaveInput2
+SaveOutput
+expect 0 6950032877370414711
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input 747377873526977264
+SaveInput1
+set_input 7232521198541475921
+SaveInput2
+SaveOutput
+expect 0 747377873526977264
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -2575748367128013704
+SaveInput1
+set_input 2210675382939204585
+SaveInput2
+SaveOutput
+expect 0 396268026007105817
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input 6875834278328694381
+SaveInput1
+set_input -3535896616464722222
+SaveInput2
+SaveOutput
+expect 0 6875834278328694381
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input -687052964804231320
+SaveInput1
+set_input -9074777838518650147
+SaveInput2
+SaveOutput
+expect 0 8387724873714418827
+expect 2 0
+expect 3 0
+
+# test 72: random
+set_input 6754870050646590963
+SaveInput1
+set_input 1987609066681228310
+SaveInput2
+SaveOutput
+expect 0 792042850602906033
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input 6389096136508168666
+SaveInput1
+set_input -7654234987530678458
+SaveInput2
+SaveOutput
+expect 0 6389096136508168666
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input -7875353683522816610
+SaveInput1
+set_input 1706028666909951913
+SaveInput2
+SaveOutput
+expect 0 335218388727023528
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input -6988823880923574944
+SaveInput1
+set_input -3295690293726451245
+SaveInput2
+SaveOutput
+expect 0 -6988823880923574944
+expect 2 0
+expect 3 0
+
+# Opcode 25: Signed Integer Division
+set_input 25
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 2 1
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -34
+SaveInput1
+set_input 24
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 62
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input 53
+SaveInput1
+set_input 37
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 85
+SaveInput1
+set_input -55
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 83
+SaveInput1
+set_input -94
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input 97
+SaveInput1
+set_input -96
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input 26
+SaveInput1
+set_input 7
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input -30
+SaveInput1
+set_input 31
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 59
+SaveInput1
+set_input 16
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input 40
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 78
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 78
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input 96
+SaveInput1
+set_input 6
+SaveInput2
+SaveOutput
+expect 0 16
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input 100
+SaveInput1
+set_input 26
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input 94
+SaveInput1
+set_input 82
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input 92
+SaveInput1
+set_input -60
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input 98
+SaveInput1
+set_input -71
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 100
+SaveInput1
+set_input 79
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input -80
+SaveInput1
+set_input 91
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input 44
+SaveInput1
+set_input 91
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input 57
+SaveInput1
+set_input 31
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -59
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input 61
+SaveInput1
+set_input 72
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 9
+SaveInput1
+set_input -22
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 13
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input 84
+SaveInput1
+set_input 36
+SaveInput2
+SaveOutput
+expect 0 2
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 798250235989173507
+SaveInput1
+set_input -3446845648619896409
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 8722367828853614677
+SaveInput1
+set_input -3874927963773508664
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input 7744282703940542052
+SaveInput1
+set_input -3664454910347758490
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input -673641425349204590
+SaveInput1
+set_input -3976905000094005100
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input 6391239936107044725
+SaveInput1
+set_input 4135180791758031215
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 56: random
+set_input 559072429274836546
+SaveInput1
+set_input 4081925791152223395
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input 3603333869373067142
+SaveInput1
+set_input -5908552157306042356
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input 1039395056547347959
+SaveInput1
+set_input -7585185501762435454
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 59: random
+set_input -2660334549684006510
+SaveInput1
+set_input -8603548997173548953
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input 299204750942417815
+SaveInput1
+set_input 5355196483572410247
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input 2244208797681677648
+SaveInput1
+set_input -6248683364556307425
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input 1050351753869306057
+SaveInput1
+set_input 4200942517961649867
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input 4912976557749810444
+SaveInput1
+set_input 7062101258249394862
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input 8438261010302394209
+SaveInput1
+set_input 6786658155396976425
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -2059014974622786287
+SaveInput1
+set_input 162015933640110480
+SaveInput2
+SaveOutput
+expect 0 -13
+expect 2 0
+expect 3 0
+
+# test 66: random
+set_input -2493626713585049199
+SaveInput1
+set_input 8219719903048461625
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input 5768010120534589622
+SaveInput1
+set_input -1009052518977345591
+SaveInput2
+SaveOutput
+expect 0 -6
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input -8346521671495041786
+SaveInput1
+set_input -1816023045835682397
+SaveInput2
+SaveOutput
+expect 0 4
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -3528393706872105018
+SaveInput1
+set_input 1142434974824752266
+SaveInput2
+SaveOutput
+expect 0 -4
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input -2355022690561640816
+SaveInput1
+set_input -552993345707880896
+SaveInput2
+SaveOutput
+expect 0 4
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input 5346673045381920170
+SaveInput1
+set_input -4953294317871028285
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 72: random
+set_input -6678830113968789381
+SaveInput1
+set_input -4776677194716037455
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input -4933965630567000236
+SaveInput1
+set_input 7480125790865607685
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input 6580250166155552917
+SaveInput1
+set_input -4709409854878451446
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input 3274439989911073218
+SaveInput1
+set_input 147681606452925104
+SaveInput2
+SaveOutput
+expect 0 22
+expect 2 0
+expect 3 0
+
+# Opcode 26: Signed Integer Modulo
+set_input 26
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 2: edge case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 6: edge case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 7: edge case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 8: edge case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 9: edge case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 2 0
+expect 3 0
+
+# test 10: edge case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 11: edge case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 12: edge case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 13: edge case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 14: edge case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 15: edge case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 16: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 17: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 18: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 19: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 20: edge case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 2 0
+expect 3 0
+
+# test 21: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 1
+
+# test 22: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 23: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 24: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 2 0
+expect 3 0
+
+# test 25: edge case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input -68
+SaveInput1
+set_input -46
+SaveInput2
+SaveOutput
+expect 0 -22
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 9
+SaveInput1
+set_input 22
+SaveInput2
+SaveOutput
+expect 0 9
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -42
+SaveInput1
+set_input -43
+SaveInput2
+SaveOutput
+expect 0 -42
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 60
+SaveInput1
+set_input -63
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 43
+SaveInput1
+set_input 95
+SaveInput2
+SaveOutput
+expect 0 43
+expect 2 0
+expect 3 0
+
+# test 31: random low-range
+set_input 3
+SaveInput1
+set_input 10
+SaveInput2
+SaveOutput
+expect 0 3
+expect 2 0
+expect 3 0
+
+# test 32: random low-range
+set_input -38
+SaveInput1
+set_input -60
+SaveInput2
+SaveOutput
+expect 0 -38
+expect 2 0
+expect 3 0
+
+# test 33: random low-range
+set_input 63
+SaveInput1
+set_input -73
+SaveInput2
+SaveOutput
+expect 0 -10
+expect 2 0
+expect 3 0
+
+# test 34: random low-range
+set_input 90
+SaveInput1
+set_input 2
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 35: random low-range
+set_input -33
+SaveInput1
+set_input -100
+SaveInput2
+SaveOutput
+expect 0 -33
+expect 2 0
+expect 3 0
+
+# test 36: random low-range
+set_input 5
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 5
+expect 2 0
+expect 3 0
+
+# test 37: random low-range
+set_input 4
+SaveInput1
+set_input 84
+SaveInput2
+SaveOutput
+expect 0 4
+expect 2 0
+expect 3 0
+
+# test 38: random low-range
+set_input 43
+SaveInput1
+set_input -52
+SaveInput2
+SaveOutput
+expect 0 -9
+expect 2 0
+expect 3 0
+
+# test 39: random low-range
+set_input -91
+SaveInput1
+set_input 2
+SaveInput2
+SaveOutput
+expect 0 1
+expect 2 0
+expect 3 0
+
+# test 40: random low-range
+set_input 33
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 33
+expect 2 0
+expect 3 0
+
+# test 41: random low-range
+set_input 8
+SaveInput1
+set_input 10
+SaveInput2
+SaveOutput
+expect 0 8
+expect 2 0
+expect 3 0
+
+# test 42: random low-range
+set_input 27
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 6
+expect 2 0
+expect 3 0
+
+# test 43: random low-range
+set_input 67
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 -32
+expect 2 0
+expect 3 0
+
+# test 44: random low-range
+set_input 18
+SaveInput1
+set_input 41
+SaveInput2
+SaveOutput
+expect 0 18
+expect 2 0
+expect 3 0
+
+# test 45: random low-range
+set_input 65
+SaveInput1
+set_input 80
+SaveInput2
+SaveOutput
+expect 0 65
+expect 2 0
+expect 3 0
+
+# test 46: random low-range
+set_input -36
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 -36
+expect 2 0
+expect 3 0
+
+# test 47: random low-range
+set_input 40
+SaveInput1
+set_input 29
+SaveInput2
+SaveOutput
+expect 0 11
+expect 2 0
+expect 3 0
+
+# test 48: random low-range
+set_input 60
+SaveInput1
+set_input 90
+SaveInput2
+SaveOutput
+expect 0 60
+expect 2 0
+expect 3 0
+
+# test 49: random low-range
+set_input 56
+SaveInput1
+set_input -70
+SaveInput2
+SaveOutput
+expect 0 -14
+expect 2 0
+expect 3 0
+
+# test 50: random low-range
+set_input -60
+SaveInput1
+set_input 3
+SaveInput2
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 3121106239281840537
+SaveInput1
+set_input 1978716023204587274
+SaveInput2
+SaveOutput
+expect 0 1142390216077253263
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 6308275606310173199
+SaveInput1
+set_input 4208406703138779623
+SaveInput2
+SaveOutput
+expect 0 2099868903171393576
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -5148061108538001449
+SaveInput1
+set_input -7339418067980327545
+SaveInput2
+SaveOutput
+expect 0 -5148061108538001449
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input -4850267412111642991
+SaveInput1
+set_input -6583240366695344804
+SaveInput2
+SaveOutput
+expect 0 -4850267412111642991
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input 5759064485560656548
+SaveInput1
+set_input 6294017443027733337
+SaveInput2
+SaveOutput
+expect 0 5759064485560656548
+expect 2 0
+expect 3 0
+
+# test 56: random
+set_input -4419210756497014153
+SaveInput1
+set_input 9200333481979298471
+SaveInput2
+SaveOutput
+expect 0 4781122725482284318
+expect 2 0
+expect 3 0
+
+# test 57: random
+set_input 7612684060866365628
+SaveInput1
+set_input -2561802488214088021
+SaveInput2
+SaveOutput
+expect 0 -72723403775898435
+expect 2 0
+expect 3 0
+
+# test 58: random
+set_input 4494306600870885186
+SaveInput1
+set_input 2952259114299006037
+SaveInput2
+SaveOutput
+expect 0 1542047486571879149
+expect 2 0
+expect 3 0
+
+# test 59: random
+set_input -7482362592363117368
+SaveInput1
+set_input -1655589940093272882
+SaveInput2
+SaveOutput
+expect 0 -860002831990025840
+expect 2 0
+expect 3 0
+
+# test 60: random
+set_input 6981995299162546262
+SaveInput1
+set_input -3315760524340989340
+SaveInput2
+SaveOutput
+expect 0 -2965286273860421758
+expect 2 0
+expect 3 0
+
+# test 61: random
+set_input -9067256920830259219
+SaveInput1
+set_input 1928940546269145697
+SaveInput2
+SaveOutput
+expect 0 577445810515469266
+expect 2 0
+expect 3 0
+
+# test 62: random
+set_input -962851091338180724
+SaveInput1
+set_input -4740906632745415933
+SaveInput2
+SaveOutput
+expect 0 -962851091338180724
+expect 2 0
+expect 3 0
+
+# test 63: random
+set_input 3174027188148939549
+SaveInput1
+set_input 7578731601056281205
+SaveInput2
+SaveOutput
+expect 0 3174027188148939549
+expect 2 0
+expect 3 0
+
+# test 64: random
+set_input 3071075908832504221
+SaveInput1
+set_input 8885473147824903131
+SaveInput2
+SaveOutput
+expect 0 3071075908832504221
+expect 2 0
+expect 3 0
+
+# test 65: random
+set_input -357452345416299976
+SaveInput1
+set_input -8454056235576084048
+SaveInput2
+SaveOutput
+expect 0 -357452345416299976
+expect 2 0
+expect 3 0
+
+# test 66: random
+set_input 7893287247654918919
+SaveInput1
+set_input 3803813900354478508
+SaveInput2
+SaveOutput
+expect 0 285659446945961903
+expect 2 0
+expect 3 0
+
+# test 67: random
+set_input -8254227818651669387
+SaveInput1
+set_input 8101773435486319582
+SaveInput2
+SaveOutput
+expect 0 7949319052320969777
+expect 2 0
+expect 3 0
+
+# test 68: random
+set_input 1720598673425666175
+SaveInput1
+set_input -7262189919344909471
+SaveInput2
+SaveOutput
+expect 0 -5541591245919243296
+expect 2 0
+expect 3 0
+
+# test 69: random
+set_input -3992546239271460539
+SaveInput1
+set_input -7198664229020848902
+SaveInput2
+SaveOutput
+expect 0 -3992546239271460539
+expect 2 0
+expect 3 0
+
+# test 70: random
+set_input -3069036853181480231
+SaveInput1
+set_input -6907978317669866218
+SaveInput2
+SaveOutput
+expect 0 -3069036853181480231
+expect 2 0
+expect 3 0
+
+# test 71: random
+set_input 1591448784848975376
+SaveInput1
+set_input -7594221513539540149
+SaveInput2
+SaveOutput
+expect 0 -6002772728690564773
+expect 2 0
+expect 3 0
+
+# test 72: random
+set_input 2734536393046954282
+SaveInput1
+set_input -5015847918392485168
+SaveInput2
+SaveOutput
+expect 0 -2281311525345530886
+expect 2 0
+expect 3 0
+
+# test 73: random
+set_input -857536945574945992
+SaveInput1
+set_input 1199854214063242116
+SaveInput2
+SaveOutput
+expect 0 342317268488296124
+expect 2 0
+expect 3 0
+
+# test 74: random
+set_input -3730245429231076003
+SaveInput1
+set_input 3491805146300223138
+SaveInput2
+SaveOutput
+expect 0 3253364863369370273
+expect 2 0
+expect 3 0
+
+# test 75: random
+set_input -8425297780142487086
+SaveInput1
+set_input 3468348630165616633
+SaveInput2
+SaveOutput
+expect 0 1979748110354362813
+expect 2 0
+expect 3 0
+
+# Opcode 27: Unsigned Integer to Float
+set_input 27
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 1
+SaveInput1
+SaveOutput
+expect 0 1065353216
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input -9223372036854775808
+SaveInput1
+SaveOutput
+expect 0 1593835520
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 9223372036854775807
+SaveInput1
+SaveOutput
+expect 0 1593835520
+expect 2 0
+expect 3 0
+
+# test 6: random low-range
+set_input 63
+SaveInput1
+SaveOutput
+expect 0 1115422720
+expect 2 0
+expect 3 0
+
+# test 7: random low-range
+set_input -27
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 8: random low-range
+set_input -45
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 9: random low-range
+set_input -49
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 10: random low-range
+set_input 19
+SaveInput1
+SaveOutput
+expect 0 1100480512
+expect 2 0
+expect 3 0
+
+# test 11: random low-range
+set_input -44
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 12: random low-range
+set_input -25
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 13: random low-range
+set_input 10
+SaveInput1
+SaveOutput
+expect 0 1092616192
+expect 2 0
+expect 3 0
+
+# test 14: random low-range
+set_input 53
+SaveInput1
+SaveOutput
+expect 0 1112801280
+expect 2 0
+expect 3 0
+
+# test 15: random low-range
+set_input 39
+SaveInput1
+SaveOutput
+expect 0 1109131264
+expect 2 0
+expect 3 0
+
+# test 16: random low-range
+set_input -92
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 17: random low-range
+set_input 98
+SaveInput1
+SaveOutput
+expect 0 1120141312
+expect 2 0
+expect 3 0
+
+# test 18: random low-range
+set_input -55
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 19: random low-range
+set_input 83
+SaveInput1
+SaveOutput
+expect 0 1118175232
+expect 2 0
+expect 3 0
+
+# test 20: random low-range
+set_input 26
+SaveInput1
+SaveOutput
+expect 0 1104150528
+expect 2 0
+expect 3 0
+
+# test 21: random low-range
+set_input -75
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 22: random low-range
+set_input -40
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 23: random low-range
+set_input 77
+SaveInput1
+SaveOutput
+expect 0 1117388800
+expect 2 0
+expect 3 0
+
+# test 24: random low-range
+set_input 50
+SaveInput1
+SaveOutput
+expect 0 1112014848
+expect 2 0
+expect 3 0
+
+# test 25: random low-range
+set_input -81
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input 100
+SaveInput1
+SaveOutput
+expect 0 1120403456
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 69
+SaveInput1
+SaveOutput
+expect 0 1116340224
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -95
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 78
+SaveInput1
+SaveOutput
+expect 0 1117519872
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input -21
+SaveInput1
+SaveOutput
+expect 0 1602224128
+expect 2 0
+expect 3 0
+
+# test 31: random
+set_input -2544937553307699267
+SaveInput1
+SaveOutput
+expect 0 1599909521
+expect 2 0
+expect 3 0
+
+# test 32: random
+set_input -8970996598275031008
+SaveInput1
+SaveOutput
+expect 0 1594065054
+expect 2 0
+expect 3 0
+
+# test 33: random
+set_input -2417628924240446429
+SaveInput1
+SaveOutput
+expect 0 1600025307
+expect 2 0
+expect 3 0
+
+# test 34: random
+set_input -8135133420386504206
+SaveInput1
+SaveOutput
+expect 0 1594825267
+expect 2 0
+expect 3 0
+
+# test 35: random
+set_input 8865298015648977174
+SaveInput1
+SaveOutput
+expect 0 1593184187
+expect 2 0
+expect 3 0
+
+# test 36: random
+set_input -5053597787151776245
+SaveInput1
+SaveOutput
+expect 0 1597627908
+expect 2 0
+expect 3 0
+
+# test 37: random
+set_input -6311914127618360722
+SaveInput1
+SaveOutput
+expect 0 1596483476
+expect 2 0
+expect 3 0
+
+# test 38: random
+set_input 6180708798152431370
+SaveInput1
+SaveOutput
+expect 0 1588300948
+expect 2 0
+expect 3 0
+
+# test 39: random
+set_input 2341505803072161268
+SaveInput1
+SaveOutput
+expect 0 1577188044
+expect 2 0
+expect 3 0
+
+# test 40: random
+set_input -2683853541792705636
+SaveInput1
+SaveOutput
+expect 0 1599783177
+expect 2 0
+expect 3 0
+
+# test 41: random
+set_input -5375776858095085760
+SaveInput1
+SaveOutput
+expect 0 1597334887
+expect 2 0
+expect 3 0
+
+# test 42: random
+set_input 5360779427435884641
+SaveInput1
+SaveOutput
+expect 0 1586809505
+expect 2 0
+expect 3 0
+
+# test 43: random
+set_input 1637302422997903260
+SaveInput1
+SaveOutput
+expect 0 1572194031
+expect 2 0
+expect 3 0
+
+# test 44: random
+set_input -3009491884336283767
+SaveInput1
+SaveOutput
+expect 0 1599487011
+expect 2 0
+expect 3 0
+
+# test 45: random
+set_input 1634739625512126798
+SaveInput1
+SaveOutput
+expect 0 1572175384
+expect 2 0
+expect 3 0
+
+# test 46: random
+set_input -2621538819096369759
+SaveInput1
+SaveOutput
+expect 0 1599839852
+expect 2 0
+expect 3 0
+
+# test 47: random
+set_input -1719817550399406715
+SaveInput1
+SaveOutput
+expect 0 1600659963
+expect 2 0
+expect 3 0
+
+# test 48: random
+set_input -1440599425518527907
+SaveInput1
+SaveOutput
+expect 0 1600913910
+expect 2 0
+expect 3 0
+
+# test 49: random
+set_input -3814079245997297730
+SaveInput1
+SaveOutput
+expect 0 1598755243
+expect 2 0
+expect 3 0
+
+# test 50: random
+set_input -3265022468377318329
+SaveInput1
+SaveOutput
+expect 0 1599254607
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -2580448345662525018
+SaveInput1
+SaveOutput
+expect 0 1599877224
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input -4184008591093316314
+SaveInput1
+SaveOutput
+expect 0 1598418794
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -7762897642923635303
+SaveInput1
+SaveOutput
+expect 0 1595163814
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 3161899768719297808
+SaveInput1
+SaveOutput
+expect 0 1580172620
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -4962556028368775652
+SaveInput1
+SaveOutput
+expect 0 1597710710
+expect 2 0
+expect 3 0
+
+# Opcode 28: Signed Integer to Float
+set_input 28
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 1
+SaveInput1
+SaveOutput
+expect 0 1065353216
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 3212836864
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input -9223372036854775808
+SaveInput1
+SaveOutput
+expect 0 3741319168
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 9223372036854775807
+SaveInput1
+SaveOutput
+expect 0 1593835520
+expect 2 0
+expect 3 0
+
+# test 6: random low-range
+set_input -12
+SaveInput1
+SaveOutput
+expect 0 3242196992
+expect 2 0
+expect 3 0
+
+# test 7: random low-range
+set_input 3
+SaveInput1
+SaveOutput
+expect 0 1077936128
+expect 2 0
+expect 3 0
+
+# test 8: random low-range
+set_input 78
+SaveInput1
+SaveOutput
+expect 0 1117519872
+expect 2 0
+expect 3 0
+
+# test 9: random low-range
+set_input -4
+SaveInput1
+SaveOutput
+expect 0 3229614080
+expect 2 0
+expect 3 0
+
+# test 10: random low-range
+set_input 50
+SaveInput1
+SaveOutput
+expect 0 1112014848
+expect 2 0
+expect 3 0
+
+# test 11: random low-range
+set_input 31
+SaveInput1
+SaveOutput
+expect 0 1106771968
+expect 2 0
+expect 3 0
+
+# test 12: random low-range
+set_input 57
+SaveInput1
+SaveOutput
+expect 0 1113849856
+expect 2 0
+expect 3 0
+
+# test 13: random low-range
+set_input -96
+SaveInput1
+SaveOutput
+expect 0 3267362816
+expect 2 0
+expect 3 0
+
+# test 14: random low-range
+set_input -81
+SaveInput1
+SaveOutput
+expect 0 3265396736
+expect 2 0
+expect 3 0
+
+# test 15: random low-range
+set_input 27
+SaveInput1
+SaveOutput
+expect 0 1104674816
+expect 2 0
+expect 3 0
+
+# test 16: random low-range
+set_input -44
+SaveInput1
+SaveOutput
+expect 0 3257925632
+expect 2 0
+expect 3 0
+
+# test 17: random low-range
+set_input 89
+SaveInput1
+SaveOutput
+expect 0 1118961664
+expect 2 0
+expect 3 0
+
+# test 18: random low-range
+set_input -96
+SaveInput1
+SaveOutput
+expect 0 3267362816
+expect 2 0
+expect 3 0
+
+# test 19: random low-range
+set_input 31
+SaveInput1
+SaveOutput
+expect 0 1106771968
+expect 2 0
+expect 3 0
+
+# test 20: random low-range
+set_input -82
+SaveInput1
+SaveOutput
+expect 0 3265527808
+expect 2 0
+expect 3 0
+
+# test 21: random low-range
+set_input 24
+SaveInput1
+SaveOutput
+expect 0 1103101952
+expect 2 0
+expect 3 0
+
+# test 22: random low-range
+set_input -7
+SaveInput1
+SaveOutput
+expect 0 3235905536
+expect 2 0
+expect 3 0
+
+# test 23: random low-range
+set_input 57
+SaveInput1
+SaveOutput
+expect 0 1113849856
+expect 2 0
+expect 3 0
+
+# test 24: random low-range
+set_input 65
+SaveInput1
+SaveOutput
+expect 0 1115815936
+expect 2 0
+expect 3 0
+
+# test 25: random low-range
+set_input -47
+SaveInput1
+SaveOutput
+expect 0 3258712064
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input 89
+SaveInput1
+SaveOutput
+expect 0 1118961664
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 33
+SaveInput1
+SaveOutput
+expect 0 1107558400
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input 86
+SaveInput1
+SaveOutput
+expect 0 1118568448
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 59
+SaveInput1
+SaveOutput
+expect 0 1114374144
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input -79
+SaveInput1
+SaveOutput
+expect 0 3265134592
+expect 2 0
+expect 3 0
+
+# test 31: random
+set_input -8878971098375999324
+SaveInput1
+SaveOutput
+expect 0 3740692706
+expect 2 0
+expect 3 0
+
+# test 32: random
+set_input 2974657304589657609
+SaveInput1
+SaveOutput
+expect 0 1579491436
+expect 2 0
+expect 3 0
+
+# test 33: random
+set_input 4972987562681456054
+SaveInput1
+SaveOutput
+expect 0 1586104116
+expect 2 0
+expect 3 0
+
+# test 34: random
+set_input -2724131232867445879
+SaveInput1
+SaveOutput
+expect 0 3726063676
+expect 2 0
+expect 3 0
+
+# test 35: random
+set_input 7425187941012817945
+SaveInput1
+SaveOutput
+expect 0 1590564642
+expect 2 0
+expect 3 0
+
+# test 36: random
+set_input 6318845356439202937
+SaveInput1
+SaveOutput
+expect 0 1588552217
+expect 2 0
+expect 3 0
+
+# test 37: random
+set_input 6050592396945149952
+SaveInput1
+SaveOutput
+expect 0 1588064267
+expect 2 0
+expect 3 0
+
+# test 38: random
+set_input -1563627226076761177
+SaveInput1
+SaveOutput
+expect 0 3719141621
+expect 2 0
+expect 3 0
+
+# test 39: random
+set_input -644035195408218265
+SaveInput1
+SaveOutput
+expect 0 3708748074
+expect 2 0
+expect 3 0
+
+# test 40: random
+set_input 8478028060304260831
+SaveInput1
+SaveOutput
+expect 0 1592479747
+expect 2 0
+expect 3 0
+
+# test 41: random
+set_input -6286693665599714689
+SaveInput1
+SaveOutput
+expect 0 3735977381
+expect 2 0
+expect 3 0
+
+# test 42: random
+set_input 2552250480374346656
+SaveInput1
+SaveOutput
+expect 0 1577954729
+expect 2 0
+expect 3 0
+
+# test 43: random
+set_input -2467095995377270721
+SaveInput1
+SaveOutput
+expect 0 3725128587
+expect 2 0
+expect 3 0
+
+# test 44: random
+set_input -4190396758220405688
+SaveInput1
+SaveOutput
+expect 0 3731397919
+expect 2 0
+expect 3 0
+
+# test 45: random
+set_input -6341123760982331010
+SaveInput1
+SaveOutput
+expect 0 3736076389
+expect 2 0
+expect 3 0
+
+# test 46: random
+set_input -8732277119860361553
+SaveInput1
+SaveOutput
+expect 0 3740425872
+expect 2 0
+expect 3 0
+
+# test 47: random
+set_input -8800397463727784166
+SaveInput1
+SaveOutput
+expect 0 3740549782
+expect 2 0
+expect 3 0
+
+# test 48: random
+set_input 2035911927173462428
+SaveInput1
+SaveOutput
+expect 0 1575094297
+expect 2 0
+expect 3 0
+
+# test 49: random
+set_input -9191187159902402300
+SaveInput1
+SaveOutput
+expect 0 3741260624
+expect 2 0
+expect 3 0
+
+# test 50: random
+set_input -6558587734417498276
+SaveInput1
+SaveOutput
+expect 0 3736471954
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input 7656882423042565175
+SaveInput1
+SaveOutput
+expect 0 1590986092
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 9060298259424494507
+SaveInput1
+SaveOutput
+expect 0 1593538891
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input 5693306986174632784
+SaveInput1
+SaveOutput
+expect 0 1587414369
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 7942018499608687627
+SaveInput1
+SaveOutput
+expect 0 1591504751
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input 8817185589239507079
+SaveInput1
+SaveOutput
+expect 0 1593096671
+expect 2 0
+expect 3 0
+
+# Opcode 29: Unsigned Integer to Double
+set_input 29
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 1
+SaveInput1
+SaveOutput
+expect 0 4607182418800017408
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input -9223372036854775808
+SaveInput1
+SaveOutput
+expect 0 4890909195324358656
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 9223372036854775807
+SaveInput1
+SaveOutput
+expect 0 4890909195324358656
+expect 2 0
+expect 3 0
+
+# test 6: random low-range
+set_input -41
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 7: random low-range
+set_input 30
+SaveInput1
+SaveOutput
+expect 0 4629137466983448576
+expect 2 0
+expect 3 0
+
+# test 8: random low-range
+set_input -40
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 9: random low-range
+set_input 79
+SaveInput1
+SaveOutput
+expect 0 4635259547726905344
+expect 2 0
+expect 3 0
+
+# test 10: random low-range
+set_input 36
+SaveInput1
+SaveOutput
+expect 0 4630263366890291200
+expect 2 0
+expect 3 0
+
+# test 11: random low-range
+set_input -53
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 12: random low-range
+set_input 3
+SaveInput1
+SaveOutput
+expect 0 4613937818241073152
+expect 2 0
+expect 3 0
+
+# test 13: random low-range
+set_input 81
+SaveInput1
+SaveOutput
+expect 0 4635400285215260672
+expect 2 0
+expect 3 0
+
+# test 14: random low-range
+set_input 44
+SaveInput1
+SaveOutput
+expect 0 4631389266797133824
+expect 2 0
+expect 3 0
+
+# test 15: random low-range
+set_input 98
+SaveInput1
+SaveOutput
+expect 0 4636596553866280960
+expect 2 0
+expect 3 0
+
+# test 16: random low-range
+set_input -91
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 17: random low-range
+set_input 54
+SaveInput1
+SaveOutput
+expect 0 4632796641680687104
+expect 2 0
+expect 3 0
+
+# test 18: random low-range
+set_input 53
+SaveInput1
+SaveOutput
+expect 0 4632655904192331776
+expect 2 0
+expect 3 0
+
+# test 19: random low-range
+set_input -59
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 20: random low-range
+set_input 39
+SaveInput1
+SaveOutput
+expect 0 4630685579355357184
+expect 2 0
+expect 3 0
+
+# test 21: random low-range
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 22: random low-range
+set_input 100
+SaveInput1
+SaveOutput
+expect 0 4636737291354636288
+expect 2 0
+expect 3 0
+
+# test 23: random low-range
+set_input -39
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 24: random low-range
+set_input -70
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 25: random low-range
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input 12
+SaveInput1
+SaveOutput
+expect 0 4622945017495814144
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 93
+SaveInput1
+SaveOutput
+expect 0 4636244710145392640
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input 24
+SaveInput1
+SaveOutput
+expect 0 4627448617123184640
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input -5
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input -3
+SaveInput1
+SaveOutput
+expect 0 4895412794951729152
+expect 2 0
+expect 3 0
+
+# test 31: random
+set_input 4002782714553569652
+SaveInput1
+SaveOutput
+expect 0 4885216331431609609
+expect 2 0
+expect 3 0
+
+# test 32: random
+set_input -3000857420530631627
+SaveInput1
+SaveOutput
+expect 0 4893947532539360680
+expect 2 0
+expect 3 0
+
+# test 33: random
+set_input 5248765172659829574
+SaveInput1
+SaveOutput
+expect 0 4887027743308543279
+expect 2 0
+expect 3 0
+
+# test 34: random
+set_input -9209908286082333300
+SaveInput1
+SaveOutput
+expect 0 4890915769421415513
+expect 2 0
+expect 3 0
+
+# test 35: random
+set_input -1218694317865002014
+SaveInput1
+SaveOutput
+expect 0 4894817729366834131
+expect 2 0
+expect 3 0
+
+# test 36: random
+set_input -5596094897235895118
+SaveInput1
+SaveOutput
+expect 0 4892680326740188188
+expect 2 0
+expect 3 0
+
+# test 37: random
+set_input -9106826582271049599
+SaveInput1
+SaveOutput
+expect 0 4890966102284604616
+expect 2 0
+expect 3 0
+
+# test 38: random
+set_input -606721364467302263
+SaveInput1
+SaveOutput
+expect 0 4895116544285485352
+expect 2 0
+expect 3 0
+
+# test 39: random
+set_input 1002363981086369639
+SaveInput1
+SaveOutput
+expect 0 4876222165789743439
+expect 2 0
+expect 3 0
+
+# test 40: random
+set_input 1476563529248990613
+SaveInput1
+SaveOutput
+expect 0 4878662623101005542
+expect 2 0
+expect 3 0
+
+# test 41: random
+set_input -5279551885240966450
+SaveInput1
+SaveOutput
+expect 0 4892834888757763836
+expect 2 0
+expect 3 0
+
+# test 42: random
+set_input 608498095906678930
+SaveInput1
+SaveOutput
+expect 0 4873145088561777105
+expect 2 0
+expect 3 0
+
+# test 43: random
+set_input -1320502355610000878
+SaveInput1
+SaveOutput
+expect 0 4894768018410903956
+expect 2 0
+expect 3 0
+
+# test 44: random
+set_input -5540250238809213549
+SaveInput1
+SaveOutput
+expect 0 4892707594639810591
+expect 2 0
+expect 3 0
+
+# test 45: random
+set_input -3528788030051684301
+SaveInput1
+SaveOutput
+expect 0 4893689753921430478
+expect 2 0
+expect 3 0
+
+# test 46: random
+set_input -5695315051414520740
+SaveInput1
+SaveOutput
+expect 0 4892631879399280656
+expect 2 0
+expect 3 0
+
+# test 47: random
+set_input -6674895329271795913
+SaveInput1
+SaveOutput
+expect 0 4892153568716733158
+expect 2 0
+expect 3 0
+
+# test 48: random
+set_input -1101365122006037028
+SaveInput1
+SaveOutput
+expect 0 4894875019013249642
+expect 2 0
+expect 3 0
+
+# test 49: random
+set_input -6151499801263275806
+SaveInput1
+SaveOutput
+expect 0 4892409132939393568
+expect 2 0
+expect 3 0
+
+# test 50: random
+set_input 6878252214064739259
+SaveInput1
+SaveOutput
+expect 0 4888619039247415261
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -7850646663386450961
+SaveInput1
+SaveOutput
+expect 0 4891579471385622486
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input -2844914726497056180
+SaveInput1
+SaveOutput
+expect 0 4894023676432931761
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -8661024359444814550
+SaveInput1
+SaveOutput
+expect 0 4891183779151218989
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 5039233972150930840
+SaveInput1
+SaveOutput
+expect 0 4886823122995546307
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input 5435189825299741520
+SaveInput1
+SaveOutput
+expect 0 4887209798633386943
+expect 2 0
+expect 3 0
+
+# Opcode 30: Signed Integer to Double
+set_input 30
+SaveOpcode
+
+# test 1: edge case
+set_input 0
+SaveInput1
+SaveOutput
+expect 0 0
+expect 2 0
+expect 3 0
+
+# test 2: edge case
+set_input 1
+SaveInput1
+SaveOutput
+expect 0 4607182418800017408
+expect 2 0
+expect 3 0
+
+# test 3: edge case
+set_input -1
+SaveInput1
+SaveOutput
+expect 0 -4616189618054758400
+expect 2 0
+expect 3 0
+
+# test 4: edge case
+set_input -9223372036854775808
+SaveInput1
+SaveOutput
+expect 0 -4332462841530417152
+expect 2 0
+expect 3 0
+
+# test 5: edge case
+set_input 9223372036854775807
+SaveInput1
+SaveOutput
+expect 0 4890909195324358656
+expect 2 0
+expect 3 0
+
+# test 6: random low-range
+set_input 3
+SaveInput1
+SaveOutput
+expect 0 4613937818241073152
+expect 2 0
+expect 3 0
+
+# test 7: random low-range
+set_input -76
+SaveInput1
+SaveOutput
+expect 0 -4588323595360403456
+expect 2 0
+expect 3 0
+
+# test 8: random low-range
+set_input -54
+SaveInput1
+SaveOutput
+expect 0 -4590575395174088704
+expect 2 0
+expect 3 0
+
+# test 9: random low-range
+set_input -35
+SaveInput1
+SaveOutput
+expect 0 -4593249407452839936
+expect 2 0
+expect 3 0
+
+# test 10: random low-range
+set_input -74
+SaveInput1
+SaveOutput
+expect 0 -4588464332848758784
+expect 2 0
+expect 3 0
+
+# test 11: random low-range
+set_input -36
+SaveInput1
+SaveOutput
+expect 0 -4593108669964484608
+expect 2 0
+expect 3 0
+
+# test 12: random low-range
+set_input 95
+SaveInput1
+SaveOutput
+expect 0 4636385447633747968
+expect 2 0
+expect 3 0
+
+# test 13: random low-range
+set_input 65
+SaveInput1
+SaveOutput
+expect 0 4634274385308418048
+expect 2 0
+expect 3 0
+
+# test 14: random low-range
+set_input -72
+SaveInput1
+SaveOutput
+expect 0 -4588605070337114112
+expect 2 0
+expect 3 0
+
+# test 15: random low-range
+set_input -25
+SaveInput1
+SaveOutput
+expect 0 -4595641944754880512
+expect 2 0
+expect 3 0
+
+# test 16: random low-range
+set_input -38
+SaveInput1
+SaveOutput
+expect 0 -4592827194987773952
+expect 2 0
+expect 3 0
+
+# test 17: random low-range
+set_input 98
+SaveInput1
+SaveOutput
+expect 0 4636596553866280960
+expect 2 0
+expect 3 0
+
+# test 18: random low-range
+set_input -45
+SaveInput1
+SaveOutput
+expect 0 -4591842032569286656
+expect 2 0
+expect 3 0
+
+# test 19: random low-range
+set_input -75
+SaveInput1
+SaveOutput
+expect 0 -4588393964104581120
+expect 2 0
+expect 3 0
+
+# test 20: random low-range
+set_input 57
+SaveInput1
+SaveOutput
+expect 0 4633218854145753088
+expect 2 0
+expect 3 0
+
+# test 21: random low-range
+set_input -78
+SaveInput1
+SaveOutput
+expect 0 -4588182857872048128
+expect 2 0
+expect 3 0
+
+# test 22: random low-range
+set_input 64
+SaveInput1
+SaveOutput
+expect 0 4634204016564240384
+expect 2 0
+expect 3 0
+
+# test 23: random low-range
+set_input 30
+SaveInput1
+SaveOutput
+expect 0 4629137466983448576
+expect 2 0
+expect 3 0
+
+# test 24: random low-range
+set_input 70
+SaveInput1
+SaveOutput
+expect 0 4634626229029306368
+expect 2 0
+expect 3 0
+
+# test 25: random low-range
+set_input -98
+SaveInput1
+SaveOutput
+expect 0 -4586775482988494848
+expect 2 0
+expect 3 0
+
+# test 26: random low-range
+set_input 100
+SaveInput1
+SaveOutput
+expect 0 4636737291354636288
+expect 2 0
+expect 3 0
+
+# test 27: random low-range
+set_input 31
+SaveInput1
+SaveOutput
+expect 0 4629418941960159232
+expect 2 0
+expect 3 0
+
+# test 28: random low-range
+set_input -12
+SaveInput1
+SaveOutput
+expect 0 -4600427019358961664
+expect 2 0
+expect 3 0
+
+# test 29: random low-range
+set_input 53
+SaveInput1
+SaveOutput
+expect 0 4632655904192331776
+expect 2 0
+expect 3 0
+
+# test 30: random low-range
+set_input 8
+SaveInput1
+SaveOutput
+expect 0 4620693217682128896
+expect 2 0
+expect 3 0
+
+# test 31: random
+set_input 7280044084868498405
+SaveInput1
+SaveOutput
+expect 0 4889011414121247057
+expect 2 0
+expect 3 0
+
+# test 32: random
+set_input 4500740236899169187
+SaveInput1
+SaveOutput
+expect 0 4886188904717440858
+expect 2 0
+expect 3 0
+
+# test 33: random
+set_input -3585568473840738811
+SaveInput1
+SaveOutput
+expect 0 -4338970576987058447
+expect 2 0
+expect 3 0
+
+# test 34: random
+set_input -5898866203427580632
+SaveInput1
+SaveOutput
+expect 0 -4335709429258373397
+expect 2 0
+expect 3 0
+
+# test 35: random
+set_input -5664668898024245374
+SaveInput1
+SaveOutput
+expect 0 -4335938137564431342
+expect 2 0
+expect 3 0
+
+# test 36: random
+set_input 2264079470657765706
+SaveInput1
+SaveOutput
+expect 0 4881738857247133569
+expect 2 0
+expect 3 0
+
+# test 37: random
+set_input 6061875350902155575
+SaveInput1
+SaveOutput
+expect 0 4887821796216983050
+expect 2 0
+expect 3 0
+
+# test 38: random
+set_input 2252254454430777864
+SaveInput1
+SaveOutput
+expect 0 4881692665777496898
+expect 2 0
+expect 3 0
+
+# test 39: random
+set_input -3399912228553644909
+SaveInput1
+SaveOutput
+expect 0 -4339333186841134802
+expect 2 0
+expect 3 0
+
+# test 40: random
+set_input -1514887735312497566
+SaveInput1
+SaveOutput
+expect 0 -4344559709823834692
+expect 2 0
+expect 3 0
+
+# test 41: random
+set_input 1870806243788492000
+SaveInput1
+SaveOutput
+expect 0 4880202633704675469
+expect 2 0
+expect 3 0
+
+# test 42: random
+set_input 6427031156115793166
+SaveInput1
+SaveOutput
+expect 0 4888178393683011993
+expect 2 0
+expect 3 0
+
+# test 43: random
+set_input 1081537383790959787
+SaveInput1
+SaveOutput
+expect 0 4876840707998373049
+expect 2 0
+expect 3 0
+
+# test 44: random
+set_input 3646951248148369473
+SaveInput1
+SaveOutput
+expect 0 4884521348098786952
+expect 2 0
+expect 3 0
+
+# test 45: random
+set_input -8397337609781772659
+SaveInput1
+SaveOutput
+expect 0 -4333269515775605632
+expect 2 0
+expect 3 0
+
+# test 46: random
+set_input -7489863580004627543
+SaveInput1
+SaveOutput
+expect 0 -4334155720882809875
+expect 2 0
+expect 3 0
+
+# test 47: random
+set_input 2061201108785513764
+SaveInput1
+SaveOutput
+expect 0 4880946363646070085
+expect 2 0
+expect 3 0
+
+# test 48: random
+set_input -6857485612354501057
+SaveInput1
+SaveOutput
+expect 0 -4334773277491843202
+expect 2 0
+expect 3 0
+
+# test 49: random
+set_input 1999127933008739459
+SaveInput1
+SaveOutput
+expect 0 4880703890303192061
+expect 2 0
+expect 3 0
+
+# test 50: random
+set_input 1049926026277635546
+SaveInput1
+SaveOutput
+expect 0 4876593744267800204
+expect 2 0
+expect 3 0
+
+# test 51: random
+set_input -8211290866563088948
+SaveInput1
+SaveOutput
+expect 0 -4333451202048280127
+expect 2 0
+expect 3 0
+
+# test 52: random
+set_input 5895183146443517462
+SaveInput1
+SaveOutput
+expect 0 4887659010861066412
+expect 2 0
+expect 3 0
+
+# test 53: random
+set_input -3682215862645325189
+SaveInput1
+SaveOutput
+expect 0 -4338781812555799489
+expect 2 0
+expect 3 0
+
+# test 54: random
+set_input 2806380059103806257
+SaveInput1
+SaveOutput
+expect 0 4882879607495184290
+expect 2 0
+expect 3 0
+
+# test 55: random
+set_input -7172395079114668037
+SaveInput1
+SaveOutput
+expect 0 -4334465748715710226
+expect 2 0
+expect 3 0
+
+1 1 1 1
