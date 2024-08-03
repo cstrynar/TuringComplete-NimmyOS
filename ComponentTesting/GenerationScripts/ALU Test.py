@@ -249,7 +249,7 @@ def GenerateIntegerOpsTest():
     print(f'Lab program file generated. Outputted to {outputDir}/{outputFile}')
     print(f'Generation runtime: {time.time() - startTime}')
 
-    # cleear lines
+    # clear lines
     lines = []
             
 
