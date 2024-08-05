@@ -11,7 +11,7 @@ from ..Utility import MathUtility
 
 globalStartTime = time.time()
 
-outputDir = 'ComponentTesting/Output'
+defaultOutputDir = 'ComponentTesting/Output'
 
 # values passed into the input are in 2's complement notation
 minVal = -2**63
@@ -21,43 +21,25 @@ maxVal = 2**63 - 1
 lowRangeMinVal = -100
 lowRangeMaxVal = 100
 
-edgeCaseValues = [0, 1, -1, minVal, maxVal]  # these are the values used in checking edge cases.
+defaultEdgeCaseValues = [0, 1, -1, minVal, maxVal]  # these are the values used in checking edge cases.
                                              # we test every combination of the values in this list for the edge case tests
-numRandomTests = 25                          # this is the number of random tests to run for each value-range for each operation.
+defaultNumRandomTests = 25                          # this is the number of random tests to run for each value-range for each operation.
+
+defaultTestRanges = {'Random Low-Range': (lowRangeMinVal, lowRangeMaxVal), 'Random': (minVal, maxVal)}
 
 global lines
 lines = []
 
-
-def Generate1InputOpcodeTest(input1: int, output: int):
-    global lines
-    lines.append(f'set_input {input1}\n')
-    lines.append('SaveInput1\n')
-    lines.append('SaveOutput\n')
-    lines.append(f'expect 0 {output}\n\n')
-
-
-def Generate2InputOpcodeTest(input1: int, input2: int, output: int):
-    global lines
-    lines.append(f'set_input {input1}\n')
-    lines.append('SaveInput1\n')
-    lines.append(f'set_input {input2}\n')
-    lines.append('SaveInput2\n')
-    lines.append('SaveOutput\n')
-    lines.append(f'expect 0 {output}\n\n')
-
-
-def Generate1InputIntegerOpcodeTest(input1: int, output: tuple[int, int, int]):
+def Generate1InputALUTest(input1: int, output: tuple[int, int]):
     global lines
     lines.append(f'set_input {input1}\n')
     lines.append('SaveInput1\n')
     lines.append('SaveOutput\n')
     lines.append(f'expect 0 {output[0]}\n')
-    lines.append(f'expect 2 {output[1]}\n')
-    lines.append(f'expect 3 {output[2]}\n\n')
+    lines.append(f'expect 1 {output[1]}\n\n')
 
 
-def Generate2InputIntegerOpcodeTest(input1: int, input2: int, output: tuple[int, int, int]):
+def Generate2InputALUTest(input1: int, input2: int, output: tuple[int, int]):
     global lines
     lines.append(f'set_input {input1}\n')
     lines.append('SaveInput1\n')
@@ -65,195 +47,155 @@ def Generate2InputIntegerOpcodeTest(input1: int, input2: int, output: tuple[int,
     lines.append('SaveInput2\n')
     lines.append('SaveOutput\n')
     lines.append(f'expect 0 {output[0]}\n')
-    lines.append(f'expect 2 {output[1]}\n')
-    lines.append(f'expect 3 {output[2]}\n\n')
+    lines.append(f'expect 1 {output[1]}\n\n')
+            
 
+# generate LAB testing file for a set of ALU operations
+def GenerateALUTest(testTitle:str,                                              # string to display as comment at top of output (eg 'Integer Operations')
+                    outputFile:str,                                             # name of output file
+                    operationDict:dict[str, tuple[int,callable]],               # mapping of operation names -> opcode, test function 
+                                                                                #   function should return both expected output and expected flag bits
+                    singleInputOps:list[str],                                   # list of operations in functionDict that only take a single input
+                    outputDir:str=defaultOutputDir,                             
+                    edgeValues:list[int]=defaultEdgeCaseValues,                 # every combination of edgee cases is tested
+                    numRandomTests:int=defaultNumRandomTests,                   # how many random tests to do for each range
+                    testRanges:dict[str, tuple[int, int]]=defaultTestRanges):   # mapping of range names -> (minVal, maxVal)
+    
+    # ensure functionDict is nonempty
+    if (len(operationDict) == 0):
+        raise ValueError('operationDict cannot be empty.')
 
-def GenerateBitwiseOpsTest():
-    global lines
+    # ensure singleInputOps are all present in functionDict
+    for op in singleInputOps:
+        if op not in operationDict:
+            raise LookupError(f'single input operation {op} not found in functionDict.')
+    
+    # track start time
     startTime = time.time()
 
-    outputFile = 'Bitwise Operations test.txt'
+    # clear global lines variable
+    # this is global so helper-functions can write lines without needing to pass around a list as input/output
+    global lines
+    lines = []
 
-    functionList = [('AND',  lambda x,y:  x&y),
-                    ('OR',   lambda x,y:  x|y),
-                    ('NOR',  lambda x,y:  ~(x|y)),
-                    ('XOR',  lambda x,y:  x^y),
-                    ('NAND', lambda x,y:  ~(x&y)),
-                    ('XNOR', lambda x,y:  ~(x^y)),
-                    ('NOT',  lambda x:    ~x),
-                    ('SHL',  lambda x,y:  MathUtility.SHL(x, y)),
-                    ('SHR',  lambda x,y:  MathUtility.SHR(x, y)),
-                    ('ROTL', lambda x,y:  MathUtility.ROTL(x, y)),
-                    ('ROTR', lambda x,y:  MathUtility.ROTR(x, y)),
-                    ('ASHR', lambda x,y:  MathUtility.ASHR(x, y))]
+    lines.append(f'# {testTitle}\n\n')
 
-    singleInputOperationList = ['NOT']
+    # start with one input operations, then do two input operations
+    # start with edge cases, then do all of the random tests using the ranges specified in testRanges
+    if len(singleInputOps) != 0:
+        lines.append('# Single Input Operation Tests:\n')
+    
+    for op in singleInputOps:
+        opcode = operationDict[op][0]
+        testFunc = operationDict[op][1]
 
-    lines.append('# Bitwise Operations\n')
-
-    startOpcode = 1
-    for i in range(len(functionList)):
-        lines.append(f'# Opcode {i + startOpcode}: {functionList[i][0]}\n')
-        lines.append(f'set_input {i+startOpcode}\n')
+        lines.append(f'# Opcode {opcode}: {op}\n')
+        lines.append(f'set_input {opcode}\n')
         lines.append('SaveOpcode\n\n')
 
-        testCount = 1  # keep track of how many tests we do
+        testCount = 1
 
-        if (functionList[i][0] in singleInputOperationList):
-            # single input ops
-            # do edge cases
-            for j in edgeCaseValues:
-                lines.append(f'# test {testCount}: edge case\n')
-                Generate1InputOpcodeTest(j, functionList[i][1](j))
-                testCount += 1
+        # edge cases
+        for val in edgeValues:
+            lines.append(f'# test {testCount}: Edge Case\n')
+            Generate1InputALUTest(val, testFunc(val))
+            testCount += 1
+        
+        # random cases
+        for r in testRanges:
+            lowVal = testRanges[r][0]
+            highVal = testRanges[r][1]
+            lines.append(f'# {r}: ({lowVal}, {highVal})\n')
 
-            # do low-range random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                lines.append(f'# test {testCount}: random low-range\n')
-                Generate1InputOpcodeTest(num1, functionList[i][1](num1))
+            for i in range(numRandomTests):
+                lines.append(f'# test {testCount}: {r}\n')
+                val1 = random.randint(lowVal, highVal)
+                Generate1InputALUTest(val1, testFunc(val1))
                 testCount += 1
+        
+    
+    # two input operations
+    twoInputOperations = list(op for op in operationDict if op not in singleInputOps)
+    if (twoInputOperations != 0):
+        lines.append('# Double Input operation Tests:\n')
+    
+    for op in twoInputOperations:
+        opcode = operationDict[op][0]
+        testFunc = operationDict[op][1]
 
-            # do random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(minVal, maxVal) 
-                lines.append(f'# test {testCount}: random\n')
-                Generate1InputOpcodeTest(num1, functionList[i][1](num1))
-                testCount += 1
-        else:
-            # two input ops
-            # do edge cases
-            for j in edgeCaseValues:
-                for k in edgeCaseValues:
-                    lines.append(f'# test {testCount}: edge case\n')
-                    Generate2InputOpcodeTest(j, k, functionList[i][1](j, k))
-                    testCount += 1
-            
-            # do low-range random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                num2 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                lines.append(f'# test {testCount}: random low-range\n')
-                Generate2InputOpcodeTest(num1, num2, functionList[i][1](num1, num2))
-                testCount += 1
+        lines.append(f'# Opcode {opcode}: {op}\n')
+        lines.append(f'set_input {opcode}\n')
+        lines.append('SaveOpcode\n\n')
 
-            # do random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(minVal, maxVal)
-                num2 = random.randint(minVal, maxVal)
-                lines.append(f'# test {testCount}: random\n')
-                Generate2InputOpcodeTest(num1, num2, functionList[i][1](num1, num2))
-                testCount += 1
+        testCount = 1
 
+        # edge cases
+        for val1 in edgeValues:
+            for val2 in edgeValues:
+                lines.append(f'# test {testCount}: Edge Case\n')
+                Generate2InputALUTest(val1, val2, testFunc(val1, val2))
+                testCount += 1
+        
+        # random cases
+        for r in testRanges:
+            lowVal = testRanges[r][0]
+            highVal = testRanges[r][1]
+            lines.append(f'# {r}: ({lowVal}, {highVal})\n')
+
+            for i in range(numRandomTests):
+                lines.append(f'# test {testCount}: {r}\n')
+                val1 = random.randint(lowVal, highVal)
+                val2 = random.randint(lowVal, highVal)
+                Generate2InputALUTest(val1, val2, testFunc(val1, val2))
+                testCount += 1
+    
+    # finish off the test file with the following line and write
     lines.append('1 1 1 1')
 
     with open(f'{outputDir}/{outputFile}', 'w+') as f:
         f.writelines(lines)
 
-    print(f'Lab program file generated. Outputted to {outputDir}/{outputFile}')
+    print(f'Lab program file generated for {testTitle}. Outputted to {outputDir}/{outputFile}')
     print(f'Generation runtime: {time.time() - startTime}')
 
-    # clear lines
-    lines = []
 
 
-def GenerateIntegerOpsTest():
-    global lines
-    startTime = time.time()
+bitwiseOperationsDict = dict(   {('AND',     (1, lambda x,y:  (x&y, 0))),
+                                ('OR',      (2, lambda x,y:  (x|y, 0))),
+                                ('NOR',     (3, lambda x,y:  (~(x|y), 0))),
+                                ('XOR',     (4, lambda x,y:  (x^y, 0))),
+                                ('NAND',    (5, lambda x,y:  (~(x&y), 0))),
+                                ('XNOR',    (6, lambda x,y:  (~(x^y), 0))),
+                                ('NOT',     (7, lambda x:    (~x, 0))),
+                                ('SHL',     (8, MathUtility.SHL)),
+                                ('SHR',     (9, MathUtility.SHR)),
+                                ('ROTL',    (10, MathUtility.ROTL)),
+                                ('ROTR',    (11, MathUtility.ROTR)),
+                                ('ASHR',    (12, MathUtility.ASHR))})
 
-    outputFile = 'Integer Operations test.txt'
+integerOperationsDict = dict(   {('Negate',                      (16, MathUtility.IntegerNegate)),
+                                ('Unsigned Addition',           (17, MathUtility.UnsignedAddition)),
+                                ('Signed Addition',             (18, MathUtility.SignedAddition)),
+                                ('Unsigned Subtraction',        (19, MathUtility.UnsignedSubtraction)),
+                                ('Signed Subtraction',          (20, MathUtility.SignedSubtraction)),
+                                ('Unsigned Multiplication',     (21, MathUtility.UnsignedMultiplication)),
+                                ('Signed Multiplication',       (22, MathUtility.SignedMultiplication)),
+                                ('Unsigned Integer Division',   (23, MathUtility.UnsignedIntegerDivision)),
+                                ('Unsigned Integer Modulo',     (24, MathUtility.UnsignedIntegerModulo)),
+                                ('Signed Integer Division',     (25, MathUtility.SignedIntegerDivision)),
+                                ('Signed Integer Modulo',       (26, MathUtility.SignedIntegerModulo)),
+                                ('Unsigned Integer to Float',   (27, MathUtility.UnsignedIntegerToFloat)),
+                                ('Signed Integer to Float',     (28, MathUtility.SignedIntegerToFloat)),
+                                ('Unsigned Integer to Double',  (29, MathUtility.UnsignedIntegerToDouble)),
+                                ('Signed Integer to Double',    (30, MathUtility.SignedIntegerToDouble))})
+ 
 
-    # these tests *also* have to worry about the overflow and divideByZero flags. each function returns a tuple with the answer, and the overflow flag, and the divideByZero flag.
-    functionList = [('Negate', MathUtility.IntegerNegate),
-                    ('Unsigned Addition', MathUtility.UnsignedAddition),
-                    ('Signed Addition', MathUtility.SignedAddition),
-                    ('Unsigned Subtraction', MathUtility.UnsignedSubtraction),
-                    ('Signed Subtraction', MathUtility.SignedSubtraction),
-                    ('Unsigned Multiplication', MathUtility.UnsignedMultiplication),
-                    ('Signed Multiplication', MathUtility.SignedMultiplication),
-                    ('Unsigned Integer Division', MathUtility.UnsignedIntegerDivision),
-                    ('Unsigned Integer Modulo', MathUtility.UnsignedIntegerModulo),
-                    ('Signed Integer Division', MathUtility.SignedIntegerDivision),
-                    ('Signed Integer Modulo', MathUtility.SignedIntegerModulo),
-                    ('Unsigned Integer to Float', MathUtility.UnsignedIntegerToFloat),
-                    ('Signed Integer to Float',  MathUtility.SignedIntegerToFloat),
-                    ('Unsigned Integer to Double', MathUtility.UnsignedIntegerToDouble),
-                    ('Signed Integer to Double', MathUtility.SignedIntegerToDouble)
-                    ]
-    
-    singleInputOperationList = ['Negate', 'Unsigned Integer to Float', 'Signed Integer to Float', 'Unsigned Integer to Double', 'Signed Integer to Double']
-
-    lines.append('# Integer Operations\n')
-
-    # integer ops take up opcodes from 16-30 inclusive
-    startOpcode = 16
-    for i in range(len(functionList)):
-        lines.append(f'# Opcode {i+startOpcode}: {functionList[i][0]}\n')
-        lines.append(f'set_input {i+startOpcode}\n')
-        lines.append('SaveOpcode\n\n')
-
-        testCount = 1  # keep track of how many tests we do
-
-        if (functionList[i][0] in singleInputOperationList):
-            # single input ops
-            # do edge cases
-            for j in edgeCaseValues:
-                lines.append(f'# test {testCount}: edge case\n')
-                Generate1InputIntegerOpcodeTest(j, functionList[i][1](j))
-                testCount += 1
-
-            # do low-range random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                lines.append(f'# test {testCount}: random low-range\n')
-                Generate1InputIntegerOpcodeTest(num1, functionList[i][1](num1))
-                testCount += 1
-
-            # do random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(minVal, maxVal) 
-                lines.append(f'# test {testCount}: random\n')
-                Generate1InputIntegerOpcodeTest(num1, functionList[i][1](num1))
-                testCount += 1
-        else:
-            # two input ops
-            # do edge cases
-            for j in edgeCaseValues:
-                for k in edgeCaseValues:
-                    lines.append(f'# test {testCount}: edge case\n')
-                    Generate2InputIntegerOpcodeTest(j, k, functionList[i][1](j, k))
-                    testCount += 1
-            
-            # do low-range random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                num2 = random.randint(lowRangeMinVal, lowRangeMaxVal)
-                lines.append(f'# test {testCount}: random low-range\n')
-                Generate2InputIntegerOpcodeTest(num1, num2, functionList[i][1](num1, num2))
-                testCount += 1
-
-            # do random cases
-            for j in range(numRandomTests):
-                num1 = random.randint(minVal, maxVal)
-                num2 = random.randint(minVal, maxVal)
-                lines.append(f'# test {testCount}: random\n')
-                Generate2InputIntegerOpcodeTest(num1, num2, functionList[i][1](num1, num2))
-                testCount += 1
-    
-    lines.append('1 1 1 1')
-
-    with open(f'{outputDir}/{outputFile}', 'w+') as f:
-        f.writelines(lines)
-
-    print(f'Lab program file generated. Outputted to {outputDir}/{outputFile}')
-    print(f'Generation runtime: {time.time() - startTime}')
-
-    # clear lines
-    lines = []
-            
-
-GenerateBitwiseOpsTest()
-GenerateIntegerOpsTest()
+# use all defaults
+GenerateALUTest('Bitwise Operations', 'Bitwise Operations test.txt', bitwiseOperationsDict, ['NOT'])
+GenerateALUTest('Integer Operations', 'Integer Operations test.txt', integerOperationsDict, ['Negate', 
+                                                                                             'Unsigned Integer to Float', 
+                                                                                             'Signed Integer to Float', 
+                                                                                             'Unsigned Integer to Double', 
+                                                                                             'Signed Integer to Double'])
 
 print(f'Total runtime: {time.time() - globalStartTime}')
