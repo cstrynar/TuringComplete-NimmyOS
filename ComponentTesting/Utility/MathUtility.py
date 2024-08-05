@@ -1,5 +1,11 @@
 import struct  # for float/double <--> integer conversions
 
+# constants that define bit places in the flag return
+overflow = 64
+underflow = 32
+divideByZero = 16
+noflags = 0
+
 # functions to help with performing operations on a list of bits
 
 
@@ -66,7 +72,7 @@ def BitsToSInt(bits: list) -> int:
 # bit operations
 def SHL(input1: int, input2: int) -> int:
     if abs(input2) >= 64:
-        return (0, 0)
+        return (0, noflags)
     
     l1 = SIntToBits(input1)
     ans = [0] * 64
@@ -75,7 +81,7 @@ def SHL(input1: int, input2: int) -> int:
         if i - input2 >= 0 and i - input2 <= 63:
             ans[i-input2] = l1[i]
     
-    return (BitsToSInt(ans), 0)
+    return (BitsToSInt(ans), noflags)
 
 
 def SHR(input1: int, input2: int) -> int:
@@ -89,7 +95,7 @@ def ROTR(input1: int, input2: int) -> int:
     for i in range(64):
         ans[(i + input2) % 64] = l1[i]
     
-    return (BitsToSInt(ans), 0)
+    return (BitsToSInt(ans), noflags)
 
 
 def ROTL(input1: int, input2: int) -> int:
@@ -98,22 +104,22 @@ def ROTL(input1: int, input2: int) -> int:
 
 def ASHR(input1: int, input2: int) -> int:
     if input2 == 0:
-        return (input1, 0)
+        return (input1, noflags)
     
     if input2 >= 64:
         if input1 >= 0:
-            return (0, 0)
+            return (0, noflags)
         else:
-            return (-1, 0)
+            return (-1, noflags)
     
     if input2 <= -64:
-        return (0, 0)
+        return (0, noflags)
     
     l1 = SIntToBits(input1)
 
     if input2 < 0:
         ans = l1[-input2:] + [0] * -input2
-        return (BitsToSInt(ans), 0)
+        return (BitsToSInt(ans), noflags)
     
     if input2 > 0:
         if input1 >= 0:
@@ -122,7 +128,7 @@ def ASHR(input1: int, input2: int) -> int:
             ans = [1] * input2
         
         ans += l1[:64-input2]
-        return (BitsToSInt(ans), 0)
+        return (BitsToSInt(ans), noflags)
 
 
 
@@ -132,8 +138,8 @@ def ASHR(input1: int, input2: int) -> int:
 # overflow flag, divideByZero flag)
 def IntegerNegate(input1: int) -> tuple[int, int, int]:
     if input1 == -9223372036854775808:
-        return (input1, 32)
-    return (-input1, 0)
+        return (input1, overflow)
+    return (-input1, noflags)
 
 
 def UnsignedAddition(input1: int, input2: int) -> tuple[int, int, int]:
@@ -144,15 +150,15 @@ def UnsignedAddition(input1: int, input2: int) -> tuple[int, int, int]:
     output = BitsToSInt(UIntToBits(ans))  # convert to signed int, because thats how we have to check the output
 
     if (ans == i1 + i2):  # if these are not equal, then 64 bits is not enough to store the answer, and there is overflow!
-        return (output, 0)
-    return (output, 32)
+        return (output, noflags)
+    return (output, overflow)
 
 def SignedAddition(input1: int, input2: int) -> tuple[int, int, int]:
     ans = BitsToSInt(IntToBits(input1 + input2))  # keep only the first 64 bits
     
     if (ans == input1 + input2):  # same idea as in UnsignedAddition()
-        return (ans, 0)
-    return (ans, 32)
+        return (ans, noflags)
+    return (ans, overflow)
 
 def UnsignedSubtraction(input1: int, input2: int) -> tuple[int, int, int]:
     i1 = BitsToUInt(SIntToBits(input1))
@@ -161,15 +167,15 @@ def UnsignedSubtraction(input1: int, input2: int) -> tuple[int, int, int]:
     output = BitsToSInt(UIntToBits(ans))
 
     if (ans == i1 - i2):
-        return (output, 0)
-    return (output, 32)
+        return (output, noflags)
+    return (output, overflow)
 
 def SignedSubtraction(input1: int, input2: int) -> tuple[int, int, int]:
     ans = BitsToSInt(IntToBits(input1 - input2))
 
     if (ans == input1 - input2):
-        return (ans, 0)
-    return (ans, 32)
+        return (ans, noflags)
+    return (ans, overflow)
 
 def UnsignedMultiplication(input1: int, input2: int) -> tuple[int, int, int]:
     i1 = BitsToUInt(SIntToBits(input1))
@@ -178,19 +184,19 @@ def UnsignedMultiplication(input1: int, input2: int) -> tuple[int, int, int]:
     output = BitsToSInt(UIntToBits(ans))
 
     if (ans == i1 * i2):
-        return (output, 0)
-    return (output, 32)
+        return (output, noflags)
+    return (output, overflow)
 
 def SignedMultiplication(input1: int, input2: int) -> tuple[int, int, int]:
     ans = BitsToSInt(IntToBits(input1 * input2))
 
     if (ans == input1 * input2):
-        return (ans, 0)
-    return (ans, 32)
+        return (ans, noflags)
+    return (ans, overflow)
 
 def UnsignedIntegerDivision(input1: int, input2: int) -> tuple[int, int, int]:
     if (input2 == 0):
-        return (0, 8)
+        return (0, divideByZero)
     
     i1 = BitsToUInt(SIntToBits(input1))
     i2 = BitsToUInt(SIntToBits(input2))
@@ -198,22 +204,22 @@ def UnsignedIntegerDivision(input1: int, input2: int) -> tuple[int, int, int]:
     output = BitsToSInt(UIntToBits(ans))
 
     if (ans == i1 // i2):
-        return (output, 0)
-    return (output, 32)
+        return (output, noflags)
+    return (output, overflow)
 
 def SignedIntegerDivision(input1: int, input2: int) -> tuple[int, int, int]:
     if (input2 == 0):
-        return (0, 8)
+        return (0, divideByZero)
     
     ans = BitsToSInt(IntToBits(input1 // input2))
 
     if (ans == input1 // input2):
-        return (ans, 0)
-    return (ans, 32)
+        return (ans, noflags)
+    return (ans, overflow)
 
 def UnsignedIntegerModulo(input1: int, input2: int) -> tuple[int, int, int]:
     if (input2 == 0):
-        return (0, 8)
+        return (0, divideByZero)
     
     i1 = BitsToUInt(SIntToBits(input1))
     i2 = BitsToUInt(SIntToBits(input2))
@@ -221,18 +227,18 @@ def UnsignedIntegerModulo(input1: int, input2: int) -> tuple[int, int, int]:
     output = BitsToSInt(UIntToBits(ans))
 
     if (ans == i1 % i2):
-        return (output, 0)
-    return (output, 32)
+        return (output, noflags)
+    return (output, overflow)
 
 def SignedIntegerModulo(input1: int, input2: int) -> tuple[int, int, int]:
     if (input2 == 0):
-        return (0, 8)
+        return (0, divideByZero)
     
     ans = BitsToSInt(IntToBits(input1 % input2))
 
     if (ans == input1 % input2):
-        return (ans, 0)
-    return (ans, 32)
+        return (ans, noflags)
+    return (ans, overflow)
 
 
 # returns 64 bits, but only the last 32 bits will ever be nonzero
@@ -240,16 +246,16 @@ def floatToBits(input: float) -> list[int]:
     return [0] * 32 + SIntToBits(struct.unpack('>l', struct.pack('>f', input))[0])[32:]
 
 def SignedIntegerToFloat(input1: int) -> tuple[int, int, int]:
-    return (BitsToSInt(floatToBits(input1)), 0)
+    return (BitsToSInt(floatToBits(input1)), noflags)
 
 def UnsignedIntegerToFloat(input1: int) -> tuple[int, int, int]:
-    return (BitsToSInt(floatToBits(BitsToUInt(SIntToBits(input1)))), 0)
+    return (BitsToSInt(floatToBits(BitsToUInt(SIntToBits(input1)))), noflags)
 
 def doubleToBits(input: float) -> list[int]:
     return SIntToBits(struct.unpack('>q', struct.pack('>d', input))[0])
 
 def SignedIntegerToDouble(input1: int) -> tuple[int, int, int]:
-    return (BitsToSInt(doubleToBits(input1)), 0)
+    return (BitsToSInt(doubleToBits(input1)), noflags)
 
 def UnsignedIntegerToDouble(input1: int) -> tuple[int, int, int]:
-    return (BitsToSInt(doubleToBits(BitsToUInt(SIntToBits(input1)))), 0)
+    return (BitsToSInt(doubleToBits(BitsToUInt(SIntToBits(input1)))), noflags)

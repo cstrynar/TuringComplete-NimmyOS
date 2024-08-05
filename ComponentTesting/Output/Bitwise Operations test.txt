@@ -42,357 +42,357 @@ expect 1 0
 
 # Random Low-Range: (-100, 100)
 # test 6: Random Low-Range
-set_input -59
-SaveInput1
-SaveOutput
-expect 0 58
-expect 1 0
-
-# test 7: Random Low-Range
-set_input -63
-SaveInput1
-SaveOutput
-expect 0 62
-expect 1 0
-
-# test 8: Random Low-Range
-set_input 74
-SaveInput1
-SaveOutput
-expect 0 -75
-expect 1 0
-
-# test 9: Random Low-Range
-set_input -4
-SaveInput1
-SaveOutput
-expect 0 3
-expect 1 0
-
-# test 10: Random Low-Range
 set_input -47
 SaveInput1
 SaveOutput
 expect 0 46
 expect 1 0
 
-# test 11: Random Low-Range
-set_input 51
+# test 7: Random Low-Range
+set_input 30
 SaveInput1
 SaveOutput
-expect 0 -52
+expect 0 -31
+expect 1 0
+
+# test 8: Random Low-Range
+set_input 8
+SaveInput1
+SaveOutput
+expect 0 -9
+expect 1 0
+
+# test 9: Random Low-Range
+set_input -2
+SaveInput1
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 10: Random Low-Range
+set_input 14
+SaveInput1
+SaveOutput
+expect 0 -15
+expect 1 0
+
+# test 11: Random Low-Range
+set_input 53
+SaveInput1
+SaveOutput
+expect 0 -54
 expect 1 0
 
 # test 12: Random Low-Range
-set_input -7
+set_input -6
 SaveInput1
 SaveOutput
-expect 0 6
+expect 0 5
 expect 1 0
 
 # test 13: Random Low-Range
-set_input -12
+set_input -2
 SaveInput1
 SaveOutput
-expect 0 11
+expect 0 1
 expect 1 0
 
 # test 14: Random Low-Range
-set_input -84
+set_input 41
 SaveInput1
 SaveOutput
-expect 0 83
+expect 0 -42
 expect 1 0
 
 # test 15: Random Low-Range
-set_input 44
+set_input 90
 SaveInput1
 SaveOutput
-expect 0 -45
+expect 0 -91
 expect 1 0
 
 # test 16: Random Low-Range
-set_input -34
-SaveInput1
-SaveOutput
-expect 0 33
-expect 1 0
-
-# test 17: Random Low-Range
-set_input -29
-SaveInput1
-SaveOutput
-expect 0 28
-expect 1 0
-
-# test 18: Random Low-Range
-set_input 56
-SaveInput1
-SaveOutput
-expect 0 -57
-expect 1 0
-
-# test 19: Random Low-Range
-set_input 7
-SaveInput1
-SaveOutput
-expect 0 -8
-expect 1 0
-
-# test 20: Random Low-Range
-set_input -46
-SaveInput1
-SaveOutput
-expect 0 45
-expect 1 0
-
-# test 21: Random Low-Range
-set_input -25
-SaveInput1
-SaveOutput
-expect 0 24
-expect 1 0
-
-# test 22: Random Low-Range
-set_input -67
-SaveInput1
-SaveOutput
-expect 0 66
-expect 1 0
-
-# test 23: Random Low-Range
-set_input 83
-SaveInput1
-SaveOutput
-expect 0 -84
-expect 1 0
-
-# test 24: Random Low-Range
-set_input 94
-SaveInput1
-SaveOutput
-expect 0 -95
-expect 1 0
-
-# test 25: Random Low-Range
 set_input 75
 SaveInput1
 SaveOutput
 expect 0 -76
 expect 1 0
 
-# test 26: Random Low-Range
-set_input -94
+# test 17: Random Low-Range
+set_input 92
 SaveInput1
 SaveOutput
-expect 0 93
+expect 0 -93
+expect 1 0
+
+# test 18: Random Low-Range
+set_input 52
+SaveInput1
+SaveOutput
+expect 0 -53
+expect 1 0
+
+# test 19: Random Low-Range
+set_input -9
+SaveInput1
+SaveOutput
+expect 0 8
+expect 1 0
+
+# test 20: Random Low-Range
+set_input 40
+SaveInput1
+SaveOutput
+expect 0 -41
+expect 1 0
+
+# test 21: Random Low-Range
+set_input 78
+SaveInput1
+SaveOutput
+expect 0 -79
+expect 1 0
+
+# test 22: Random Low-Range
+set_input 18
+SaveInput1
+SaveOutput
+expect 0 -19
+expect 1 0
+
+# test 23: Random Low-Range
+set_input -46
+SaveInput1
+SaveOutput
+expect 0 45
+expect 1 0
+
+# test 24: Random Low-Range
+set_input -17
+SaveInput1
+SaveOutput
+expect 0 16
+expect 1 0
+
+# test 25: Random Low-Range
+set_input 83
+SaveInput1
+SaveOutput
+expect 0 -84
+expect 1 0
+
+# test 26: Random Low-Range
+set_input 41
+SaveInput1
+SaveOutput
+expect 0 -42
 expect 1 0
 
 # test 27: Random Low-Range
-set_input -23
+set_input -13
 SaveInput1
 SaveOutput
-expect 0 22
+expect 0 12
 expect 1 0
 
 # test 28: Random Low-Range
-set_input -65
+set_input -97
 SaveInput1
 SaveOutput
-expect 0 64
+expect 0 96
 expect 1 0
 
 # test 29: Random Low-Range
-set_input 39
+set_input -68
 SaveInput1
 SaveOutput
-expect 0 -40
+expect 0 67
 expect 1 0
 
 # test 30: Random Low-Range
-set_input 34
+set_input -40
 SaveInput1
 SaveOutput
-expect 0 -35
+expect 0 39
 expect 1 0
 
 # Random: (-9223372036854775808, 9223372036854775807)
 # test 31: Random
-set_input 410733740990952202
+set_input 1127567311511299930
 SaveInput1
 SaveOutput
-expect 0 -410733740990952203
+expect 0 -1127567311511299931
 expect 1 0
 
 # test 32: Random
-set_input 8903176264060186429
+set_input 4514032952833093616
 SaveInput1
 SaveOutput
-expect 0 -8903176264060186430
+expect 0 -4514032952833093617
 expect 1 0
 
 # test 33: Random
-set_input 4963224925974245196
+set_input -1047510216025660758
 SaveInput1
 SaveOutput
-expect 0 -4963224925974245197
+expect 0 1047510216025660757
 expect 1 0
 
 # test 34: Random
-set_input 6014824282903507795
+set_input 4080157501100139950
 SaveInput1
 SaveOutput
-expect 0 -6014824282903507796
+expect 0 -4080157501100139951
 expect 1 0
 
 # test 35: Random
-set_input -7043840356589063838
+set_input -7166694172330482922
 SaveInput1
 SaveOutput
-expect 0 7043840356589063837
+expect 0 7166694172330482921
 expect 1 0
 
 # test 36: Random
-set_input 1386085931220215131
+set_input -4067104172771438009
 SaveInput1
 SaveOutput
-expect 0 -1386085931220215132
+expect 0 4067104172771438008
 expect 1 0
 
 # test 37: Random
-set_input -2866255439858703973
+set_input 7012558473523257583
 SaveInput1
 SaveOutput
-expect 0 2866255439858703972
+expect 0 -7012558473523257584
 expect 1 0
 
 # test 38: Random
-set_input -1512080373653030557
+set_input 5482271197191583340
 SaveInput1
 SaveOutput
-expect 0 1512080373653030556
+expect 0 -5482271197191583341
 expect 1 0
 
 # test 39: Random
-set_input -1565884919879783150
+set_input 6527201176304211010
 SaveInput1
 SaveOutput
-expect 0 1565884919879783149
+expect 0 -6527201176304211011
 expect 1 0
 
 # test 40: Random
-set_input -6775959972999886949
+set_input -6844147136703124087
 SaveInput1
 SaveOutput
-expect 0 6775959972999886948
+expect 0 6844147136703124086
 expect 1 0
 
 # test 41: Random
-set_input 8910095957164066258
+set_input -7555948557365207656
 SaveInput1
 SaveOutput
-expect 0 -8910095957164066259
+expect 0 7555948557365207655
 expect 1 0
 
 # test 42: Random
-set_input 5022125649564663113
+set_input -1585361979442682144
 SaveInput1
 SaveOutput
-expect 0 -5022125649564663114
+expect 0 1585361979442682143
 expect 1 0
 
 # test 43: Random
-set_input 1017966647740988955
+set_input 433170803851922080
 SaveInput1
 SaveOutput
-expect 0 -1017966647740988956
+expect 0 -433170803851922081
 expect 1 0
 
 # test 44: Random
-set_input 5763266591460513431
+set_input -6759735795966976798
 SaveInput1
 SaveOutput
-expect 0 -5763266591460513432
+expect 0 6759735795966976797
 expect 1 0
 
 # test 45: Random
-set_input -5285399170714159464
+set_input -1320948144036188267
 SaveInput1
 SaveOutput
-expect 0 5285399170714159463
+expect 0 1320948144036188266
 expect 1 0
 
 # test 46: Random
-set_input 7444945186938650127
+set_input -5968163364643806131
 SaveInput1
 SaveOutput
-expect 0 -7444945186938650128
+expect 0 5968163364643806130
 expect 1 0
 
 # test 47: Random
-set_input 1270955852078566836
+set_input -9052028784865163872
 SaveInput1
 SaveOutput
-expect 0 -1270955852078566837
+expect 0 9052028784865163871
 expect 1 0
 
 # test 48: Random
-set_input 5016989840693643567
+set_input -3964360730982785495
 SaveInput1
 SaveOutput
-expect 0 -5016989840693643568
+expect 0 3964360730982785494
 expect 1 0
 
 # test 49: Random
-set_input -3141180895653087632
+set_input 6574769823822963867
 SaveInput1
 SaveOutput
-expect 0 3141180895653087631
+expect 0 -6574769823822963868
 expect 1 0
 
 # test 50: Random
-set_input 2960682369199118478
+set_input -3023301807703109840
 SaveInput1
 SaveOutput
-expect 0 -2960682369199118479
+expect 0 3023301807703109839
 expect 1 0
 
 # test 51: Random
-set_input 31417739262611880
+set_input 4605915285223188595
 SaveInput1
 SaveOutput
-expect 0 -31417739262611881
+expect 0 -4605915285223188596
 expect 1 0
 
 # test 52: Random
-set_input 1152537376000407828
+set_input -3024190925837792633
 SaveInput1
 SaveOutput
-expect 0 -1152537376000407829
+expect 0 3024190925837792632
 expect 1 0
 
 # test 53: Random
-set_input -3148047100341953786
+set_input -4244748937963070089
 SaveInput1
 SaveOutput
-expect 0 3148047100341953785
+expect 0 4244748937963070088
 expect 1 0
 
 # test 54: Random
-set_input 9176405451593132762
+set_input -3896410454088877536
 SaveInput1
 SaveOutput
-expect 0 -9176405451593132763
+expect 0 3896410454088877535
 expect 1 0
 
 # test 55: Random
-set_input -2560119835193587713
+set_input -3466205607866539597
 SaveInput1
 SaveOutput
-expect 0 2560119835193587712
+expect 0 3466205607866539596
 expect 1 0
 
-# Double Input operation Tests:
+# Double Input Operation Tests:
 # Opcode 3: NOR
 set_input 3
 SaveOpcode
@@ -624,1816 +624,454 @@ expect 1 0
 
 # Random Low-Range: (-100, 100)
 # test 26: Random Low-Range
-set_input 52
+set_input 9
 SaveInput1
-set_input 68
+set_input -53
 SaveInput2
 SaveOutput
-expect 0 -117
+expect 0 52
 expect 1 0
 
 # test 27: Random Low-Range
-set_input 13
+set_input 37
 SaveInput1
-set_input 40
+set_input -62
 SaveInput2
 SaveOutput
-expect 0 -46
+expect 0 24
 expect 1 0
 
 # test 28: Random Low-Range
-set_input -24
+set_input 62
 SaveInput1
-set_input -97
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 29: Random Low-Range
-set_input 98
-SaveInput1
-set_input -39
-SaveInput2
-SaveOutput
-expect 0 4
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -72
-SaveInput1
-set_input 99
-SaveInput2
-SaveOutput
-expect 0 4
-expect 1 0
-
-# test 31: Random Low-Range
-set_input -28
-SaveInput1
-set_input -10
-SaveInput2
-SaveOutput
-expect 0 9
-expect 1 0
-
-# test 32: Random Low-Range
-set_input -56
-SaveInput1
-set_input 77
-SaveInput2
-SaveOutput
-expect 0 50
-expect 1 0
-
-# test 33: Random Low-Range
-set_input 100
-SaveInput1
-set_input 61
-SaveInput2
-SaveOutput
-expect 0 -126
-expect 1 0
-
-# test 34: Random Low-Range
-set_input 42
-SaveInput1
-set_input 54
+set_input 16
 SaveInput2
 SaveOutput
 expect 0 -63
 expect 1 0
 
-# test 35: Random Low-Range
-set_input -21
-SaveInput1
-set_input 70
-SaveInput2
-SaveOutput
-expect 0 16
-expect 1 0
-
-# test 36: Random Low-Range
-set_input 57
-SaveInput1
-set_input 100
-SaveInput2
-SaveOutput
-expect 0 -126
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 73
-SaveInput1
-set_input -84
-SaveInput2
-SaveOutput
-expect 0 18
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -57
-SaveInput1
-set_input 72
-SaveInput2
-SaveOutput
-expect 0 48
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 49
-SaveInput1
-set_input -70
-SaveInput2
-SaveOutput
-expect 0 68
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 54
-SaveInput1
-set_input -2
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 41: Random Low-Range
-set_input 16
-SaveInput1
-set_input 42
-SaveInput2
-SaveOutput
-expect 0 -59
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -74
-SaveInput1
-set_input 13
-SaveInput2
-SaveOutput
-expect 0 64
-expect 1 0
-
-# test 43: Random Low-Range
-set_input -80
-SaveInput1
-set_input -61
-SaveInput2
-SaveOutput
-expect 0 12
-expect 1 0
-
-# test 44: Random Low-Range
-set_input 12
-SaveInput1
-set_input 96
-SaveInput2
-SaveOutput
-expect 0 -109
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 59
-SaveInput1
-set_input 76
-SaveInput2
-SaveOutput
-expect 0 -128
-expect 1 0
-
-# test 46: Random Low-Range
-set_input 87
-SaveInput1
-set_input -28
-SaveInput2
-SaveOutput
-expect 0 8
-expect 1 0
-
-# test 47: Random Low-Range
-set_input 78
-SaveInput1
-set_input 21
-SaveInput2
-SaveOutput
-expect 0 -96
-expect 1 0
-
-# test 48: Random Low-Range
-set_input -53
-SaveInput1
-set_input -67
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 49: Random Low-Range
-set_input 17
-SaveInput1
-set_input -71
-SaveInput2
-SaveOutput
-expect 0 70
-expect 1 0
-
-# test 50: Random Low-Range
-set_input -7
-SaveInput1
-set_input 64
-SaveInput2
-SaveOutput
-expect 0 6
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input 6913139250086537376
-SaveInput1
-set_input -4802962883486877095
-SaveInput2
-SaveOutput
-expect 0 2120178855314694
-expect 1 0
-
-# test 52: Random
-set_input 4102621095800508301
-SaveInput1
-set_input -5266784407652895518
-SaveInput2
-SaveOutput
-expect 0 4688247768702058512
-expect 1 0
-
-# test 53: Random
-set_input 3697028311543517853
-SaveInput1
-set_input 8676186831017783556
-SaveInput2
-SaveOutput
-expect 0 -8894182642602062750
-expect 1 0
-
-# test 54: Random
-set_input 1643489893717161713
-SaveInput1
-set_input -8107014635711015317
-SaveInput2
-SaveOutput
-expect 0 6917852843277945092
-expect 1 0
-
-# test 55: Random
-set_input -7509971441194304481
-SaveInput1
-set_input -5109610857506174438
-SaveInput2
-SaveOutput
-expect 0 4623160522850828768
-expect 1 0
-
-# test 56: Random
-set_input -1845257220750120455
-SaveInput1
-set_input -6874802925947768117
-SaveInput2
-SaveOutput
-expect 0 1803727394151334916
-expect 1 0
-
-# test 57: Random
-set_input -6189082135635506393
-SaveInput1
-set_input 5380003607753759464
-SaveInput2
-SaveOutput
-expect 0 1532351048885478416
-expect 1 0
-
-# test 58: Random
-set_input 3513857373746126320
-SaveInput1
-set_input -220876182420108643
-SaveInput2
-SaveOutput
-expect 0 220681972454301698
-expect 1 0
-
-# test 59: Random
-set_input -3133864084865899047
-SaveInput1
-set_input -6320374092379556306
-SaveInput2
-SaveOutput
-expect 0 230871878200788992
-expect 1 0
-
-# test 60: Random
-set_input -3921362912016863412
-SaveInput1
-set_input -2906468256539270550
-SaveInput2
-SaveOutput
-expect 0 2324235960975888529
-expect 1 0
-
-# test 61: Random
-set_input 6619352211469449775
-SaveInput1
-set_input -652802390945141420
-SaveInput2
-SaveOutput
-expect 0 862085970559104
-expect 1 0
-
-# test 62: Random
-set_input 7195526505537495687
-SaveInput1
-set_input 1413007190848944604
-SaveInput2
-SaveOutput
-expect 0 -8349576676170005472
-expect 1 0
-
-# test 63: Random
-set_input 2104741632477789525
-SaveInput1
-set_input 981428512996586163
-SaveInput2
-SaveOutput
-expect 0 -2143642355479740408
-expect 1 0
-
-# test 64: Random
-set_input -3432135268386891288
-SaveInput1
-set_input 1478809021967732016
-SaveInput2
-SaveOutput
-expect 0 3107523357521240583
-expect 1 0
-
-# test 65: Random
-set_input -1599358994698531927
-SaveInput1
-set_input -8874686690296294450
-SaveInput2
-SaveOutput
-expect 0 1306062033935164432
-expect 1 0
-
-# test 66: Random
-set_input 3889388252851542723
-SaveInput1
-set_input -7547005403578485745
-SaveInput2
-SaveOutput
-expect 0 5189300628764279088
-expect 1 0
-
-# test 67: Random
-set_input -6184363098177551436
-SaveInput1
-set_input 694003676059812808
-SaveInput2
-SaveOutput
-expect 0 6075995057790401539
-expect 1 0
-
-# test 68: Random
-set_input 6879591933213860424
-SaveInput1
-set_input 2354385049709329428
-SaveInput2
-SaveOutput
-expect 0 -9222665033345597021
-expect 1 0
-
-# test 69: Random
-set_input -3476139050080135811
-SaveInput1
-set_input 5365138034123068563
-SaveInput2
-SaveOutput
-expect 0 3461352765016517120
-expect 1 0
-
-# test 70: Random
-set_input -4006866067843299728
-SaveInput1
-set_input -1861609349069421833
-SaveInput2
-SaveOutput
-expect 0 1265796632135612680
-expect 1 0
-
-# test 71: Random
-set_input -5131027719311116852
-SaveInput1
-set_input -1510762279668249077
-SaveInput2
-SaveOutput
-expect 0 303150750990090288
-expect 1 0
-
-# test 72: Random
-set_input -9148551297421643036
-SaveInput1
-set_input -3734379884543488171
-SaveInput2
-SaveOutput
-expect 0 3662040746095017994
-expect 1 0
-
-# test 73: Random
-set_input -4398389127903412748
-SaveInput1
-set_input -523453865625138655
-SaveInput2
-SaveOutput
-expect 0 360893252154687498
-expect 1 0
-
-# test 74: Random
-set_input -8821355680549197351
-SaveInput1
-set_input -2265581650113808673
-SaveInput2
-SaveOutput
-expect 0 1900730153286254624
-expect 1 0
-
-# test 75: Random
-set_input -7865740860265879016
-SaveInput1
-set_input 1013220005453813761
-SaveInput2
-SaveOutput
-expect 0 6998613067873912294
-expect 1 0
-
-# Opcode 11: ROTR
-set_input 11
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 2
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 2
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387904
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -4611686018427387905
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input 9
-SaveInput1
-set_input -74
-SaveInput2
-SaveOutput
-expect 0 9216
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -38
-SaveInput1
-set_input 22
-SaveInput2
-SaveOutput
-expect 0 -162727720910849
-expect 1 0
-
-# test 28: Random Low-Range
-set_input -27
-SaveInput1
-set_input -67
-SaveInput2
-SaveOutput
-expect 0 -209
-expect 1 0
-
 # test 29: Random Low-Range
-set_input -8
+set_input -93
 SaveInput1
-set_input -23
+set_input -8
 SaveInput2
 SaveOutput
-expect 0 -58720257
+expect 0 4
 expect 1 0
 
 # test 30: Random Low-Range
-set_input 93
-SaveInput1
-set_input 38
-SaveInput2
-SaveOutput
-expect 0 6241124352
-expect 1 0
-
-# test 31: Random Low-Range
-set_input -17
-SaveInput1
-set_input 37
-SaveInput2
-SaveOutput
-expect 0 -2147483649
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 42
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 21504
-expect 1 0
-
-# test 33: Random Low-Range
-set_input 97
-SaveInput1
-set_input 77
-SaveInput2
-SaveOutput
-expect 0 218424581927469056
-expect 1 0
-
-# test 34: Random Low-Range
-set_input -5
-SaveInput1
-set_input -36
-SaveInput2
-SaveOutput
-expect 0 -274877906945
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 5
-SaveInput1
-set_input 64
-SaveInput2
-SaveOutput
-expect 0 5
-expect 1 0
-
-# test 36: Random Low-Range
-set_input -75
-SaveInput1
-set_input 49
-SaveInput2
-SaveOutput
-expect 0 -2424833
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 97
-SaveInput1
-set_input -64
-SaveInput2
-SaveOutput
-expect 0 97
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -97
-SaveInput1
-set_input -29
-SaveInput2
-SaveOutput
-expect 0 -51539607553
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 81
-SaveInput1
-set_input -94
-SaveInput2
-SaveOutput
-expect 0 86973087744
-expect 1 0
-
-# test 40: Random Low-Range
-set_input -100
-SaveInput1
-set_input 96
-SaveInput2
-SaveOutput
-expect 0 -425201762305
-expect 1 0
-
-# test 41: Random Low-Range
-set_input 69
-SaveInput1
-set_input -3
-SaveInput2
-SaveOutput
-expect 0 552
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -27
-SaveInput1
-set_input 85
-SaveInput2
-SaveOutput
-expect 0 -228698418577409
-expect 1 0
-
-# test 43: Random Low-Range
-set_input -27
-SaveInput1
-set_input 66
-SaveInput2
-SaveOutput
-expect 0 9223372036854775801
-expect 1 0
-
-# test 44: Random Low-Range
-set_input -75
-SaveInput1
-set_input 11
-SaveInput2
-SaveOutput
-expect 0 -666532744850833409
-expect 1 0
-
-# test 45: Random Low-Range
-set_input -90
-SaveInput1
-set_input 7
-SaveInput2
-SaveOutput
-expect 0 5620492334958379007
-expect 1 0
-
-# test 46: Random Low-Range
-set_input 37
-SaveInput1
-set_input -25
-SaveInput2
-SaveOutput
-expect 0 1241513984
-expect 1 0
-
-# test 47: Random Low-Range
-set_input 65
-SaveInput1
-set_input 65
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775776
-expect 1 0
-
-# test 48: Random Low-Range
-set_input 16
+set_input -62
 SaveInput1
 set_input 60
 SaveInput2
 SaveOutput
-expect 0 256
-expect 1 0
-
-# test 49: Random Low-Range
-set_input -7
-SaveInput1
-set_input -22
-SaveInput2
-SaveOutput
-expect 0 -25165825
-expect 1 0
-
-# test 50: Random Low-Range
-set_input -52
-SaveInput1
-set_input 92
-SaveInput2
-SaveOutput
-expect 0 -3504693313537
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input -1373169964024582139
-SaveInput1
-set_input -4152993503742860814
-SaveInput2
-SaveOutput
-expect 0 7011079346899221308
-expect 1 0
-
-# test 52: Random
-set_input -4695474558726043724
-SaveInput1
-set_input 498700692186529034
-SaveInput2
-SaveOutput
-expect 0 -1355665312584904703
-expect 1 0
-
-# test 53: Random
-set_input -6202225664639290364
-SaveInput1
-set_input -1377160165375144024
-SaveInput2
-SaveOutput
-expect 0 -7031705390187680444
-expect 1 0
-
-# test 54: Random
-set_input 4737898100817216822
-SaveInput1
-set_input 8275071602609241812
-SaveInput2
-SaveOutput
-expect 0 6076310393780930067
-expect 1 0
-
-# test 55: Random
-set_input 4687652828730483440
-SaveInput1
-set_input -5390532721714928228
-SaveInput2
-SaveOutput
-expect 0 7880788092454319765
-expect 1 0
-
-# test 56: Random
-set_input -458041305081267307
-SaveInput1
-set_input -4542224310689153473
-SaveInput2
-SaveOutput
-expect 0 -916082610162534613
-expect 1 0
-
-# test 57: Random
-set_input 1251954201915553472
-SaveInput1
-set_input 6331373797396384113
-SaveInput2
-SaveOutput
-expect 0 -1523531561186621265
-expect 1 0
-
-# test 58: Random
-set_input -7789533891460404667
-SaveInput1
-set_input -7297632275969366155
-SaveInput2
-SaveOutput
-expect 0 3468214047853391007
-expect 1 0
-
-# test 59: Random
-set_input 2176504516798637844
-SaveInput1
-set_input -831726262132355756
-SaveInput2
-SaveOutput
-expect 0 1040685433319930109
-expect 1 0
-
-# test 60: Random
-set_input 9198302116632259583
-SaveInput1
-set_input 8207568604980438682
-SaveInput2
-SaveOutput
-expect 0 -6504605374619073899
-expect 1 0
-
-# test 61: Random
-set_input -2738372392771955263
-SaveInput1
-set_input 5168002911597108434
-SaveInput2
-SaveOutput
-expect 0 -3066821054812631419
-expect 1 0
-
-# test 62: Random
-set_input -1984798152946586794
-SaveInput1
-set_input 4192497692894462582
-SaveInput2
-SaveOutput
-expect 0 -3291460509254198383
-expect 1 0
-
-# test 63: Random
-set_input 4976558237477967747
-SaveInput1
-set_input 4285585726703481971
-SaveInput2
-SaveOutput
-expect 0 660678521402714274
-expect 1 0
-
-# test 64: Random
-set_input 7046692085839181568
-SaveInput1
-set_input 454753734436293638
-SaveInput2
-SaveOutput
-expect 0 110104563841237212
-expect 1 0
-
-# test 65: Random
-set_input 380950072944230170
-SaveInput1
-set_input -6509710906545467353
-SaveInput2
-SaveOutput
-expect 0 2692589619497308880
-expect 1 0
-
-# test 66: Random
-set_input -7890558906449367081
-SaveInput1
-set_input -5995998293324976392
-SaveInput2
-SaveOutput
-expect 0 9158768057012705170
-expect 1 0
-
-# test 67: Random
-set_input 5000481573342016022
-SaveInput1
-set_input -7039616432350329225
-SaveInput2
-SaveOutput
-expect 0 -3850860694515471222
-expect 1 0
-
-# test 68: Random
-set_input -193901164398549439
-SaveInput1
-set_input 5569273102190652075
-SaveInput2
-SaveOutput
-expect 0 -188359893395199517
-expect 1 0
-
-# test 69: Random
-set_input -5924991239292745620
-SaveInput1
-set_input -4693427856947928910
-SaveInput2
-SaveOutput
-expect 0 -8289148712683623567
-expect 1 0
-
-# test 70: Random
-set_input -5649495136079346100
-SaveInput1
-set_input -7116822983783194668
-SaveInput2
-SaveOutput
-expect 0 1757753065221501531
-expect 1 0
-
-# test 71: Random
-set_input -9106776483929267350
-SaveInput1
-set_input 7747649280793122232
-SaveInput2
-SaveOutput
-expect 0 -7045026598488937855
-expect 1 0
-
-# test 72: Random
-set_input -2755925101125803684
-SaveInput1
-set_input 2099824429301205026
-SaveInput2
-SaveOutput
-expect 0 3887759141182127918
-expect 1 0
-
-# test 73: Random
-set_input 107569055971676663
-SaveInput1
-set_input 3695023903781556388
-SaveInput2
-SaveOutput
-expect 0 -3990117666569854313
-expect 1 0
-
-# test 74: Random
-set_input 6901422413664745535
-SaveInput1
-set_input 2201120378349507653
-SaveInput2
-SaveOutput
-expect 0 -360791301876400191
-expect 1 0
-
-# test 75: Random
-set_input -3453313533787422154
-SaveInput1
-set_input -3964031875573331777
-SaveInput2
-SaveOutput
-expect 0 -6906627067574844307
-expect 1 0
-
-# Opcode 4: XOR
-set_input 4
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
 expect 0 1
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775806
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775806
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input 88
-SaveInput1
-set_input 34
-SaveInput2
-SaveOutput
-expect 0 122
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -85
-SaveInput1
-set_input 2
-SaveInput2
-SaveOutput
-expect 0 -87
-expect 1 0
-
-# test 28: Random Low-Range
-set_input 69
-SaveInput1
-set_input -21
-SaveInput2
-SaveOutput
-expect 0 -82
-expect 1 0
-
-# test 29: Random Low-Range
-set_input -49
-SaveInput1
-set_input -98
-SaveInput2
-SaveOutput
-expect 0 81
-expect 1 0
-
-# test 30: Random Low-Range
-set_input 72
-SaveInput1
-set_input 40
-SaveInput2
-SaveOutput
-expect 0 96
 expect 1 0
 
 # test 31: Random Low-Range
-set_input 26
+set_input 13
 SaveInput1
-set_input 15
+set_input -13
 SaveInput2
 SaveOutput
-expect 0 21
+expect 0 0
 expect 1 0
 
 # test 32: Random Low-Range
-set_input -64
+set_input -86
 SaveInput1
-set_input 17
-SaveInput2
-SaveOutput
-expect 0 -47
-expect 1 0
-
-# test 33: Random Low-Range
-set_input 57
-SaveInput1
-set_input -90
-SaveInput2
-SaveOutput
-expect 0 -97
-expect 1 0
-
-# test 34: Random Low-Range
-set_input 99
-SaveInput1
-set_input -60
-SaveInput2
-SaveOutput
-expect 0 -89
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 13
-SaveInput1
-set_input 72
+set_input 16
 SaveInput2
 SaveOutput
 expect 0 69
 expect 1 0
 
-# test 36: Random Low-Range
-set_input -76
+# test 33: Random Low-Range
+set_input 46
 SaveInput1
-set_input -47
+set_input -92
 SaveInput2
 SaveOutput
-expect 0 101
+expect 0 81
+expect 1 0
+
+# test 34: Random Low-Range
+set_input -79
+SaveInput1
+set_input 20
+SaveInput2
+SaveOutput
+expect 0 74
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 7
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 -48
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 74
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
 expect 1 0
 
 # test 37: Random Low-Range
-set_input -3
+set_input 80
 SaveInput1
-set_input -52
+set_input -32
 SaveInput2
 SaveOutput
-expect 0 49
+expect 0 15
 expect 1 0
 
 # test 38: Random Low-Range
 set_input 66
 SaveInput1
-set_input -22
+set_input 17
 SaveInput2
 SaveOutput
-expect 0 -88
+expect 0 -84
 expect 1 0
 
 # test 39: Random Low-Range
-set_input -60
+set_input -40
 SaveInput1
-set_input 26
+set_input 22
 SaveInput2
 SaveOutput
-expect 0 -34
+expect 0 33
 expect 1 0
 
 # test 40: Random Low-Range
-set_input -54
+set_input -39
 SaveInput1
-set_input -78
+set_input 59
 SaveInput2
 SaveOutput
-expect 0 120
+expect 0 4
 expect 1 0
 
 # test 41: Random Low-Range
-set_input 56
+set_input -87
 SaveInput1
-set_input 99
+set_input -16
 SaveInput2
 SaveOutput
-expect 0 91
+expect 0 6
 expect 1 0
 
 # test 42: Random Low-Range
-set_input 51
+set_input -94
 SaveInput1
-set_input 26
+set_input 51
 SaveInput2
 SaveOutput
-expect 0 41
+expect 0 76
 expect 1 0
 
 # test 43: Random Low-Range
-set_input -78
+set_input 11
 SaveInput1
-set_input 55
+set_input 97
 SaveInput2
 SaveOutput
-expect 0 -123
+expect 0 -108
 expect 1 0
 
 # test 44: Random Low-Range
-set_input -47
+set_input 100
 SaveInput1
-set_input -15
+set_input 15
 SaveInput2
 SaveOutput
-expect 0 32
+expect 0 -112
 expect 1 0
 
 # test 45: Random Low-Range
-set_input 53
+set_input 67
 SaveInput1
-set_input -69
+set_input 95
 SaveInput2
 SaveOutput
-expect 0 -114
+expect 0 -96
 expect 1 0
 
 # test 46: Random Low-Range
-set_input 53
+set_input -70
 SaveInput1
-set_input -44
+set_input 69
 SaveInput2
 SaveOutput
-expect 0 -31
+expect 0 0
 expect 1 0
 
 # test 47: Random Low-Range
-set_input -63
+set_input 96
 SaveInput1
-set_input -34
+set_input 25
 SaveInput2
 SaveOutput
-expect 0 31
+expect 0 -122
 expect 1 0
 
 # test 48: Random Low-Range
-set_input 97
+set_input -75
 SaveInput1
-set_input -71
+set_input -9
 SaveInput2
 SaveOutput
-expect 0 -40
+expect 0 8
 expect 1 0
 
 # test 49: Random Low-Range
-set_input 91
+set_input 63
 SaveInput1
-set_input 68
+set_input -95
 SaveInput2
 SaveOutput
-expect 0 31
+expect 0 64
 expect 1 0
 
 # test 50: Random Low-Range
-set_input 73
+set_input 29
 SaveInput1
-set_input -47
+set_input -94
 SaveInput2
 SaveOutput
-expect 0 -104
+expect 0 64
 expect 1 0
 
 # Random: (-9223372036854775808, 9223372036854775807)
 # test 51: Random
-set_input -84211126913152639
+set_input 4982825457167660530
 SaveInput1
-set_input 3868818266452563700
+set_input -3212683345780985923
 SaveInput2
 SaveOutput
-expect 0 -3790869964265201803
+expect 0 2923172750473723904
 expect 1 0
 
 # test 52: Random
-set_input -2715560647293544620
+set_input -6959832767679936106
 SaveInput1
-set_input 7783949769140615791
+set_input 921473648111880484
 SaveInput2
 SaveOutput
-expect 0 -5307977146565268165
+expect 0 6923791850237605449
 expect 1 0
 
 # test 53: Random
-set_input -4094305709734264315
+set_input 2205933688212711772
 SaveInput1
-set_input 7350101849852703508
+set_input -5927437594946224508
 SaveInput2
 SaveOutput
-expect 0 -6832290390129315567
+expect 0 4630386606681915427
 expect 1 0
 
 # test 54: Random
-set_input 337361734610187018
+set_input 4321037276899251455
 SaveInput1
-set_input 5321000599439865359
+set_input 5395796589670255022
 SaveInput2
 SaveOutput
-expect 0 5582617937400759557
+expect 0 -8932882074110483968
 expect 1 0
 
 # test 55: Random
-set_input 8862586792119980177
+set_input 8638081633949147625
 SaveInput1
-set_input -919893553800370933
+set_input -2210320637004222509
 SaveInput2
 SaveOutput
-expect 0 -8519163336473971302
+expect 0 579841201205809156
 expect 1 0
 
 # test 56: Random
-set_input 9206125777312151161
+set_input -7881189556264876482
 SaveInput1
-set_input -4057756825910745406
+set_input 5184718266562660248
 SaveInput2
 SaveOutput
-expect 0 -5157385509962673989
+expect 0 2885694810064009281
 expect 1 0
 
 # test 57: Random
-set_input -5894078462840291361
+set_input -1838155872020135182
 SaveInput1
-set_input -3539248656849484871
+set_input -7249282147963380663
 SaveInput2
 SaveOutput
-expect 0 6977789707697192038
+expect 0 36610458022584580
 expect 1 0
 
 # test 58: Random
-set_input 5530965170494110501
+set_input 6968304765207058037
 SaveInput1
-set_input -3799083235636443763
+set_input 1313793306658472362
 SaveInput2
 SaveOutput
-expect 0 -8680936323099099480
+expect 0 -8268587268143192064
 expect 1 0
 
 # test 59: Random
-set_input 2552174554406103764
+set_input -135047264154581404
 SaveInput1
-set_input -1993578798945186830
+set_input -8455311437993382911
 SaveInput2
 SaveOutput
-expect 0 -4089752688458866394
+expect 0 96625925386408346
 expect 1 0
 
 # test 60: Random
-set_input 7935945271733423735
+set_input 7385397882246838852
 SaveInput1
-set_input -5681418261503787524
+set_input -220233759440694008
 SaveInput2
 SaveOutput
-expect 0 -2376308386662009973
+expect 0 72138139287699635
 expect 1 0
 
 # test 61: Random
-set_input 8399949987105101303
+set_input 5602115249772855508
 SaveInput1
-set_input 1438357479524012086
+set_input 3355538981144443141
 SaveInput2
 SaveOutput
-expect 0 7450234181797037505
+expect 0 -8052426169105496534
 expect 1 0
 
 # test 62: Random
-set_input 1485400531114890825
+set_input -4677735034464535000
 SaveInput1
-set_input 3193993500543023331
+set_input 5348628921850612645
 SaveInput2
 SaveOutput
-expect 0 4093327597403008682
+expect 0 54186202380664914
 expect 1 0
 
 # test 63: Random
-set_input 7584301830680146025
+set_input 2535643928019308691
 SaveInput1
-set_input -2644365776292644770
+set_input 6991763029181672392
 SaveInput2
 SaveOutput
-expect 0 -5616682514939082697
+expect 0 -7149460009841572828
 expect 1 0
 
 # test 64: Random
-set_input -9136990091078914067
+set_input -3286106248045648156
 SaveInput1
-set_input 8443459925881849273
+set_input 8103906731380436774
 SaveInput2
 SaveOutput
-expect 0 -855734518586987948
+expect 0 975029321877950489
 expect 1 0
 
 # test 65: Random
-set_input -4844122970182788024
+set_input 4215528067650998476
 SaveInput1
-set_input 8854101638564299920
+set_input 274749832268181875
 SaveInput2
 SaveOutput
-expect 0 -4168607753676941096
+expect 0 -4310116321564553728
 expect 1 0
 
 # test 66: Random
-set_input 8833685805814203887
+set_input 135674636141356140
 SaveInput1
-set_input 5854037903332875532
+set_input -7658038143261189768
 SaveInput2
 SaveOutput
-expect 0 3146386684793542883
+expect 0 7639459574956786307
 expect 1 0
 
 # test 67: Random
-set_input 8846105650058620916
+set_input 3728732441930005564
 SaveInput1
-set_input -4143487016862150133
+set_input -6380338794470836615
 SaveInput2
 SaveOutput
-expect 0 -4846771797725741569
+expect 0 5188287577072861570
 expect 1 0
 
 # test 68: Random
-set_input -2776619397799030554
+set_input -8977319236512204481
 SaveInput1
-set_input 3313263452392145623
+set_input 5787114994232426577
 SaveInput2
 SaveOutput
-expect 0 -825173785678933455
+expect 0 3211075330912568960
 expect 1 0
 
 # test 69: Random
-set_input 2718421650170076330
+set_input 5705275824076368290
 SaveInput1
-set_input 4762030896099958002
+set_input 6733478380908259736
 SaveInput2
 SaveOutput
-expect 0 7471445153738604632
+expect 0 -6881287936696854971
 expect 1 0
 
 # test 70: Random
-set_input 2674897152482399027
+set_input -7138441656069842731
 SaveInput1
-set_input -1141670203863760119
+set_input -4101279867910193110
 SaveInput2
 SaveOutput
-expect 0 -3082471819905118150
+expect 0 2305988477392807680
 expect 1 0
 
 # test 71: Random
-set_input -4491123242422566875
+set_input -2238505584769345797
 SaveInput1
-set_input -1189805358785085015
+set_input 3695170547544394618
 SaveInput2
 SaveOutput
-expect 0 3373377955876389260
+expect 0 869200156940115972
 expect 1 0
 
 # test 72: Random
-set_input -4992542668458881656
+set_input -2679809094601424257
 SaveInput1
-set_input 605031646530125397
+set_input 3000907314165452844
 SaveInput2
 SaveOutput
-expect 0 -5560980208425946147
+expect 0 292874852266683776
 expect 1 0
 
 # test 73: Random
-set_input 34502741652256327
+set_input -264296786143558774
 SaveInput1
-set_input 7984116380833291773
+set_input -2426927796370042812
 SaveInput2
 SaveOutput
-expect 0 7978077830930475962
+expect 0 119952873588534321
 expect 1 0
 
 # test 74: Random
-set_input 5532638960763946084
+set_input -1230044300815869838
 SaveInput1
-set_input -6262580944827767528
+set_input -3707016795568591523
 SaveInput2
 SaveOutput
-expect 0 -1886667266536545924
+expect 0 1230036860857057920
 expect 1 0
 
 # test 75: Random
-set_input 1753213279374754985
+set_input -2614658882257632289
 SaveInput1
-set_input 8659028349367637659
+set_input 5831413016381842328
 SaveInput2
 SaveOutput
-expect 0 6953459247857865266
+expect 0 2594108846658559008
 expect 1 0
 
 # Opcode 10: ROTL
@@ -2667,3859 +1305,454 @@ expect 1 0
 
 # Random Low-Range: (-100, 100)
 # test 26: Random Low-Range
-set_input 21
-SaveInput1
-set_input 40
-SaveInput2
-SaveOutput
-expect 0 23089744183296
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -53
-SaveInput1
-set_input -48
-SaveInput2
-SaveOutput
-expect 0 -3407873
-expect 1 0
-
-# test 28: Random Low-Range
-set_input -68
-SaveInput1
-set_input -70
-SaveInput2
-SaveOutput
-expect 0 -864691128455135234
-expect 1 0
-
-# test 29: Random Low-Range
-set_input 84
-SaveInput1
-set_input 50
-SaveInput2
-SaveOutput
-expect 0 94575592174780416
-expect 1 0
-
-# test 30: Random Low-Range
-set_input 15
-SaveInput1
-set_input -53
-SaveInput2
-SaveOutput
-expect 0 30720
-expect 1 0
-
-# test 31: Random Low-Range
-set_input 5
-SaveInput1
-set_input 25
-SaveInput2
-SaveOutput
-expect 0 167772160
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 87
-SaveInput1
-set_input 85
-SaveInput2
-SaveOutput
-expect 0 182452224
-expect 1 0
-
-# test 33: Random Low-Range
-set_input 64
-SaveInput1
-set_input -66
-SaveInput2
-SaveOutput
-expect 0 16
-expect 1 0
-
-# test 34: Random Low-Range
-set_input -56
-SaveInput1
-set_input 92
-SaveInput2
-SaveOutput
-expect 0 -14763950081
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 17
-SaveInput1
-set_input 59
-SaveInput2
-SaveOutput
-expect 0 -8646911284551352320
-expect 1 0
-
-# test 36: Random Low-Range
-set_input -92
-SaveInput1
-set_input 63
-SaveInput2
-SaveOutput
-expect 0 9223372036854775762
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 55
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 1981583836043018240
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -33
-SaveInput1
-set_input 71
-SaveInput2
-SaveOutput
-expect 0 -4097
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 37
-SaveInput1
-set_input 37
-SaveInput2
-SaveOutput
-expect 0 5085241278464
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 76
-SaveInput1
-set_input -12
-SaveInput2
-SaveOutput
-expect 0 342273571680157696
-expect 1 0
-
-# test 41: Random Low-Range
-set_input -50
-SaveInput1
-set_input 47
-SaveInput2
-SaveOutput
-expect 0 -6896136929411073
-expect 1 0
-
-# test 42: Random Low-Range
-set_input 42
-SaveInput1
-set_input 34
-SaveInput2
-SaveOutput
-expect 0 721554505728
-expect 1 0
-
-# test 43: Random Low-Range
-set_input 52
-SaveInput1
-set_input 60
-SaveInput2
-SaveOutput
-expect 0 4611686018427387907
-expect 1 0
-
-# test 44: Random Low-Range
-set_input -44
-SaveInput1
-set_input 66
-SaveInput2
-SaveOutput
-expect 0 -173
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 28
-SaveInput1
-set_input 8
-SaveInput2
-SaveOutput
-expect 0 7168
-expect 1 0
-
-# test 46: Random Low-Range
-set_input -82
-SaveInput1
-set_input 13
-SaveInput2
-SaveOutput
-expect 0 -663553
-expect 1 0
-
-# test 47: Random Low-Range
-set_input -81
-SaveInput1
-set_input 87
-SaveInput2
-SaveOutput
-expect 0 -671088641
-expect 1 0
-
-# test 48: Random Low-Range
-set_input -63
-SaveInput1
-set_input -67
-SaveInput2
-SaveOutput
-expect 0 4611686018427387896
-expect 1 0
-
-# test 49: Random Low-Range
-set_input -84
-SaveInput1
-set_input -90
-SaveInput2
-SaveOutput
-expect 0 -22814866276353
-expect 1 0
-
-# test 50: Random Low-Range
-set_input 58
-SaveInput1
-set_input 24
-SaveInput2
-SaveOutput
-expect 0 973078528
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input 4415718624380935440
-SaveInput1
-set_input 213230238688794386
-SaveInput2
-SaveOutput
-expect 0 2505700367866590495
-expect 1 0
-
-# test 52: Random
-set_input 1444074511036465857
-SaveInput1
-set_input -748111342262503989
-SaveInput2
-SaveOutput
-expect 0 5985546809153816736
-expect 1 0
-
-# test 53: Random
-set_input 3649565200526374515
-SaveInput1
-set_input 8520618752751825202
-SaveInput2
-SaveOutput
-expect 0 -2752602520447956991
-expect 1 0
-
-# test 54: Random
-set_input -298720074081890252
-SaveInput1
-set_input -6725755849228837511
-SaveInput2
-SaveOutput
-expect 0 7635771217441596448
-expect 1 0
-
-# test 55: Random
-set_input 3257685600670354017
-SaveInput1
-set_input -404704012331319323
-SaveInput2
-SaveOutput
-expect 0 4292295644455106919
-expect 1 0
-
-# test 56: Random
-set_input 7890652558783555804
-SaveInput1
-set_input 85554222560218893
-SaveInput2
-SaveOutput
-expect 0 2834527276620287408
-expect 1 0
-
-# test 57: Random
-set_input 4645556346401560260
-SaveInput1
-set_input -2205709930284318026
-SaveInput2
-SaveOutput
-expect 0 -5688013252876774171
-expect 1 0
-
-# test 58: Random
-set_input 5422907118636055504
-SaveInput1
-set_input 1574909206793700036
-SaveInput2
-SaveOutput
-expect 0 -5467206470370870012
-expect 1 0
-
-# test 59: Random
-set_input -7061836631335815786
-SaveInput1
-set_input -425823807886937259
-SaveInput2
-SaveOutput
-expect 0 2303569660254339050
-expect 1 0
-
-# test 60: Random
-set_input 4483187323633726494
-SaveInput1
-set_input 3392004325711186200
-SaveInput2
-SaveOutput
-expect 0 2174879028685453179
-expect 1 0
-
-# test 61: Random
-set_input -3376122428273108145
-SaveInput1
-set_input -8530740342031831599
-SaveInput2
-SaveOutput
-expect 0 3824665605603041867
-expect 1 0
-
-# test 62: Random
-set_input -5730407444968916028
-SaveInput1
-set_input 4209142251300916967
-SaveInput2
-SaveOutput
-expect 0 3449161758239909144
-expect 1 0
-
-# test 63: Random
-set_input -1156190459581115914
-SaveInput1
-set_input 6277980550992216287
-SaveInput2
-SaveOutput
-expect 0 -8215576190971661965
-expect 1 0
-
-# test 64: Random
-set_input -2940013427107793680
-SaveInput1
-set_input 5993001275857608161
-SaveInput2
-SaveOutput
-expect 0 -3118485586451238214
-expect 1 0
-
-# test 65: Random
-set_input 9191788854551507914
-SaveInput1
-set_input -6558885765224085410
-SaveInput2
-SaveOutput
-expect 0 -3063577002500689200
-expect 1 0
-
-# test 66: Random
-set_input -8169139135895021745
-SaveInput1
-set_input -3866234966008471869
-SaveInput2
-SaveOutput
-expect 0 8433863207678032508
-expect 1 0
-
-# test 67: Random
-set_input 4470197956865074847
-SaveInput1
-set_input 6199059123084018361
-SaveInput2
-SaveOutput
-expect 0 4502494251889540429
-expect 1 0
-
-# test 68: Random
-set_input 7852744877380473710
-SaveInput1
-set_input 2481983562356463105
-SaveInput2
-SaveOutput
-expect 0 -2741254318948604196
-expect 1 0
-
-# test 69: Random
-set_input -7198876040160379049
-SaveInput1
-set_input -5525889834674333184
-SaveInput2
-SaveOutput
-expect 0 -7198876040160379049
-expect 1 0
-
-# test 70: Random
-set_input 5845621900529500000
-SaveInput1
-set_input -2289144474544578870
-SaveInput2
-SaveOutput
-expect 0 9171746260313276740
-expect 1 0
-
-# test 71: Random
-set_input -7311735712388118889
-SaveInput1
-set_input 2111516046531925813
-SaveInput2
-SaveOutput
-expect 0 -3246161915160071632
-expect 1 0
-
-# test 72: Random
-set_input 5098343075409570272
-SaveInput1
-set_input -7256170039803977876
-SaveInput2
-SaveOutput
-expect 0 -4423092921872401139
-expect 1 0
-
-# test 73: Random
-set_input 8877735628683243797
-SaveInput1
-set_input -2677263200445723684
-SaveInput2
-SaveOutput
-expect 0 5320975546433355992
-expect 1 0
-
-# test 74: Random
-set_input 4687432766619340102
-SaveInput1
-set_input -5343046618583080014
-SaveInput2
-SaveOutput
-expect 0 3826093981642558333
-expect 1 0
-
-# test 75: Random
-set_input -6701003764202870495
-SaveInput1
-set_input 6509627910279654064
-SaveInput2
-SaveOutput
-expect 0 -1647856762867125215
-expect 1 0
-
-# Opcode 2: OR
-set_input 2
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input 23
-SaveInput1
-set_input 58
-SaveInput2
-SaveOutput
-expect 0 63
-expect 1 0
-
-# test 27: Random Low-Range
-set_input 83
-SaveInput1
-set_input 31
-SaveInput2
-SaveOutput
-expect 0 95
-expect 1 0
-
-# test 28: Random Low-Range
-set_input -43
-SaveInput1
-set_input 30
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 29: Random Low-Range
-set_input -59
-SaveInput1
-set_input -67
-SaveInput2
-SaveOutput
-expect 0 -3
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -21
-SaveInput1
-set_input -97
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 31: Random Low-Range
-set_input -94
-SaveInput1
-set_input 89
-SaveInput2
-SaveOutput
-expect 0 -5
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 12
-SaveInput1
-set_input -7
-SaveInput2
-SaveOutput
-expect 0 -3
-expect 1 0
-
-# test 33: Random Low-Range
-set_input -18
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -18
-expect 1 0
-
-# test 34: Random Low-Range
-set_input 66
+set_input -51
 SaveInput1
 set_input 99
 SaveInput2
 SaveOutput
-expect 0 99
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 86
-SaveInput1
-set_input 31
-SaveInput2
-SaveOutput
-expect 0 95
-expect 1 0
-
-# test 36: Random Low-Range
-set_input 80
-SaveInput1
-set_input -32
-SaveInput2
-SaveOutput
-expect 0 -16
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 6
-SaveInput1
-set_input -32
-SaveInput2
-SaveOutput
-expect 0 -26
-expect 1 0
-
-# test 38: Random Low-Range
-set_input 98
-SaveInput1
-set_input -22
-SaveInput2
-SaveOutput
-expect 0 -22
-expect 1 0
-
-# test 39: Random Low-Range
-set_input -85
-SaveInput1
-set_input 37
-SaveInput2
-SaveOutput
-expect 0 -81
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 14
-SaveInput1
-set_input -33
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 41: Random Low-Range
-set_input -76
-SaveInput1
-set_input -71
-SaveInput2
-SaveOutput
-expect 0 -67
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -9
-SaveInput1
-set_input 37
-SaveInput2
-SaveOutput
-expect 0 -9
-expect 1 0
-
-# test 43: Random Low-Range
-set_input -72
-SaveInput1
-set_input -22
-SaveInput2
-SaveOutput
-expect 0 -6
-expect 1 0
-
-# test 44: Random Low-Range
-set_input 25
-SaveInput1
-set_input -99
-SaveInput2
-SaveOutput
-expect 0 -99
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 75
-SaveInput1
-set_input 92
-SaveInput2
-SaveOutput
-expect 0 95
-expect 1 0
-
-# test 46: Random Low-Range
-set_input 3
-SaveInput1
-set_input -63
-SaveInput2
-SaveOutput
-expect 0 -61
-expect 1 0
-
-# test 47: Random Low-Range
-set_input -80
-SaveInput1
-set_input -55
-SaveInput2
-SaveOutput
-expect 0 -7
-expect 1 0
-
-# test 48: Random Low-Range
-set_input 8
-SaveInput1
-set_input -82
-SaveInput2
-SaveOutput
-expect 0 -82
-expect 1 0
-
-# test 49: Random Low-Range
-set_input -39
-SaveInput1
-set_input 14
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 50: Random Low-Range
-set_input 58
-SaveInput1
-set_input -16
-SaveInput2
-SaveOutput
-expect 0 -6
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input -4549900039526666071
-SaveInput1
-set_input 2334216620587943649
-SaveInput2
-SaveOutput
-expect 0 -2233838572929075479
-expect 1 0
-
-# test 52: Random
-set_input 3090282908656926950
-SaveInput1
-set_input 1127891530777783525
-SaveInput2
-SaveOutput
-expect 0 3451995918998400231
-expect 1 0
-
-# test 53: Random
-set_input 6938125105369887913
-SaveInput1
-set_input 935806765227033038
-SaveInput2
-SaveOutput
-expect 0 7853626081118254575
-expect 1 0
-
-# test 54: Random
-set_input -4053757655004581880
-SaveInput1
-set_input -9134657859432613128
-SaveInput2
-SaveOutput
-expect 0 -4053470613750154504
-expect 1 0
-
-# test 55: Random
-set_input 7470776599619624776
-SaveInput1
-set_input 131575696460039092
-SaveInput2
-SaveOutput
-expect 0 7493980976749731836
-expect 1 0
-
-# test 56: Random
-set_input -7558797446522278295
-SaveInput1
-set_input -4011422694987141835
-SaveInput2
-SaveOutput
-expect 0 -2351492739268743299
-expect 1 0
-
-# test 57: Random
-set_input 4663822656195900371
-SaveInput1
-set_input -7390389563849191690
-SaveInput2
-SaveOutput
-expect 0 -2740088533829287945
-expect 1 0
-
-# test 58: Random
-set_input 6673078931214966747
-SaveInput1
-set_input -7331683299540524678
-SaveInput2
-SaveOutput
-expect 0 -2388128333473824773
-expect 1 0
-
-# test 59: Random
-set_input -4488190134009042098
-SaveInput1
-set_input -4911421793430288984
-SaveInput2
-SaveOutput
-expect 0 -290552549709451282
-expect 1 0
-
-# test 60: Random
-set_input 759647172933170827
-SaveInput1
-set_input -2714719510579638167
-SaveInput2
-SaveOutput
-expect 0 -2676281682639735061
-expect 1 0
-
-# test 61: Random
-set_input -2357381683025348016
-SaveInput1
-set_input -8895692941178871345
-SaveInput2
-SaveOutput
-expect 0 -2320224621718668321
-expect 1 0
-
-# test 62: Random
-set_input 6602678499127863842
-SaveInput1
-set_input 639093267602502530
-SaveInput2
-SaveOutput
-expect 0 6629281045813033890
-expect 1 0
-
-# test 63: Random
-set_input 967662474424217796
-SaveInput1
-set_input -49458440344775389
-SaveInput2
-SaveOutput
-expect 0 -36631399140166169
-expect 1 0
-
-# test 64: Random
-set_input 6648429610526241934
-SaveInput1
-set_input 8038090347267615409
-SaveInput2
-SaveOutput
-expect 0 9209860781867007679
-expect 1 0
-
-# test 65: Random
-set_input 1266791450023929535
-SaveInput1
-set_input -2951447605136801811
-SaveInput2
-SaveOutput
-expect 0 -2909644084783235073
-expect 1 0
-
-# test 66: Random
-set_input 5402464828824918900
-SaveInput1
-set_input -464842772402898556
-SaveInput2
-SaveOutput
-expect 0 -288815352917853196
-expect 1 0
-
-# test 67: Random
-set_input 888268132694109365
-SaveInput1
-set_input -8183700084545640242
-SaveInput2
-SaveOutput
-expect 0 -8178559833283580673
-expect 1 0
-
-# test 68: Random
-set_input -2609010873851734610
-SaveInput1
-set_input 544695922277086464
-SaveInput2
-SaveOutput
-expect 0 -2319373122598341202
-expect 1 0
-
-# test 69: Random
-set_input 4089605497262993281
-SaveInput1
-set_input 1532733836984436702
-SaveInput2
-SaveOutput
-expect 0 4451104329331240927
-expect 1 0
-
-# test 70: Random
-set_input -5713761392019489302
-SaveInput1
-set_input -4875971903506715521
-SaveInput2
-SaveOutput
-expect 0 -4830755552273990145
-expect 1 0
-
-# test 71: Random
-set_input 9038310667978083515
-SaveInput1
-set_input 1870954197215385662
-SaveInput2
-SaveOutput
-expect 0 9078966508964388031
-expect 1 0
-
-# test 72: Random
-set_input -6657483248122764717
-SaveInput1
-set_input 6589861808266808753
-SaveInput2
-SaveOutput
-expect 0 -289358034953605133
-expect 1 0
-
-# test 73: Random
-set_input 1964301650246591828
-SaveInput1
-set_input -4773452052185209274
-SaveInput2
-SaveOutput
-expect 0 -4628614134887520426
-expect 1 0
-
-# test 74: Random
-set_input 7555744035786405120
-SaveInput1
-set_input 6456531767195119856
-SaveInput2
-SaveOutput
-expect 0 8780741018677130736
-expect 1 0
-
-# test 75: Random
-set_input 5728205694361637815
-SaveInput1
-set_input 8006673317696103624
-SaveInput2
-SaveOutput
-expect 0 8034403038663800831
-expect 1 0
-
-# Opcode 8: SHL
-set_input 8
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 2
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387904
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387903
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input 69
-SaveInput1
-set_input -35
-SaveInput2
-SaveOutput
-expect 0 0
+expect 0 -1717986918401
 expect 1 0
 
 # test 27: Random Low-Range
-set_input -66
+set_input -79
 SaveInput1
-set_input -32
+set_input 70
 SaveInput2
 SaveOutput
-expect 0 4294967295
+expect 0 -4993
 expect 1 0
 
 # test 28: Random Low-Range
-set_input 71
+set_input 34
 SaveInput1
-set_input 85
+set_input 89
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 1140850688
 expect 1 0
 
 # test 29: Random Low-Range
-set_input -50
+set_input -61
 SaveInput1
-set_input -94
+set_input -3
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 9223372036854775800
 expect 1 0
 
 # test 30: Random Low-Range
-set_input -57
+set_input -99
 SaveInput1
-set_input -84
+set_input 84
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -102760449
 expect 1 0
 
 # test 31: Random Low-Range
-set_input 56
+set_input 57
 SaveInput1
-set_input -62
+set_input -45
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 29884416
 expect 1 0
 
 # test 32: Random Low-Range
-set_input 10
+set_input 38
 SaveInput1
-set_input -48
+set_input -89
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 20890720927744
 expect 1 0
 
 # test 33: Random Low-Range
-set_input -24
+set_input 22
 SaveInput1
-set_input 50
+set_input 98
 SaveInput2
 SaveOutput
-expect 0 -27021597764222976
+expect 0 377957122048
 expect 1 0
 
 # test 34: Random Low-Range
-set_input 54
+set_input 92
 SaveInput1
-set_input -65
+set_input -22
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 404620279021568
 expect 1 0
 
 # test 35: Random Low-Range
-set_input 72
-SaveInput1
-set_input -18
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 36: Random Low-Range
-set_input 38
-SaveInput1
-set_input 98
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 70
-SaveInput1
-set_input 100
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 38: Random Low-Range
-set_input 98
-SaveInput1
-set_input 31
-SaveInput2
-SaveOutput
-expect 0 210453397504
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 57
-SaveInput1
-set_input 48
-SaveInput2
-SaveOutput
-expect 0 16044073672507392
-expect 1 0
-
-# test 40: Random Low-Range
-set_input -56
-SaveInput1
-set_input -75
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 41: Random Low-Range
-set_input -32
-SaveInput1
-set_input -51
-SaveInput2
-SaveOutput
-expect 0 8191
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -47
+set_input 47
 SaveInput1
 set_input 96
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 201863462912
 expect 1 0
 
-# test 43: Random Low-Range
-set_input 1
+# test 36: Random Low-Range
+set_input 64
 SaveInput1
-set_input 87
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 44: Random Low-Range
-set_input -44
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 36028797018963967
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 73
-SaveInput1
-set_input -54
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 46: Random Low-Range
-set_input -75
-SaveInput1
-set_input -33
-SaveInput2
-SaveOutput
-expect 0 2147483647
-expect 1 0
-
-# test 47: Random Low-Range
-set_input -13
-SaveInput1
-set_input -38
-SaveInput2
-SaveOutput
-expect 0 67108863
-expect 1 0
-
-# test 48: Random Low-Range
-set_input 48
-SaveInput1
-set_input -77
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 49: Random Low-Range
-set_input 59
-SaveInput1
-set_input 62
-SaveInput2
-SaveOutput
-expect 0 -4611686018427387904
-expect 1 0
-
-# test 50: Random Low-Range
-set_input -22
-SaveInput1
-set_input -4
-SaveInput2
-SaveOutput
-expect 0 1152921504606846974
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input -7849640987950252823
-SaveInput1
-set_input 1303540522305887020
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 52: Random
-set_input -684666226824735585
-SaveInput1
-set_input -7154867118904193958
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 53: Random
-set_input -7504836361768208554
-SaveInput1
-set_input -7570724068338102606
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 54: Random
-set_input 2224478537204225588
-SaveInput1
-set_input 3820227000565556256
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 55: Random
-set_input 3903535493813572624
-SaveInput1
-set_input 5566277997813478427
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 56: Random
-set_input 4424027766928210195
-SaveInput1
-set_input -173108651851332652
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 57: Random
-set_input -1251245525777257461
-SaveInput1
-set_input 7460250925150881891
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 58: Random
-set_input -8843588976890461728
-SaveInput1
-set_input -3335138019492257904
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 59: Random
-set_input 5313347316399069431
-SaveInput1
-set_input 2522655454046765147
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 60: Random
-set_input -6401185134569417308
-SaveInput1
-set_input -8427394897068083892
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 61: Random
-set_input -1865882158669553620
-SaveInput1
-set_input -7955142558519635211
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 62: Random
-set_input -4692437592223472477
-SaveInput1
-set_input -487775409797931016
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 63: Random
-set_input -1202419437448652714
-SaveInput1
-set_input 8065938242827035589
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 64: Random
-set_input -8727864680984233470
-SaveInput1
-set_input -4482392714929774339
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 65: Random
-set_input -6222417838187042024
-SaveInput1
-set_input 8745962132324757607
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 66: Random
-set_input 3566516800786283107
-SaveInput1
-set_input -2479144446239807388
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 67: Random
-set_input 5541852513542787364
-SaveInput1
-set_input 7499733764984212787
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 68: Random
-set_input -2473805410169663125
-SaveInput1
-set_input -8560877736096798536
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 69: Random
-set_input -697423565824861312
-SaveInput1
-set_input 6332360771939355433
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 70: Random
-set_input 5257863098810306146
-SaveInput1
-set_input 4831532273930292375
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 71: Random
-set_input 7653552101880996636
-SaveInput1
-set_input 719002820538841716
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 72: Random
-set_input 4120490420723560277
-SaveInput1
-set_input 6480862604457893982
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 73: Random
-set_input 3487392715055828414
-SaveInput1
-set_input 7542083453552880676
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 74: Random
-set_input 4371773979302750947
-SaveInput1
-set_input 4178188885189209202
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 75: Random
-set_input 9053816583600482269
-SaveInput1
-set_input 3163142572536729969
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Opcode 12: ASHR
-set_input 12
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 2
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -4611686018427387904
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387903
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input -69
-SaveInput1
-set_input -12
-SaveInput2
-SaveOutput
-expect 0 -282624
-expect 1 0
-
-# test 27: Random Low-Range
-set_input 60
-SaveInput1
-set_input 89
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 28: Random Low-Range
 set_input 34
-SaveInput1
-set_input 58
 SaveInput2
 SaveOutput
-expect 0 0
-expect 1 0
-
-# test 29: Random Low-Range
-set_input 92
-SaveInput1
-set_input -8
-SaveInput2
-SaveOutput
-expect 0 23552
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -92
-SaveInput1
-set_input -4
-SaveInput2
-SaveOutput
-expect 0 -1472
-expect 1 0
-
-# test 31: Random Low-Range
-set_input 61
-SaveInput1
-set_input -13
-SaveInput2
-SaveOutput
-expect 0 499712
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 55
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 27
-expect 1 0
-
-# test 33: Random Low-Range
-set_input -62
-SaveInput1
-set_input 77
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 34: Random Low-Range
-set_input -63
-SaveInput1
-set_input 37
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 35: Random Low-Range
-set_input -5
-SaveInput1
-set_input 26
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 36: Random Low-Range
-set_input -44
-SaveInput1
-set_input 27
-SaveInput2
-SaveOutput
-expect 0 -1
+expect 0 1099511627776
 expect 1 0
 
 # test 37: Random Low-Range
-set_input 81
+set_input 17
 SaveInput1
-set_input -80
+set_input -73
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 612489549322387456
 expect 1 0
 
 # test 38: Random Low-Range
-set_input 55
-SaveInput1
-set_input -3
-SaveInput2
-SaveOutput
-expect 0 440
-expect 1 0
-
-# test 39: Random Low-Range
-set_input -18
-SaveInput1
-set_input -95
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 98
-SaveInput1
-set_input -42
-SaveInput2
-SaveOutput
-expect 0 431008558088192
-expect 1 0
-
-# test 41: Random Low-Range
-set_input 86
-SaveInput1
-set_input -78
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -21
+set_input 71
 SaveInput1
 set_input 99
 SaveInput2
 SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 43: Random Low-Range
-set_input 69
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 69
-expect 1 0
-
-# test 44: Random Low-Range
-set_input -28
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 -14336
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 42
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 42
-expect 1 0
-
-# test 46: Random Low-Range
-set_input 85
-SaveInput1
-set_input 73
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 47: Random Low-Range
-set_input -80
-SaveInput1
-set_input 61
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 48: Random Low-Range
-set_input 69
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 35328
-expect 1 0
-
-# test 49: Random Low-Range
-set_input -17
-SaveInput1
-set_input 36
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 50: Random Low-Range
-set_input -5
-SaveInput1
-set_input -54
-SaveInput2
-SaveOutput
-expect 0 -90071992547409920
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input -3183412564592501804
-SaveInput1
-set_input -1044332026225337799
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 52: Random
-set_input -2363711822923272120
-SaveInput1
-set_input 7432456825668649913
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 53: Random
-set_input 7445127749137091153
-SaveInput1
-set_input -3520931680754095936
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 54: Random
-set_input -8115071218358452110
-SaveInput1
-set_input 9160777210862345958
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 55: Random
-set_input 6759223271778072736
-SaveInput1
-set_input -7158395235709001013
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 56: Random
-set_input 4107159985143187030
-SaveInput1
-set_input 8831426169567265580
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 57: Random
-set_input 4963138850818175114
-SaveInput1
-set_input -4125638660141467158
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 58: Random
-set_input -5710669803261223578
-SaveInput1
-set_input 760935340307840991
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 59: Random
-set_input 3336472372266157098
-SaveInput1
-set_input -2745806135838668941
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 60: Random
-set_input 3873543436633917581
-SaveInput1
-set_input -1161820184622857225
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 61: Random
-set_input -7007945136647544854
-SaveInput1
-set_input 861850377002761705
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 62: Random
-set_input -8621981169811038223
-SaveInput1
-set_input 1275887616800668866
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 63: Random
-set_input 8016103624191681962
-SaveInput1
-set_input -8264517672834107309
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 64: Random
-set_input 9171546327699549358
-SaveInput1
-set_input -7768284576970892247
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 65: Random
-set_input -9129056996867714956
-SaveInput1
-set_input -687708629364675995
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 66: Random
-set_input 4136034282511594534
-SaveInput1
-set_input 2227749901546876396
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 67: Random
-set_input 5329938539454968402
-SaveInput1
-set_input 6713836654960871184
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 68: Random
-set_input -7797653555717604833
-SaveInput1
-set_input 8261076800432001256
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 69: Random
-set_input 6270145410692255537
-SaveInput1
-set_input 2282731030587185026
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 70: Random
-set_input -4634005201500244910
-SaveInput1
-set_input 3374736059680414226
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 71: Random
-set_input 7645474305065292193
-SaveInput1
-set_input 5720891306832233422
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 72: Random
-set_input 5539243263378075372
-SaveInput1
-set_input -5317012137353897309
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 73: Random
-set_input -5917968630784347678
-SaveInput1
-set_input -8335123919842605819
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 74: Random
-set_input 1543713595942757948
-SaveInput1
-set_input -1481894422055848857
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 75: Random
-set_input 2680974950121386294
-SaveInput1
-set_input 8019612079633751391
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Opcode 6: XNOR
-set_input 6
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 9223372036854775806
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775806
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775807
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input 17
-SaveInput1
-set_input -95
-SaveInput2
-SaveOutput
-expect 0 79
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -37
-SaveInput1
-set_input 82
-SaveInput2
-SaveOutput
-expect 0 118
-expect 1 0
-
-# test 28: Random Low-Range
-set_input -9
-SaveInput1
-set_input 25
-SaveInput2
-SaveOutput
-expect 0 17
-expect 1 0
-
-# test 29: Random Low-Range
-set_input -26
-SaveInput1
-set_input -48
-SaveInput2
-SaveOutput
-expect 0 -55
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -59
-SaveInput1
-set_input 17
-SaveInput2
-SaveOutput
-expect 0 43
-expect 1 0
-
-# test 31: Random Low-Range
-set_input 42
-SaveInput1
-set_input 31
-SaveInput2
-SaveOutput
-expect 0 -54
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 57
-SaveInput1
-set_input -53
-SaveInput2
-SaveOutput
-expect 0 13
-expect 1 0
-
-# test 33: Random Low-Range
-set_input 17
-SaveInput1
-set_input 42
-SaveInput2
-SaveOutput
-expect 0 -60
-expect 1 0
-
-# test 34: Random Low-Range
-set_input 88
-SaveInput1
-set_input -37
-SaveInput2
-SaveOutput
-expect 0 124
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 35
-SaveInput1
-set_input -19
-SaveInput2
-SaveOutput
-expect 0 49
-expect 1 0
-
-# test 36: Random Low-Range
-set_input -50
-SaveInput1
-set_input 24
-SaveInput2
-SaveOutput
-expect 0 41
-expect 1 0
-
-# test 37: Random Low-Range
-set_input -89
-SaveInput1
-set_input 42
-SaveInput2
-SaveOutput
-expect 0 114
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -86
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 85
+expect 0 2439541424128
 expect 1 0
 
 # test 39: Random Low-Range
-set_input -81
+set_input -6
 SaveInput1
-set_input 40
+set_input 78
 SaveInput2
 SaveOutput
-expect 0 120
+expect 0 -81921
 expect 1 0
 
 # test 40: Random Low-Range
-set_input -98
+set_input -64
 SaveInput1
-set_input 6
+set_input -23
 SaveInput2
 SaveOutput
-expect 0 103
+expect 0 -138538465099777
 expect 1 0
 
 # test 41: Random Low-Range
-set_input -76
-SaveInput1
-set_input 47
-SaveInput2
-SaveOutput
-expect 0 100
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -83
-SaveInput1
-set_input 35
-SaveInput2
-SaveOutput
-expect 0 113
-expect 1 0
-
-# test 43: Random Low-Range
-set_input 86
-SaveInput1
-set_input -39
-SaveInput2
-SaveOutput
-expect 0 112
-expect 1 0
-
-# test 44: Random Low-Range
-set_input -62
-SaveInput1
-set_input 4
-SaveInput2
-SaveOutput
-expect 0 57
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 86
-SaveInput1
-set_input -76
-SaveInput2
-SaveOutput
-expect 0 29
-expect 1 0
-
-# test 46: Random Low-Range
-set_input -63
-SaveInput1
-set_input 21
-SaveInput2
-SaveOutput
-expect 0 43
-expect 1 0
-
-# test 47: Random Low-Range
-set_input 94
-SaveInput1
-set_input 84
-SaveInput2
-SaveOutput
-expect 0 -11
-expect 1 0
-
-# test 48: Random Low-Range
-set_input -36
-SaveInput1
-set_input 45
-SaveInput2
-SaveOutput
-expect 0 14
-expect 1 0
-
-# test 49: Random Low-Range
-set_input 65
-SaveInput1
-set_input 66
-SaveInput2
-SaveOutput
-expect 0 -4
-expect 1 0
-
-# test 50: Random Low-Range
-set_input 6
-SaveInput1
-set_input 81
-SaveInput2
-SaveOutput
-expect 0 -88
-expect 1 0
-
-# Random: (-9223372036854775808, 9223372036854775807)
-# test 51: Random
-set_input 8813468924139529532
-SaveInput1
-set_input -3664170158630529026
-SaveInput2
-SaveOutput
-expect 0 5230372492920851773
-expect 1 0
-
-# test 52: Random
-set_input 4909695881281429542
-SaveInput1
-set_input 3642784025502234331
-SaveInput2
-SaveOutput
-expect 0 -8552189051312887550
-expect 1 0
-
-# test 53: Random
-set_input 7779721476003511709
-SaveInput1
-set_input -746254959751590606
-SaveInput2
-SaveOutput
-expect 0 7038041653234847568
-expect 1 0
-
-# test 54: Random
-set_input 4078124618028952592
-SaveInput1
-set_input 8721433339764660396
-SaveInput2
-SaveOutput
-expect 0 -4724462726969029821
-expect 1 0
-
-# test 55: Random
-set_input 6246516601838222758
-SaveInput1
-set_input -8552999286386043932
-SaveInput2
-SaveOutput
-expect 0 2306492030396666301
-expect 1 0
-
-# test 56: Random
-set_input -7279275229940974301
-SaveInput1
-set_input 1293577851146577005
-SaveInput2
-SaveOutput
-expect 0 8428091370950436529
-expect 1 0
-
-# test 57: Random
-set_input 4835607786533943850
-SaveInput1
-set_input -5827109564278501762
-SaveInput2
-SaveOutput
-expect 0 1424697616694643627
-expect 1 0
-
-# test 58: Random
-set_input -135740769033395978
-SaveInput1
-set_input 1952423132114572185
-SaveInput2
-SaveOutput
-expect 0 1943965128419953808
-expect 1 0
-
-# test 59: Random
-set_input 7518275943963853439
-SaveInput1
-set_input -3189987045387722159
-SaveInput2
-SaveOutput
-expect 0 4905357268632625105
-expect 1 0
-
-# test 60: Random
-set_input 6522696242418485269
-SaveInput1
-set_input -7766884403647785359
-SaveInput2
-SaveOutput
-expect 0 3552427075838386587
-expect 1 0
-
-# test 61: Random
-set_input 643525867062744231
-SaveInput1
-set_input -1694317470694642933
-SaveInput2
-SaveOutput
-expect 0 2264518545829445715
-expect 1 0
-
-# test 62: Random
-set_input -9014479255955917278
-SaveInput1
-set_input 9113731279371359771
-SaveInput2
-SaveOutput
-expect 0 244222769047969734
-expect 1 0
-
-# test 63: Random
-set_input 522765698141556956
-SaveInput1
-set_input -1433603883450404376
-SaveInput2
-SaveOutput
-expect 0 1487335230700396235
-expect 1 0
-
-# test 64: Random
-set_input 8146270015056858968
-SaveInput1
-set_input -2021157895610474814
-SaveInput2
-SaveOutput
-expect 0 7854775894286003813
-expect 1 0
-
-# test 65: Random
-set_input -6461190461582615478
-SaveInput1
-set_input -4986268250164050450
-SaveInput2
-SaveOutput
-expect 0 -2060408872292587941
-expect 1 0
-
-# test 66: Random
-set_input -6390231140175727713
-SaveInput1
-set_input -5099815788126689542
-SaveInput2
-SaveOutput
-expect 0 -2191148746579383654
-expect 1 0
-
-# test 67: Random
-set_input 1828737900972517468
-SaveInput1
-set_input 6813278173694830475
-SaveInput2
-SaveOutput
-expect 0 -5182898836590432216
-expect 1 0
-
-# test 68: Random
-set_input 1665384788189492685
-SaveInput1
-set_input -6250281951302787764
-SaveInput2
-SaveOutput
-expect 0 4729295234984286078
-expect 1 0
-
-# test 69: Random
-set_input -7274546518905833782
-SaveInput1
-set_input 3209237475443304568
-SaveInput2
-SaveOutput
-expect 0 5223579629272736077
-expect 1 0
-
-# test 70: Random
-set_input 1115656450362676029
-SaveInput1
-set_input 5201313729922518953
-SaveInput2
-SaveOutput
-expect 0 -5140116696825683093
-expect 1 0
-
-# test 71: Random
-set_input 1508797964034282087
-SaveInput1
-set_input 7725146866201057629
-SaveInput2
-SaveOutput
-expect 0 -9206888039106366267
-expect 1 0
-
-# test 72: Random
-set_input -3997304141642761257
-SaveInput1
-set_input 4132953239639538555
-SaveInput2
-SaveOutput
-expect 0 1018506082883157843
-expect 1 0
-
-# test 73: Random
-set_input -2411374137493268392
-SaveInput1
-set_input -5113394405791839683
-SaveInput2
-SaveOutput
-expect 0 -7458102949922247270
-expect 1 0
-
-# test 74: Random
-set_input 1151981653958072351
-SaveInput1
-set_input 1557724944246079575
-SaveInput2
-SaveOutput
-expect 0 -1901239912485460041
-expect 1 0
-
-# test 75: Random
-set_input 7703840010872091990
-SaveInput1
-set_input 4190586028992371822
-SaveInput2
-SaveOutput
-expect 0 -5822725947760503097
-expect 1 0
-
-# Opcode 9: SHR
-set_input 9
-SaveOpcode
-
-# test 1: Edge Case
-set_input 0
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 2: Edge Case
-set_input 0
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 3: Edge Case
-set_input 0
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 4: Edge Case
-set_input 0
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 5: Edge Case
-set_input 0
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 6: Edge Case
-set_input 1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 7: Edge Case
-set_input 1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 8: Edge Case
-set_input 1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 2
-expect 1 0
-
-# test 9: Edge Case
-set_input 1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 10: Edge Case
-set_input 1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 11: Edge Case
-set_input -1
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -1
-expect 1 0
-
-# test 12: Edge Case
-set_input -1
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 13: Edge Case
-set_input -1
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 14: Edge Case
-set_input -1
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 15: Edge Case
-set_input -1
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 16: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 -9223372036854775808
-expect 1 0
-
-# test 17: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387904
-expect 1 0
-
-# test 18: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 19: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 20: Edge Case
-set_input -9223372036854775808
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 21: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 0
-SaveInput2
-SaveOutput
-expect 0 9223372036854775807
-expect 1 0
-
-# test 22: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 4611686018427387903
-expect 1 0
-
-# test 23: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -1
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 24: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input -9223372036854775808
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 25: Edge Case
-set_input 9223372036854775807
-SaveInput1
-set_input 9223372036854775807
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# Random Low-Range: (-100, 100)
-# test 26: Random Low-Range
-set_input -2
-SaveInput1
-set_input 7
-SaveInput2
-SaveOutput
-expect 0 144115188075855871
-expect 1 0
-
-# test 27: Random Low-Range
-set_input 59
-SaveInput1
-set_input 13
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 28: Random Low-Range
-set_input -40
-SaveInput1
-set_input -67
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 29: Random Low-Range
-set_input 91
-SaveInput1
-set_input 100
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 30: Random Low-Range
-set_input 45
-SaveInput1
-set_input -59
-SaveInput2
-SaveOutput
-expect 0 7493989779944505344
-expect 1 0
-
-# test 31: Random Low-Range
-set_input -21
-SaveInput1
-set_input 23
-SaveInput2
-SaveOutput
-expect 0 2199023255551
-expect 1 0
-
-# test 32: Random Low-Range
-set_input -63
-SaveInput1
-set_input -18
-SaveInput2
-SaveOutput
-expect 0 -16515072
-expect 1 0
-
-# test 33: Random Low-Range
-set_input -79
-SaveInput1
-set_input -91
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 34: Random Low-Range
-set_input -71
-SaveInput1
-set_input -88
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 76
-SaveInput1
-set_input -19
-SaveInput2
-SaveOutput
-expect 0 39845888
-expect 1 0
-
-# test 36: Random Low-Range
-set_input 26
-SaveInput1
-set_input -78
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 99
-SaveInput1
-set_input 17
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -81
-SaveInput1
-set_input 6
-SaveInput2
-SaveOutput
-expect 0 288230376151711742
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 13
-SaveInput1
-set_input 14
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 24
-SaveInput1
-set_input -28
-SaveInput2
-SaveOutput
-expect 0 6442450944
-expect 1 0
-
-# test 41: Random Low-Range
-set_input -3
-SaveInput1
-set_input 26
-SaveInput2
-SaveOutput
-expect 0 274877906943
-expect 1 0
-
-# test 42: Random Low-Range
-set_input -5
-SaveInput1
-set_input -98
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 43: Random Low-Range
-set_input 87
-SaveInput1
-set_input 1
-SaveInput2
-SaveOutput
-expect 0 43
-expect 1 0
-
-# test 44: Random Low-Range
-set_input 40
-SaveInput1
-set_input -85
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 45: Random Low-Range
-set_input 89
-SaveInput1
-set_input 90
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 46: Random Low-Range
-set_input -72
-SaveInput1
-set_input 99
-SaveInput2
-SaveOutput
-expect 0 0
-expect 1 0
-
-# test 47: Random Low-Range
-set_input -12
-SaveInput1
-set_input -50
-SaveInput2
-SaveOutput
-expect 0 -13510798882111488
-expect 1 0
-
-# test 48: Random Low-Range
-set_input -71
-SaveInput1
-set_input 61
-SaveInput2
-SaveOutput
-expect 0 7
-expect 1 0
-
-# test 49: Random Low-Range
-set_input 80
+set_input 60
 SaveInput1
 set_input 43
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 527765581332480
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -33
+SaveInput1
+set_input 33
+SaveInput2
+SaveOutput
+expect 0 -274877906945
+expect 1 0
+
+# test 43: Random Low-Range
+set_input -65
+SaveInput1
+set_input -17
+SaveInput2
+SaveOutput
+expect 0 -9007199254740993
+expect 1 0
+
+# test 44: Random Low-Range
+set_input -26
+SaveInput1
+set_input -92
+SaveInput2
+SaveOutput
+expect 0 -1717986918401
+expect 1 0
+
+# test 45: Random Low-Range
+set_input 14
+SaveInput1
+set_input -36
+SaveInput2
+SaveOutput
+expect 0 3758096384
+expect 1 0
+
+# test 46: Random Low-Range
+set_input -24
+SaveInput1
+set_input -19
+SaveInput2
+SaveOutput
+expect 0 -809240558043137
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 85
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 382805968326492160
+expect 1 0
+
+# test 48: Random Low-Range
+set_input 67
+SaveInput1
+set_input -15
+SaveInput2
+SaveOutput
+expect 0 37717646879227904
+expect 1 0
+
+# test 49: Random Low-Range
+set_input 12
+SaveInput1
+set_input -96
+SaveInput2
+SaveOutput
+expect 0 51539607552
 expect 1 0
 
 # test 50: Random Low-Range
-set_input 22
+set_input -9
 SaveInput1
-set_input -66
+set_input 12
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -32769
 expect 1 0
 
 # Random: (-9223372036854775808, 9223372036854775807)
 # test 51: Random
-set_input 261917206665387930
+set_input -2379155349671413244
 SaveInput1
-set_input -8607455153832005673
+set_input 4617468932340917001
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -642430166933173827
 expect 1 0
 
 # test 52: Random
-set_input -4086389458956090631
+set_input -4787792917006203309
 SaveInput1
-set_input -1088756107333699452
+set_input 7542997668438395247
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 7145487230815615451
 expect 1 0
 
 # test 53: Random
-set_input -1593050340358651715
+set_input 7666050898720679747
 SaveInput1
-set_input -3795935308483445165
+set_input 8558104096619903096
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 4857804311864299367
 expect 1 0
 
 # test 54: Random
-set_input -4185427625023595044
+set_input -520428959365603226
 SaveInput1
-set_input -6613636973496734250
+set_input 77897673312427803
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -913809597582133116
 expect 1 0
 
 # test 55: Random
-set_input -5036166494553985306
+set_input -7807414964722178908
 SaveInput1
-set_input 2685587091296633129
+set_input 296546538071154413
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 5518196473833885621
 expect 1 0
 
 # test 56: Random
-set_input -5200172175311034047
+set_input -8265260496285057196
 SaveInput1
-set_input -6540821910532846262
+set_input 2022436668390632130
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 3832446162278874450
 expect 1 0
 
 # test 57: Random
-set_input -3632225180364671357
+set_input -8905561171960203578
 SaveInput1
-set_input 8684272916077662740
+set_input 7799307283658509648
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 1678782512601924713
 expect 1 0
 
 # test 58: Random
-set_input -1414287777834793965
+set_input -6835187796303942174
 SaveInput1
-set_input 4633779256405828963
+set_input 5439449727776080259
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 658729850697117461
 expect 1 0
 
 # test 59: Random
-set_input -2385095534974680890
+set_input 2203342462939335862
 SaveInput1
-set_input -2304131709368721548
+set_input 7666967727531057529
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 7799433769087930649
 expect 1 0
 
 # test 60: Random
-set_input 1235259145286537911
+set_input -3933844591043980413
 SaveInput1
-set_input 8269410829458105676
+set_input -6773553733865839223
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -3433326580176844910
 expect 1 0
 
 # test 61: Random
-set_input -1024562018715936173
+set_input 7272086120063679690
 SaveInput1
-set_input 7569441270329165567
+set_input 3131892963766996866
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -7805143667164384471
 expect 1 0
 
 # test 62: Random
-set_input -6727711684374316575
+set_input -5054593853620664426
 SaveInput1
-set_input 5542235725878708704
+set_input 2241774871061482795
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -8485707697951515336
 expect 1 0
 
 # test 63: Random
-set_input 7224158057841850321
+set_input -2003560007544418384
 SaveInput1
-set_input 6725338905104929594
+set_input -3221012925440818202
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 627104502901322358
 expect 1 0
 
 # test 64: Random
-set_input -3952121963561957489
+set_input 4402250284373030185
 SaveInput1
-set_input -7776836504487419257
+set_input 923354836372255048
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 1724684303213078845
 expect 1 0
 
 # test 65: Random
-set_input 560624676822861434
+set_input 3532027882391890397
 SaveInput1
-set_input 2456050568425985460
+set_input -3065146261839580892
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 3163389318110939732
 expect 1 0
 
 # test 66: Random
-set_input -2812241797550207409
+set_input -350384636004607183
 SaveInput1
-set_input 8675673937758194043
+set_input 7180315226624060654
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 3948670374174124812
 expect 1 0
 
 # test 67: Random
-set_input -3154931205588541116
+set_input -6182328595100991655
 SaveInput1
-set_input 6018521120898074799
+set_input 424032833225110891
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 2304379909808009058
 expect 1 0
 
 # test 68: Random
-set_input -7599686955312378807
+set_input -4761225381968113561
 SaveInput1
-set_input -4458149295044383336
+set_input 1580393070958012326
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 1000953533537628015
 expect 1 0
 
 # test 69: Random
-set_input 559682693995621580
+set_input -2978414796890564861
 SaveInput1
-set_input 529313830357766851
+set_input 6495732587721060498
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 3321147750246996650
 expect 1 0
 
 # test 70: Random
-set_input -923373351211000731
+set_input 5831103241761848082
 SaveInput1
-set_input 1114849389369628333
+set_input -6704819275464213448
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 1319814439720835067
 expect 1 0
 
 # test 71: Random
-set_input 5631250473845232069
+set_input -7410725879358981227
 SaveInput1
-set_input 2642058551668135083
+set_input 3892845585342999067
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -7167448172354519424
 expect 1 0
 
 # test 72: Random
-set_input 2244830268964109446
+set_input 5801080963117717574
 SaveInput1
-set_input -8421812865342876273
+set_input -6698745011386789681
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -3876680135559927744
 expect 1 0
 
 # test 73: Random
-set_input -109865761116508378
+set_input -7693005478502123348
 SaveInput1
-set_input -5304437427988726914
+set_input -1463789879626571679
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -7098111334910662515
 expect 1 0
 
 # test 74: Random
-set_input 962683795904841197
+set_input 8615716824288979705
 SaveInput1
-set_input -4259991241913237594
+set_input -7891406245359817153
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -4915513624710285956
 expect 1 0
 
 # test 75: Random
-set_input -3505873338953784671
+set_input 5677748131238834797
 SaveInput1
-set_input -5067833767344805546
+set_input 7732540986014756293
 SaveInput2
 SaveOutput
-expect 0 0
+expect 0 -2779500537452802647
 expect 1 0
 
 # Opcode 1: AND
@@ -6753,169 +1986,706 @@ expect 1 0
 
 # Random Low-Range: (-100, 100)
 # test 26: Random Low-Range
-set_input 5
+set_input -91
 SaveInput1
-set_input 97
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -13
-SaveInput1
-set_input -18
-SaveInput2
-SaveOutput
-expect 0 -30
-expect 1 0
-
-# test 28: Random Low-Range
-set_input 26
-SaveInput1
-set_input -39
-SaveInput2
-SaveOutput
-expect 0 24
-expect 1 0
-
-# test 29: Random Low-Range
-set_input -83
-SaveInput1
-set_input -27
-SaveInput2
-SaveOutput
-expect 0 -91
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -8
-SaveInput1
-set_input 23
-SaveInput2
-SaveOutput
-expect 0 16
-expect 1 0
-
-# test 31: Random Low-Range
-set_input -70
-SaveInput1
-set_input -95
+set_input -78
 SaveInput2
 SaveOutput
 expect 0 -96
 expect 1 0
 
-# test 32: Random Low-Range
-set_input -55
+# test 27: Random Low-Range
+set_input 92
 SaveInput1
-set_input 26
+set_input -23
 SaveInput2
 SaveOutput
-expect 0 8
+expect 0 72
+expect 1 0
+
+# test 28: Random Low-Range
+set_input -38
+SaveInput1
+set_input -89
+SaveInput2
+SaveOutput
+expect 0 -126
+expect 1 0
+
+# test 29: Random Low-Range
+set_input 49
+SaveInput1
+set_input 95
+SaveInput2
+SaveOutput
+expect 0 17
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -12
+SaveInput1
+set_input 36
+SaveInput2
+SaveOutput
+expect 0 36
+expect 1 0
+
+# test 31: Random Low-Range
+set_input -19
+SaveInput1
+set_input -81
+SaveInput2
+SaveOutput
+expect 0 -83
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -9
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 36
 expect 1 0
 
 # test 33: Random Low-Range
-set_input 36
+set_input 48
 SaveInput1
-set_input 59
+set_input 54
 SaveInput2
 SaveOutput
-expect 0 32
+expect 0 48
 expect 1 0
 
 # test 34: Random Low-Range
-set_input 54
+set_input -13
 SaveInput1
-set_input -99
+set_input -4
 SaveInput2
 SaveOutput
-expect 0 20
+expect 0 -16
 expect 1 0
 
 # test 35: Random Low-Range
-set_input 58
+set_input 95
 SaveInput1
 set_input -42
 SaveInput2
 SaveOutput
-expect 0 18
+expect 0 86
 expect 1 0
 
 # test 36: Random Low-Range
-set_input 95
+set_input -21
 SaveInput1
-set_input 94
-SaveInput2
-SaveOutput
-expect 0 94
-expect 1 0
-
-# test 37: Random Low-Range
-set_input -24
-SaveInput1
-set_input -48
-SaveInput2
-SaveOutput
-expect 0 -64
-expect 1 0
-
-# test 38: Random Low-Range
-set_input 32
-SaveInput1
-set_input 24
+set_input 4
 SaveInput2
 SaveOutput
 expect 0 0
 expect 1 0
 
+# test 37: Random Low-Range
+set_input -100
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 -108
+expect 1 0
+
+# test 38: Random Low-Range
+set_input -42
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 -108
+expect 1 0
+
 # test 39: Random Low-Range
-set_input -7
-SaveInput1
-set_input 7
-SaveInput2
-SaveOutput
-expect 0 1
-expect 1 0
-
-# test 40: Random Low-Range
-set_input 59
-SaveInput1
-set_input 7
-SaveInput2
-SaveOutput
-expect 0 3
-expect 1 0
-
-# test 41: Random Low-Range
-set_input 91
-SaveInput1
 set_input 42
+SaveInput1
+set_input 10
 SaveInput2
 SaveOutput
 expect 0 10
 expect 1 0
 
-# test 42: Random Low-Range
-set_input 69
+# test 40: Random Low-Range
+set_input 90
 SaveInput1
-set_input 2
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 72
+expect 1 0
+
+# test 41: Random Low-Range
+set_input -17
+SaveInput1
+set_input -51
+SaveInput2
+SaveOutput
+expect 0 -51
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -89
+SaveInput1
+set_input 85
+SaveInput2
+SaveOutput
+expect 0 5
+expect 1 0
+
+# test 43: Random Low-Range
+set_input -89
+SaveInput1
+set_input -65
+SaveInput2
+SaveOutput
+expect 0 -89
+expect 1 0
+
+# test 44: Random Low-Range
+set_input -90
+SaveInput1
+set_input 33
+SaveInput2
+SaveOutput
+expect 0 32
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -12
+SaveInput1
+set_input 87
+SaveInput2
+SaveOutput
+expect 0 84
+expect 1 0
+
+# test 46: Random Low-Range
+set_input 41
+SaveInput1
+set_input -91
+SaveInput2
+SaveOutput
+expect 0 33
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 17
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 48: Random Low-Range
+set_input 18
+SaveInput1
+set_input -50
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 49: Random Low-Range
+set_input -61
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 -128
+expect 1 0
+
+# test 50: Random Low-Range
+set_input -28
+SaveInput1
+set_input 40
+SaveInput2
+SaveOutput
+expect 0 32
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input -1520282904535807297
+SaveInput1
+set_input 1024335164395007319
+SaveInput2
+SaveOutput
+expect 0 731283261703063575
+expect 1 0
+
+# test 52: Random
+set_input 8467542218976024344
+SaveInput1
+set_input -2424415368099500417
+SaveInput2
+SaveOutput
+expect 0 6053541590924805656
+expect 1 0
+
+# test 53: Random
+set_input -4761856706792986502
+SaveInput1
+set_input -1571693068625415807
+SaveInput2
+SaveOutput
+expect 0 -6331999463971594240
+expect 1 0
+
+# test 54: Random
+set_input -8815720060393770307
+SaveInput1
+set_input -328278064353551939
+SaveInput2
+SaveOutput
+expect 0 -9142306899685732163
+expect 1 0
+
+# test 55: Random
+set_input 8993707517402266779
+SaveInput1
+set_input -802301057042421937
+SaveInput2
+SaveOutput
+expect 0 8417229147134272523
+expect 1 0
+
+# test 56: Random
+set_input 7596040435925088327
+SaveInput1
+set_input 2888254576803325509
+SaveInput2
+SaveOutput
+expect 0 2882308177318125637
+expect 1 0
+
+# test 57: Random
+set_input 1367478592229499993
+SaveInput1
+set_input 6705523026919422708
+SaveInput2
+SaveOutput
+expect 0 1155807208383602768
+expect 1 0
+
+# test 58: Random
+set_input 1627675216278400374
+SaveInput1
+set_input 1047991595063505412
+SaveInput2
+SaveOutput
+expect 0 468973371801608196
+expect 1 0
+
+# test 59: Random
+set_input 6006291213716067764
+SaveInput1
+set_input -4416594777959574119
+SaveInput2
+SaveOutput
+expect 0 4760307009484002704
+expect 1 0
+
+# test 60: Random
+set_input -2980192999320662028
+SaveInput1
+set_input 886736933313935018
+SaveInput2
+SaveOutput
+expect 0 289376070512166560
+expect 1 0
+
+# test 61: Random
+set_input -4909209112943571595
+SaveInput1
+set_input -7813207948873572792
+SaveInput2
+SaveOutput
+expect 0 -7813489990802781120
+expect 1 0
+
+# test 62: Random
+set_input 2266604673996727243
+SaveInput1
+set_input -8769107996740106223
+SaveInput2
+SaveOutput
+expect 0 451653744346562561
+expect 1 0
+
+# test 63: Random
+set_input -3784867753010817755
+SaveInput1
+set_input -2125583333790590383
+SaveInput2
+SaveOutput
+expect 0 -4467465207427264511
+expect 1 0
+
+# test 64: Random
+set_input 3163595101880860981
+SaveInput1
+set_input 3196165508287144380
+SaveInput2
+SaveOutput
+expect 0 2901172036112351540
+expect 1 0
+
+# test 65: Random
+set_input -3084314764143759564
+SaveInput1
+set_input -7385534418587864989
+SaveInput2
+SaveOutput
+expect 0 -7998322500416692192
+expect 1 0
+
+# test 66: Random
+set_input -6365352816962266520
+SaveInput1
+set_input 3019776703498569289
+SaveInput2
+SaveOutput
+expect 0 2425223860737016392
+expect 1 0
+
+# test 67: Random
+set_input -4529050699309571852
+SaveInput1
+set_input -656428773144973010
+SaveInput2
+SaveOutput
+expect 0 -4602252199932125148
+expect 1 0
+
+# test 68: Random
+set_input -4825524885664164016
+SaveInput1
+set_input -8949823346575806144
+SaveInput2
+SaveOutput
+expect 0 -9148990055370976960
+expect 1 0
+
+# test 69: Random
+set_input 4273715151944277378
+SaveInput1
+set_input -1932515778056508933
+SaveInput2
+SaveOutput
+expect 0 2381912727725705602
+expect 1 0
+
+# test 70: Random
+set_input -5685938759956479488
+SaveInput1
+set_input -1125433512017834648
+SaveInput2
+SaveOutput
+expect 0 -5764282059001741312
+expect 1 0
+
+# test 71: Random
+set_input 8902086686227893013
+SaveInput1
+set_input 8406516379680710353
+SaveInput2
+SaveOutput
+expect 0 8108889497415518737
+expect 1 0
+
+# test 72: Random
+set_input 3595404500296439238
+SaveInput1
+set_input 2145514191744172180
+SaveInput2
+SaveOutput
+expect 0 1280255155945635972
+expect 1 0
+
+# test 73: Random
+set_input 2806747414983783618
+SaveInput1
+set_input -3925204120982758407
+SaveInput2
+SaveOutput
+expect 0 36751889127706816
+expect 1 0
+
+# test 74: Random
+set_input -3049033213325761225
+SaveInput1
+set_input 7087947477738434330
+SaveInput2
+SaveOutput
+expect 0 4615380516698957074
+expect 1 0
+
+# test 75: Random
+set_input -6359835953241985023
+SaveInput1
+set_input 7958045676974662786
+SaveInput2
+SaveOutput
+expect 0 2751699789744726016
+expect 1 0
+
+# Opcode 8: SHL
+set_input 8
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
 SaveInput2
 SaveOutput
 expect 0 0
 expect 1 0
 
-# test 43: Random Low-Range
-set_input -73
+# test 2: Edge Case
+set_input 0
 SaveInput1
-set_input -53
+set_input 1
 SaveInput2
 SaveOutput
-expect 0 -125
+expect 0 0
 expect 1 0
 
-# test 44: Random Low-Range
-set_input 20
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387904
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387903
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input -56
+SaveInput1
+set_input 88
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 27: Random Low-Range
+set_input -13
+SaveInput1
+set_input 34
+SaveInput2
+SaveOutput
+expect 0 -223338299392
+expect 1 0
+
+# test 28: Random Low-Range
+set_input 73
 SaveInput1
 set_input -63
 SaveInput2
@@ -6923,284 +2693,2471 @@ SaveOutput
 expect 0 0
 expect 1 0
 
-# test 45: Random Low-Range
-set_input -51
+# test 29: Random Low-Range
+set_input -34
 SaveInput1
-set_input 69
+set_input 45
 SaveInput2
 SaveOutput
-expect 0 69
+expect 0 -1196268651020288
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -71
+SaveInput1
+set_input -13
+SaveInput2
+SaveOutput
+expect 0 2251799813685247
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 46
+SaveInput1
+set_input 17
+SaveInput2
+SaveOutput
+expect 0 6029312
+expect 1 0
+
+# test 32: Random Low-Range
+set_input 70
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 300647710720
+expect 1 0
+
+# test 33: Random Low-Range
+set_input 9
+SaveInput1
+set_input 83
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 34: Random Low-Range
+set_input 100
+SaveInput1
+set_input 62
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 100
+SaveInput1
+set_input -6
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 73
+SaveInput1
+set_input 9
+SaveInput2
+SaveOutput
+expect 0 37376
+expect 1 0
+
+# test 37: Random Low-Range
+set_input -29
+SaveInput1
+set_input 62
+SaveInput2
+SaveOutput
+expect 0 -4611686018427387904
+expect 1 0
+
+# test 38: Random Low-Range
+set_input 68
+SaveInput1
+set_input -38
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 39: Random Low-Range
+set_input 35
+SaveInput1
+set_input 3
+SaveInput2
+SaveOutput
+expect 0 280
+expect 1 0
+
+# test 40: Random Low-Range
+set_input -45
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 41: Random Low-Range
+set_input 59
+SaveInput1
+set_input 64
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 42: Random Low-Range
+set_input 47
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 43: Random Low-Range
+set_input -22
+SaveInput1
+set_input -30
+SaveInput2
+SaveOutput
+expect 0 17179869183
+expect 1 0
+
+# test 44: Random Low-Range
+set_input 54
+SaveInput1
+set_input -39
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -59
+SaveInput1
+set_input -31
+SaveInput2
+SaveOutput
+expect 0 8589934591
 expect 1 0
 
 # test 46: Random Low-Range
-set_input 53
+set_input -54
 SaveInput1
-set_input -75
+set_input 98
 SaveInput2
 SaveOutput
-expect 0 53
+expect 0 0
 expect 1 0
 
 # test 47: Random Low-Range
-set_input -52
+set_input -18
 SaveInput1
-set_input -47
+set_input 0
 SaveInput2
 SaveOutput
-expect 0 -64
+expect 0 -18
 expect 1 0
 
 # test 48: Random Low-Range
-set_input -87
+set_input -71
 SaveInput1
-set_input -9
+set_input -73
 SaveInput2
 SaveOutput
-expect 0 -95
+expect 0 0
 expect 1 0
 
 # test 49: Random Low-Range
-set_input -72
+set_input -64
 SaveInput1
-set_input 87
+set_input -73
 SaveInput2
 SaveOutput
-expect 0 16
+expect 0 0
 expect 1 0
 
 # test 50: Random Low-Range
-set_input -67
+set_input 51
 SaveInput1
-set_input -45
+set_input -17
 SaveInput2
 SaveOutput
-expect 0 -111
+expect 0 0
 expect 1 0
 
 # Random: (-9223372036854775808, 9223372036854775807)
 # test 51: Random
-set_input -6448645060110625193
+set_input 7463731236940559
 SaveInput1
-set_input 619575710126062695
+set_input -6006440370926926997
 SaveInput2
 SaveOutput
-expect 0 36323824253670471
+expect 0 0
 expect 1 0
 
 # test 52: Random
-set_input 9068732525339751607
+set_input -6030539376350623246
 SaveInput1
-set_input -8562621836857809669
+set_input 5150089663814510511
 SaveInput2
 SaveOutput
-expect 0 651355148014068915
+expect 0 0
 expect 1 0
 
 # test 53: Random
-set_input 5758504550378076529
+set_input 29512416693189643
 SaveInput1
-set_input 5380013009361717986
+set_input 2774423572596322465
 SaveInput2
 SaveOutput
-expect 0 5379551132785854560
+expect 0 0
 expect 1 0
 
 # test 54: Random
-set_input -4609509789262817450
+set_input 3142932392942262850
 SaveInput1
-set_input 7434495588844009173
+set_input 6338339776573688173
 SaveInput2
 SaveOutput
-expect 0 4612990314368554580
+expect 0 0
 expect 1 0
 
 # test 55: Random
-set_input 5229992444904818857
+set_input -994393971969727518
 SaveInput1
-set_input -5647912428414245916
+set_input 7452370120399236180
 SaveInput2
 SaveOutput
-expect 0 41799039418777760
+expect 0 0
 expect 1 0
 
 # test 56: Random
-set_input 3379659216940132087
+set_input 5458667860272462579
 SaveInput1
-set_input 4486768028297003149
+set_input 523609638307763984
 SaveInput2
 SaveOutput
-expect 0 3333844766240604293
+expect 0 0
 expect 1 0
 
 # test 57: Random
-set_input 6924988336508661385
+set_input 5133983146648903162
 SaveInput1
-set_input -7116402622452546136
+set_input 4484467670835919433
 SaveInput2
 SaveOutput
-expect 0 6755402293331080
+expect 0 0
 expect 1 0
 
 # test 58: Random
-set_input -8632211345574440037
+set_input 5544346698760487142
 SaveInput1
-set_input 1191941077745388240
+set_input -7902042304401893601
 SaveInput2
 SaveOutput
-expect 0 35185448993424
+expect 0 0
 expect 1 0
 
 # test 59: Random
-set_input 1253256853019979254
+set_input -416169869137885293
 SaveInput1
-set_input -9021883452550038170
+set_input 5746182580335520782
 SaveInput2
 SaveOutput
-expect 0 18107052773879142
+expect 0 0
 expect 1 0
 
 # test 60: Random
-set_input -4766890979905281985
+set_input 2760590607743198508
 SaveInput1
-set_input -6710271439292239310
+set_input 7419023697116228511
 SaveInput2
 SaveOutput
-expect 0 -6863466416133545934
+expect 0 0
 expect 1 0
 
 # test 61: Random
-set_input 7452000344537154850
+set_input 1204521622260355546
 SaveInput1
-set_input -6525969181806001799
+set_input -2800644402454902136
 SaveInput2
 SaveOutput
-expect 0 2695985540448682272
+expect 0 0
 expect 1 0
 
 # test 62: Random
-set_input -3482425601894127441
+set_input 3950223424889384957
 SaveInput1
-set_input -3898771775888022452
+set_input -7662204641130114670
 SaveInput2
 SaveOutput
-expect 0 -3917920459517059060
+expect 0 0
 expect 1 0
 
 # test 63: Random
-set_input 7141689822901764966
+set_input -875184517812201462
 SaveInput1
-set_input 2522506100330490397
+set_input -7171061221926381507
 SaveInput2
 SaveOutput
-expect 0 2522052136214462980
+expect 0 0
 expect 1 0
 
 # test 64: Random
-set_input -6363705203028043279
+set_input -2480188117031957666
 SaveInput1
-set_input 1001116303750078394
+set_input 8297810231122020469
 SaveInput2
 SaveOutput
-expect 0 406592601255319984
+expect 0 0
 expect 1 0
 
 # test 65: Random
-set_input 7140400166099665696
+set_input -190354792450080833
 SaveInput1
-set_input 4985607067916359525
+set_input -805282980823500523
 SaveInput2
 SaveOutput
-expect 0 4688330871621600032
+expect 0 0
 expect 1 0
 
 # test 66: Random
-set_input -6343115474956896167
+set_input -3989371004067208747
 SaveInput1
-set_input 5850778807813572026
+set_input -3975639628189998662
 SaveInput2
 SaveOutput
-expect 0 85603651129180184
+expect 0 0
 expect 1 0
 
 # test 67: Random
-set_input -6084653524226909306
+set_input 4019804006209072003
 SaveInput1
-set_input 811983021527367023
+set_input -5592019717018722624
 SaveInput2
 SaveOutput
-expect 0 793959826911680774
+expect 0 0
 expect 1 0
 
 # test 68: Random
-set_input -6463282497060757201
+set_input -7413224830810383100
 SaveInput1
-set_input 4030004240611106706
+set_input -1514783952042467477
 SaveInput2
 SaveOutput
-expect 0 2759935264249938178
+expect 0 0
 expect 1 0
 
 # test 69: Random
-set_input -5706945445326440559
+set_input 9165576462697927283
 SaveInput1
-set_input -228658370450940615
+set_input 9145753689686865228
 SaveInput2
 SaveOutput
-expect 0 -5710423280070421231
+expect 0 0
 expect 1 0
 
 # test 70: Random
-set_input 3292894805626988174
+set_input 4981086281458946847
 SaveInput1
-set_input 6103139404926817449
+set_input 1680226243030212594
 SaveInput2
 SaveOutput
-expect 0 338531251046581384
+expect 0 0
 expect 1 0
 
 # test 71: Random
-set_input 377189536474085807
+set_input 5844403835806547207
 SaveInput1
-set_input 3489203536011455668
+set_input -7059402858722236740
 SaveInput2
 SaveOutput
-expect 0 12385036423145636
+expect 0 0
 expect 1 0
 
 # test 72: Random
-set_input -6943235047549446695
+set_input 5677568929111979676
 SaveInput1
-set_input 2639917300431948134
+set_input -1212367516097685835
 SaveInput2
 SaveOutput
-expect 0 333420854891610432
+expect 0 0
 expect 1 0
 
 # test 73: Random
-set_input 6219380331906640433
+set_input 8252691828618568747
 SaveInput1
-set_input 5566652512063060408
+set_input 2051327128022606741
 SaveInput2
 SaveOutput
-expect 0 4918116014627530800
+expect 0 0
 expect 1 0
 
 # test 74: Random
-set_input -4017183714057024670
+set_input 3633198959606908812
 SaveInput1
-set_input 8026171826264557531
+set_input -217416949616519522
 SaveInput2
 SaveOutput
-expect 0 5206179311755002690
+expect 0 0
 expect 1 0
 
 # test 75: Random
-set_input -2593165506299257178
+set_input 8314355106338456515
 SaveInput1
-set_input 1954653994108453427
+set_input -7379283776636611923
 SaveInput2
 SaveOutput
-expect 0 1729401163643617826
+expect 0 0
+expect 1 0
+
+# Opcode 2: OR
+set_input 2
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input 59
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 -65
+expect 1 0
+
+# test 27: Random Low-Range
+set_input -27
+SaveInput1
+set_input -99
+SaveInput2
+SaveOutput
+expect 0 -3
+expect 1 0
+
+# test 28: Random Low-Range
+set_input 1
+SaveInput1
+set_input 7
+SaveInput2
+SaveOutput
+expect 0 7
+expect 1 0
+
+# test 29: Random Low-Range
+set_input 77
+SaveInput1
+set_input 10
+SaveInput2
+SaveOutput
+expect 0 79
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -70
+SaveInput1
+set_input -41
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 8
+SaveInput1
+set_input 99
+SaveInput2
+SaveOutput
+expect 0 107
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -32
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 -29
+expect 1 0
+
+# test 33: Random Low-Range
+set_input -50
+SaveInput1
+set_input -86
+SaveInput2
+SaveOutput
+expect 0 -18
+expect 1 0
+
+# test 34: Random Low-Range
+set_input 2
+SaveInput1
+set_input 18
+SaveInput2
+SaveOutput
+expect 0 18
+expect 1 0
+
+# test 35: Random Low-Range
+set_input -24
+SaveInput1
+set_input -66
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 87
+SaveInput1
+set_input 35
+SaveInput2
+SaveOutput
+expect 0 119
+expect 1 0
+
+# test 37: Random Low-Range
+set_input 91
+SaveInput1
+set_input -84
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 38: Random Low-Range
+set_input -5
+SaveInput1
+set_input 77
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 39: Random Low-Range
+set_input 38
+SaveInput1
+set_input 81
+SaveInput2
+SaveOutput
+expect 0 119
+expect 1 0
+
+# test 40: Random Low-Range
+set_input 75
+SaveInput1
+set_input 10
+SaveInput2
+SaveOutput
+expect 0 75
+expect 1 0
+
+# test 41: Random Low-Range
+set_input -56
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 -4
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -36
+SaveInput1
+set_input -33
+SaveInput2
+SaveOutput
+expect 0 -33
+expect 1 0
+
+# test 43: Random Low-Range
+set_input 22
+SaveInput1
+set_input 43
+SaveInput2
+SaveOutput
+expect 0 63
+expect 1 0
+
+# test 44: Random Low-Range
+set_input -5
+SaveInput1
+set_input -28
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 45: Random Low-Range
+set_input 43
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 -21
+expect 1 0
+
+# test 46: Random Low-Range
+set_input -17
+SaveInput1
+set_input -2
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 47: Random Low-Range
+set_input -88
+SaveInput1
+set_input -98
+SaveInput2
+SaveOutput
+expect 0 -66
+expect 1 0
+
+# test 48: Random Low-Range
+set_input -44
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 -11
+expect 1 0
+
+# test 49: Random Low-Range
+set_input -12
+SaveInput1
+set_input -79
+SaveInput2
+SaveOutput
+expect 0 -11
+expect 1 0
+
+# test 50: Random Low-Range
+set_input 97
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 115
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input -2644896853225824774
+SaveInput1
+set_input -3925063014399203060
+SaveInput2
+SaveOutput
+expect 0 -2607724938982900226
+expect 1 0
+
+# test 52: Random
+set_input -1300948315270719734
+SaveInput1
+set_input 8052096038267415738
+SaveInput2
+SaveOutput
+expect 0 -1153243732390740038
+expect 1 0
+
+# test 53: Random
+set_input 7208475620392597312
+SaveInput1
+set_input -884416195729626646
+SaveInput2
+SaveOutput
+expect 0 -596183345340153878
+expect 1 0
+
+# test 54: Random
+set_input -1502373753838611777
+SaveInput1
+set_input -3181094797130555847
+SaveInput2
+SaveOutput
+expect 0 -288653516351414593
+expect 1 0
+
+# test 55: Random
+set_input -3461768323491944818
+SaveInput1
+set_input -7058784222323173233
+SaveInput2
+SaveOutput
+expect 0 -2305986842838974833
+expect 1 0
+
+# test 56: Random
+set_input -2906137948921017851
+SaveInput1
+set_input 7079358194416064506
+SaveInput2
+SaveOutput
+expect 0 -594476319850373121
+expect 1 0
+
+# test 57: Random
+set_input 5373164168097090937
+SaveInput1
+set_input -6779545399829716471
+SaveInput2
+SaveOutput
+expect 0 -1442427898499895431
+expect 1 0
+
+# test 58: Random
+set_input 7048231367706053520
+SaveInput1
+set_input 4456746932081429517
+SaveInput2
+SaveOutput
+expect 0 9068520933759029149
+expect 1 0
+
+# test 59: Random
+set_input 5974805947872721623
+SaveInput1
+set_input -3427951695534884547
+SaveInput2
+SaveOutput
+expect 0 -3247097140102956033
+expect 1 0
+
+# test 60: Random
+set_input -9106140262746139939
+SaveInput1
+set_input 5980212280453005300
+SaveInput2
+SaveOutput
+expect 0 -3171097158523387907
+expect 1 0
+
+# test 61: Random
+set_input 4423839262905992714
+SaveInput1
+set_input 2301670799607285479
+SaveInput2
+SaveOutput
+expect 0 4608782756916971247
+expect 1 0
+
+# test 62: Random
+set_input -8309840042443519776
+SaveInput1
+set_input -7725834757191886275
+SaveInput2
+SaveOutput
+expect 0 -7138813735766435075
+expect 1 0
+
+# test 63: Random
+set_input -7342201178062266805
+SaveInput1
+set_input -124051483451003645
+SaveInput2
+SaveOutput
+expect 0 -117295909524537525
+expect 1 0
+
+# test 64: Random
+set_input 1564991243154872025
+SaveInput1
+set_input 8912984879241424131
+SaveInput2
+SaveOutput
+expect 0 9203105557209153499
+expect 1 0
+
+# test 65: Random
+set_input -1850834804870374347
+SaveInput1
+set_input -8214951278692372889
+SaveInput2
+SaveOutput
+expect 0 -1153304275449282953
+expect 1 0
+
+# test 66: Random
+set_input 1240716839612257324
+SaveInput1
+set_input 5364812573362297162
+SaveInput2
+SaveOutput
+expect 0 6590998249957432686
+expect 1 0
+
+# test 67: Random
+set_input -4202738207138818656
+SaveInput1
+set_input -5552765054131937019
+SaveInput2
+SaveOutput
+expect 0 -577340505490754139
+expect 1 0
+
+# test 68: Random
+set_input -9009791804898793698
+SaveInput1
+set_input -1718670905003207785
+SaveInput2
+SaveOutput
+expect 0 -1515795530608003169
+expect 1 0
+
+# test 69: Random
+set_input -2590847137706182402
+SaveInput1
+set_input 8488768408475087607
+SaveInput2
+SaveOutput
+expect 0 -157766838804055297
+expect 1 0
+
+# test 70: Random
+set_input -2953456727688031541
+SaveInput1
+set_input 8877069483565918709
+SaveInput2
+SaveOutput
+expect 0 -57491360111199233
+expect 1 0
+
+# test 71: Random
+set_input 6676650979359365155
+SaveInput1
+set_input -5050298256264384191
+SaveInput2
+SaveOutput
+expect 0 -150379110215009949
+expect 1 0
+
+# test 72: Random
+set_input -148315293318728729
+SaveInput1
+set_input -8374972458880204879
+SaveInput2
+SaveOutput
+expect 0 -2499259270430729
+expect 1 0
+
+# test 73: Random
+set_input -1450375528506669590
+SaveInput1
+set_input -8109542463886676762
+SaveInput2
+SaveOutput
+expect 0 -1153133450816459282
+expect 1 0
+
+# test 74: Random
+set_input -4303193211031307720
+SaveInput1
+set_input 5000445133447145370
+SaveInput2
+SaveOutput
+expect 0 -4222125909186199622
+expect 1 0
+
+# test 75: Random
+set_input 4329871872179107944
+SaveInput1
+set_input 6271156929270005890
+SaveInput2
+SaveOutput
+expect 0 9158047332267129066
+expect 1 0
+
+# Opcode 11: ROTR
+set_input 11
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387904
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -4611686018427387905
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input 7
+SaveInput1
+set_input -67
+SaveInput2
+SaveOutput
+expect 0 56
+expect 1 0
+
+# test 27: Random Low-Range
+set_input -94
+SaveInput1
+set_input 4
+SaveInput2
+SaveOutput
+expect 0 3458764513820540922
+expect 1 0
+
+# test 28: Random Low-Range
+set_input 40
+SaveInput1
+set_input -56
+SaveInput2
+SaveOutput
+expect 0 2882303761517117440
+expect 1 0
+
+# test 29: Random Low-Range
+set_input 86
+SaveInput1
+set_input -65
+SaveInput2
+SaveOutput
+expect 0 172
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -48
+SaveInput1
+set_input -24
+SaveInput2
+SaveOutput
+expect 0 -788529153
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 46
+SaveInput1
+set_input 61
+SaveInput2
+SaveOutput
+expect 0 368
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -70
+SaveInput1
+set_input -24
+SaveInput2
+SaveOutput
+expect 0 -1157627905
+expect 1 0
+
+# test 33: Random Low-Range
+set_input 75
+SaveInput1
+set_input -52
+SaveInput2
+SaveOutput
+expect 0 337769972052787200
+expect 1 0
+
+# test 34: Random Low-Range
+set_input 39
+SaveInput1
+set_input -97
+SaveInput2
+SaveOutput
+expect 0 335007449088
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 34
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 68
+expect 1 0
+
+# test 36: Random Low-Range
+set_input -90
+SaveInput1
+set_input -25
+SaveInput2
+SaveOutput
+expect 0 -2986344449
+expect 1 0
+
+# test 37: Random Low-Range
+set_input -40
+SaveInput1
+set_input 59
+SaveInput2
+SaveOutput
+expect 0 -1249
+expect 1 0
+
+# test 38: Random Low-Range
+set_input -46
+SaveInput1
+set_input 98
+SaveInput2
+SaveOutput
+expect 0 -48318382081
+expect 1 0
+
+# test 39: Random Low-Range
+set_input -17
+SaveInput1
+set_input -85
+SaveInput2
+SaveOutput
+expect 0 -33554433
+expect 1 0
+
+# test 40: Random Low-Range
+set_input -58
+SaveInput1
+set_input 5
+SaveInput2
+SaveOutput
+expect 0 4035225266123964414
+expect 1 0
+
+# test 41: Random Low-Range
+set_input 83
+SaveInput1
+set_input -46
+SaveInput2
+SaveOutput
+expect 0 5840605766746112
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -54
+SaveInput1
+set_input 39
+SaveInput2
+SaveOutput
+expect 0 -1778384897
+expect 1 0
+
+# test 43: Random Low-Range
+set_input 56
+SaveInput1
+set_input 88
+SaveInput2
+SaveOutput
+expect 0 61572651155456
+expect 1 0
+
+# test 44: Random Low-Range
+set_input -4
+SaveInput1
+set_input -63
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 1 0
+
+# test 45: Random Low-Range
+set_input 84
+SaveInput1
+set_input -74
+SaveInput2
+SaveOutput
+expect 0 86016
+expect 1 0
+
+# test 46: Random Low-Range
+set_input -49
+SaveInput1
+set_input -27
+SaveInput2
+SaveOutput
+expect 0 -6442450945
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 91
+SaveInput1
+set_input 48
+SaveInput2
+SaveOutput
+expect 0 5963776
+expect 1 0
+
+# test 48: Random Low-Range
+set_input -31
+SaveInput1
+set_input -100
+SaveInput2
+SaveOutput
+expect 0 -2061584302081
+expect 1 0
+
+# test 49: Random Low-Range
+set_input 50
+SaveInput1
+set_input 96
+SaveInput2
+SaveOutput
+expect 0 214748364800
+expect 1 0
+
+# test 50: Random Low-Range
+set_input 39
+SaveInput1
+set_input -68
+SaveInput2
+SaveOutput
+expect 0 624
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input 6231699104081362126
+SaveInput1
+set_input 9183119335973017199
+SaveInput2
+SaveOutput
+expect 0 -2115869632939381514
+expect 1 0
+
+# test 52: Random
+set_input -5036424018595515102
+SaveInput1
+set_input -8507567521981364006
+SaveInput2
+SaveOutput
+expect 0 6313282167065657986
+expect 1 0
+
+# test 53: Random
+set_input 3088294997820908939
+SaveInput1
+set_input 2325447384632518126
+SaveInput2
+SaveOutput
+expect 0 5746745873261177711
+expect 1 0
+
+# test 54: Random
+set_input 1652022251481049413
+SaveInput1
+set_input 6783542045709938119
+SaveInput2
+SaveOutput
+expect 0 -8489889672635800750
+expect 1 0
+
+# test 55: Random
+set_input -7465951091653955943
+SaveInput1
+set_input -6709156636812900749
+SaveInput2
+SaveOutput
+expect 0 8332005591666078476
+expect 1 0
+
+# test 56: Random
+set_input -8274998079105811467
+SaveInput1
+set_input -7730251183193619291
+SaveInput2
+SaveOutput
+expect 0 -5183962168316835224
+expect 1 0
+
+# test 57: Random
+set_input -4077093420894727015
+SaveInput1
+set_input -6080294746353331846
+SaveInput2
+SaveOutput
+expect 0 -2679561905328806287
+expect 1 0
+
+# test 58: Random
+set_input -7302666341143341877
+SaveInput1
+set_input -3904070172626164134
+SaveInput2
+SaveOutput
+expect 0 -4844409857892292135
+expect 1 0
+
+# test 59: Random
+set_input -2926588233630659411
+SaveInput1
+set_input 829623781773783731
+SaveInput2
+SaveOutput
+expect 0 6156485920055212780
+expect 1 0
+
+# test 60: Random
+set_input 1405891125098989358
+SaveInput1
+set_input 5535835070275469475
+SaveInput2
+SaveOutput
+expect 0 -1005207727675254960
+expect 1 0
+
+# test 61: Random
+set_input 5190696079465947238
+SaveInput1
+set_input -4997169652854339194
+SaveInput2
+SaveOutput
+expect 0 -7412885153702849919
+expect 1 0
+
+# test 62: Random
+set_input 7868802565646975949
+SaveInput1
+set_input 2251721297917703302
+SaveInput2
+SaveOutput
+expect 0 3869944930060486671
+expect 1 0
+
+# test 63: Random
+set_input -5805808121312619878
+SaveInput1
+set_input -6797089355023443486
+SaveInput2
+SaveOutput
+expect 0 -8375194857200981999
+expect 1 0
+
+# test 64: Random
+set_input 7196126615697702579
+SaveInput1
+set_input 4149546981333984865
+SaveInput2
+SaveOutput
+expect 0 -2327622849810996349
+expect 1 0
+
+# test 65: Random
+set_input 8525397786043930663
+SaveInput1
+set_input 5038724877736593819
+SaveInput2
+SaveOutput
+expect 0 -4495994379360959555
+expect 1 0
+
+# test 66: Random
+set_input 9206481858207585271
+SaveInput1
+set_input 1989590193953994301
+SaveInput2
+SaveOutput
+expect 0 -135121429177524293
+expect 1 0
+
+# test 67: Random
+set_input 1303873726025419863
+SaveInput1
+set_input 402343944597610076
+SaveInput2
+SaveOutput
+expect 0 -334175182647942163
+expect 1 0
+
+# test 68: Random
+set_input 1602693515726603751
+SaveInput1
+set_input 5572913812204331023
+SaveInput2
+SaveOutput
+expect 0 -8372705746910596759
+expect 1 0
+
+# test 69: Random
+set_input -5063195650157088707
+SaveInput1
+set_input 2543505810263440464
+SaveInput2
+SaveOutput
+expect 0 8087824722569581589
+expect 1 0
+
+# test 70: Random
+set_input -1820309527993508300
+SaveInput1
+set_input 9085460745357102900
+SaveInput2
+SaveOutput
+expect 0 -3503220882751140245
+expect 1 0
+
+# test 71: Random
+set_input 5507495497529119288
+SaveInput1
+set_input 1749029835799974339
+SaveInput2
+SaveOutput
+expect 0 688436937191139911
+expect 1 0
+
+# test 72: Random
+set_input 5261567829699972189
+SaveInput1
+set_input -4162028850560367987
+SaveInput2
+SaveOutput
+expect 0 7127588691543021342
+expect 1 0
+
+# test 73: Random
+set_input -2900365328011278030
+SaveInput1
+set_input -1281058475807375006
+SaveInput2
+SaveOutput
+expect 0 8521323196873438534
+expect 1 0
+
+# test 74: Random
+set_input 6429041747283789976
+SaveInput1
+set_input -2476063598804261745
+SaveInput2
+SaveOutput
+expect 0 -7984685940544097789
+expect 1 0
+
+# test 75: Random
+set_input -5150560422775386020
+SaveInput1
+set_input -9069092954807246077
+SaveInput2
+SaveOutput
+expect 0 -7561349080488005109
+expect 1 0
+
+# Opcode 12: ASHR
+set_input 12
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -4611686018427387904
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387903
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input -26
+SaveInput1
+set_input -25
+SaveInput2
+SaveOutput
+expect 0 -872415232
+expect 1 0
+
+# test 27: Random Low-Range
+set_input 22
+SaveInput1
+set_input -89
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 28: Random Low-Range
+set_input 22
+SaveInput1
+set_input 81
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 29: Random Low-Range
+set_input -46
+SaveInput1
+set_input -7
+SaveInput2
+SaveOutput
+expect 0 -5888
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -31
+SaveInput1
+set_input 42
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 31: Random Low-Range
+set_input -61
+SaveInput1
+set_input 37
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -2
+SaveInput1
+set_input -13
+SaveInput2
+SaveOutput
+expect 0 -16384
+expect 1 0
+
+# test 33: Random Low-Range
+set_input 36
+SaveInput1
+set_input 51
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 34: Random Low-Range
+set_input 54
+SaveInput1
+set_input -40
+SaveInput2
+SaveOutput
+expect 0 59373627899904
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 45
+SaveInput1
+set_input 69
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 76
+SaveInput1
+set_input -55
+SaveInput2
+SaveOutput
+expect 0 2738188573441261568
+expect 1 0
+
+# test 37: Random Low-Range
+set_input 75
+SaveInput1
+set_input 57
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 38: Random Low-Range
+set_input 80
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 45035996273704960
+expect 1 0
+
+# test 39: Random Low-Range
+set_input 24
+SaveInput1
+set_input 94
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 40: Random Low-Range
+set_input -82
+SaveInput1
+set_input -2
+SaveInput2
+SaveOutput
+expect 0 -328
+expect 1 0
+
+# test 41: Random Low-Range
+set_input -9
+SaveInput1
+set_input 15
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 42: Random Low-Range
+set_input 66
+SaveInput1
+set_input -91
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 43: Random Low-Range
+set_input 97
+SaveInput1
+set_input -23
+SaveInput2
+SaveOutput
+expect 0 813694976
+expect 1 0
+
+# test 44: Random Low-Range
+set_input 60
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -67
+SaveInput1
+set_input -47
+SaveInput2
+SaveOutput
+expect 0 -9429411719806976
+expect 1 0
+
+# test 46: Random Low-Range
+set_input 79
+SaveInput1
+set_input -46
+SaveInput2
+SaveOutput
+expect 0 5559130790035456
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 36
+SaveInput1
+set_input -84
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 48: Random Low-Range
+set_input -82
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 -335872
+expect 1 0
+
+# test 49: Random Low-Range
+set_input -20
+SaveInput1
+set_input -96
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 50: Random Low-Range
+set_input -32
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 -18014398509481984
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input -5284651342026839230
+SaveInput1
+set_input 341647212009824049
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 52: Random
+set_input -5842338982320409256
+SaveInput1
+set_input -7245002970517848072
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 53: Random
+set_input 2221405047513199325
+SaveInput1
+set_input -5010591362040516100
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 54: Random
+set_input -6651520177635245457
+SaveInput1
+set_input 3729447863753831236
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 55: Random
+set_input -6590491619885787906
+SaveInput1
+set_input -6866047603524217082
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 56: Random
+set_input 6218845881863922515
+SaveInput1
+set_input 1943091929694346381
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 57: Random
+set_input -7793475924657958845
+SaveInput1
+set_input -7826778449074365446
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 58: Random
+set_input -275824590018931658
+SaveInput1
+set_input 91538977870625359
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 59: Random
+set_input 5756114576569214481
+SaveInput1
+set_input -359323873696910431
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 60: Random
+set_input -5559084673856878924
+SaveInput1
+set_input -6949076092239510854
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 61: Random
+set_input 7287363856896757685
+SaveInput1
+set_input -7810166953411950163
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 62: Random
+set_input 7872634044302289367
+SaveInput1
+set_input -8697742752672214093
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 63: Random
+set_input 5733449432239042917
+SaveInput1
+set_input -3303115544009259743
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 64: Random
+set_input 2750596362360495535
+SaveInput1
+set_input 5812775834603651344
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 65: Random
+set_input 6694431721969396996
+SaveInput1
+set_input 7005825893899238370
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 66: Random
+set_input -3656975215284048854
+SaveInput1
+set_input 5399373408829971785
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 67: Random
+set_input 875564377715728695
+SaveInput1
+set_input -4905475711485496709
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 68: Random
+set_input 7193063378279663297
+SaveInput1
+set_input -3841668641804426670
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 69: Random
+set_input -7774068831800234032
+SaveInput1
+set_input 5221367332342120521
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 70: Random
+set_input -441434209706860790
+SaveInput1
+set_input 819755279716391987
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 71: Random
+set_input 8698612705266099907
+SaveInput1
+set_input -2930937160117557360
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 72: Random
+set_input -6245226725935521372
+SaveInput1
+set_input 1931786662250927044
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 73: Random
+set_input 4798087666934601027
+SaveInput1
+set_input 8645088580934610212
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 74: Random
+set_input -780946799538163548
+SaveInput1
+set_input -874821195112161688
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 75: Random
+set_input -1743655883010478571
+SaveInput1
+set_input 1355853018554488054
+SaveInput2
+SaveOutput
+expect 0 -1
 expect 1 0
 
 # Opcode 5: NAND
@@ -7434,225 +5391,225 @@ expect 1 0
 
 # Random Low-Range: (-100, 100)
 # test 26: Random Low-Range
-set_input -82
-SaveInput1
-set_input -96
-SaveInput2
-SaveOutput
-expect 0 95
-expect 1 0
-
-# test 27: Random Low-Range
-set_input -75
-SaveInput1
-set_input -9
-SaveInput2
-SaveOutput
-expect 0 74
-expect 1 0
-
-# test 28: Random Low-Range
-set_input 70
-SaveInput1
-set_input -47
-SaveInput2
-SaveOutput
-expect 0 -65
-expect 1 0
-
-# test 29: Random Low-Range
-set_input -8
-SaveInput1
-set_input 24
-SaveInput2
-SaveOutput
-expect 0 -25
-expect 1 0
-
-# test 30: Random Low-Range
-set_input -79
-SaveInput1
-set_input -3
-SaveInput2
-SaveOutput
-expect 0 78
-expect 1 0
-
-# test 31: Random Low-Range
-set_input 15
-SaveInput1
-set_input 28
-SaveInput2
-SaveOutput
-expect 0 -13
-expect 1 0
-
-# test 32: Random Low-Range
-set_input 51
-SaveInput1
-set_input 100
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 33: Random Low-Range
-set_input -32
-SaveInput1
-set_input 81
-SaveInput2
-SaveOutput
-expect 0 -65
-expect 1 0
-
-# test 34: Random Low-Range
-set_input -86
-SaveInput1
-set_input 42
-SaveInput2
-SaveOutput
-expect 0 -43
-expect 1 0
-
-# test 35: Random Low-Range
-set_input 71
-SaveInput1
-set_input -87
-SaveInput2
-SaveOutput
-expect 0 -2
-expect 1 0
-
-# test 36: Random Low-Range
 set_input -78
 SaveInput1
-set_input -42
-SaveInput2
-SaveOutput
-expect 0 109
-expect 1 0
-
-# test 37: Random Low-Range
-set_input 48
-SaveInput1
-set_input 46
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 38: Random Low-Range
-set_input -56
-SaveInput1
-set_input 63
-SaveInput2
-SaveOutput
-expect 0 -9
-expect 1 0
-
-# test 39: Random Low-Range
-set_input 32
-SaveInput1
-set_input 56
-SaveInput2
-SaveOutput
-expect 0 -33
-expect 1 0
-
-# test 40: Random Low-Range
-set_input -26
-SaveInput1
-set_input -12
-SaveInput2
-SaveOutput
-expect 0 27
-expect 1 0
-
-# test 41: Random Low-Range
-set_input 100
-SaveInput1
-set_input -91
-SaveInput2
-SaveOutput
-expect 0 -37
-expect 1 0
-
-# test 42: Random Low-Range
-set_input 43
-SaveInput1
-set_input 31
-SaveInput2
-SaveOutput
-expect 0 -12
-expect 1 0
-
-# test 43: Random Low-Range
-set_input -88
-SaveInput1
-set_input -72
-SaveInput2
-SaveOutput
-expect 0 87
-expect 1 0
-
-# test 44: Random Low-Range
-set_input 82
-SaveInput1
-set_input 8
+set_input 12
 SaveInput2
 SaveOutput
 expect 0 -1
 expect 1 0
 
-# test 45: Random Low-Range
-set_input -35
+# test 27: Random Low-Range
+set_input -36
 SaveInput1
-set_input 89
+set_input 19
 SaveInput2
 SaveOutput
-expect 0 -90
+expect 0 -17
+expect 1 0
+
+# test 28: Random Low-Range
+set_input -20
+SaveInput1
+set_input -13
+SaveInput2
+SaveOutput
+expect 0 31
+expect 1 0
+
+# test 29: Random Low-Range
+set_input -16
+SaveInput1
+set_input 54
+SaveInput2
+SaveOutput
+expect 0 -49
+expect 1 0
+
+# test 30: Random Low-Range
+set_input 88
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 13
+SaveInput1
+set_input 15
+SaveInput2
+SaveOutput
+expect 0 -14
+expect 1 0
+
+# test 32: Random Low-Range
+set_input 68
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 -5
+expect 1 0
+
+# test 33: Random Low-Range
+set_input -81
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 91
+expect 1 0
+
+# test 34: Random Low-Range
+set_input -15
+SaveInput1
+set_input -80
+SaveInput2
+SaveOutput
+expect 0 79
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 51
+SaveInput1
+set_input -18
+SaveInput2
+SaveOutput
+expect 0 -35
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 7
+SaveInput1
+set_input 81
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 37: Random Low-Range
+set_input 17
+SaveInput1
+set_input -25
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 38: Random Low-Range
+set_input 100
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 -65
+expect 1 0
+
+# test 39: Random Low-Range
+set_input -48
+SaveInput1
+set_input -41
+SaveInput2
+SaveOutput
+expect 0 47
+expect 1 0
+
+# test 40: Random Low-Range
+set_input -32
+SaveInput1
+set_input -57
+SaveInput2
+SaveOutput
+expect 0 63
+expect 1 0
+
+# test 41: Random Low-Range
+set_input -62
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 61
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -58
+SaveInput1
+set_input -72
+SaveInput2
+SaveOutput
+expect 0 127
+expect 1 0
+
+# test 43: Random Low-Range
+set_input -90
+SaveInput1
+set_input -63
+SaveInput2
+SaveOutput
+expect 0 127
+expect 1 0
+
+# test 44: Random Low-Range
+set_input 93
+SaveInput1
+set_input 7
+SaveInput2
+SaveOutput
+expect 0 -6
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -2
+SaveInput1
+set_input 69
+SaveInput2
+SaveOutput
+expect 0 -69
 expect 1 0
 
 # test 46: Random Low-Range
-set_input -66
+set_input -75
 SaveInput1
-set_input 18
+set_input -54
 SaveInput2
 SaveOutput
-expect 0 -19
+expect 0 127
 expect 1 0
 
 # test 47: Random Low-Range
-set_input -5
+set_input -36
 SaveInput1
-set_input -70
+set_input 72
 SaveInput2
 SaveOutput
-expect 0 69
+expect 0 -73
 expect 1 0
 
 # test 48: Random Low-Range
-set_input 67
+set_input 88
 SaveInput1
-set_input 50
+set_input 46
 SaveInput2
 SaveOutput
-expect 0 -3
+expect 0 -9
 expect 1 0
 
 # test 49: Random Low-Range
-set_input -56
+set_input -54
 SaveInput1
-set_input -22
+set_input -15
 SaveInput2
 SaveOutput
-expect 0 55
+expect 0 63
 expect 1 0
 
 # test 50: Random Low-Range
-set_input -55
+set_input -53
 SaveInput1
-set_input 13
+set_input 57
 SaveInput2
 SaveOutput
 expect 0 -10
@@ -7660,228 +5617,2271 @@ expect 1 0
 
 # Random: (-9223372036854775808, 9223372036854775807)
 # test 51: Random
-set_input 554885486035541170
+set_input -2926355469321284687
 SaveInput1
-set_input -1909255918806850751
+set_input 1955525210969270432
 SaveInput2
 SaveOutput
-expect 0 -396406139138342913
+expect 0 -1379063629584023713
 expect 1 0
 
 # test 52: Random
-set_input 64107424619131310
+set_input 5083735697260213071
 SaveInput1
-set_input -5189329313838753074
+set_input 1193402218585431540
 SaveInput2
 SaveOutput
-expect 0 -64106306755235983
+expect 0 -39688721190261061
 expect 1 0
 
 # test 53: Random
-set_input -1953015481548833859
+set_input -1316230402120460951
 SaveInput1
-set_input -5521898694902121540
+set_input -1967895744724631921
 SaveInput2
 SaveOutput
-expect 0 6898311471149581379
+expect 0 1967931011114576886
 expect 1 0
 
 # test 54: Random
-set_input -8574343732716784802
+set_input -1823936383568355930
 SaveInput1
-set_input -6715024731175316865
+set_input 200779989104203871
 SaveInput2
 SaveOutput
-expect 0 9223019619750440353
+expect 0 -180161594730223623
 expect 1 0
 
 # test 55: Random
-set_input 8504380544604822228
+set_input 4224740782867576946
 SaveInput1
-set_input 3911084070054809656
+set_input -5313011665477342086
 SaveInput2
 SaveOutput
-expect 0 -3892411951393296401
+expect 0 -3602950114372839539
 expect 1 0
 
 # test 56: Random
-set_input 1220941252545181411
+set_input 5859185740484996011
 SaveInput1
-set_input 1267186079844825248
+set_input -975150479305363692
 SaveInput2
 SaveOutput
-expect 0 -1193914599058993313
+expect 0 -5787125805681224449
 expect 1 0
 
 # test 57: Random
-set_input 6465233331656651798
+set_input -570407734762136093
 SaveInput1
-set_input -2847923109287032374
+set_input -2042482938230166811
 SaveInput2
 SaveOutput
-expect 0 -6356836394731569155
+expect 0 2304294867576157982
 expect 1 0
 
 # test 58: Random
-set_input -7309903259127738130
+set_input 8003990495180994475
 SaveInput1
-set_input 4730258111576259190
+set_input 995943498138122859
 SaveInput2
 SaveOutput
-expect 0 -37155452842709095
+expect 0 -941885986609148460
 expect 1 0
 
 # test 59: Random
-set_input -2895349125522489712
+set_input -6579486874977325641
 SaveInput1
-set_input 1689723580041379082
+set_input 7496043242128107999
 SaveInput2
 SaveOutput
-expect 0 -1680126354344262657
+expect 0 -2305917264567806360
 expect 1 0
 
 # test 60: Random
-set_input 3571328495193725187
+set_input -7428383024178495524
 SaveInput1
-set_input 3457371647313864114
+set_input 5732330679695942088
 SaveInput2
 SaveOutput
-expect 0 -2417034490833535235
+expect 0 -615045231096111561
 expect 1 0
 
 # test 61: Random
-set_input 6078869557299328383
+set_input -8023525583028769902
 SaveInput1
-set_input -4479703742327355157
+set_input 6754453702791451781
 SaveInput2
 SaveOutput
-expect 0 -4635436732349874284
+expect 0 -1199261358999502977
 expect 1 0
 
 # test 62: Random
-set_input 366262648993807190
+set_input -7322732381468429513
 SaveInput1
-set_input 4393703754042674543
+set_input 8747659417424184393
 SaveInput2
 SaveOutput
-expect 0 -293033317886888263
+expect 0 -1756524388922048514
 expect 1 0
 
 # test 63: Random
-set_input -7437490470763147309
+set_input 7307313337000969520
 SaveInput1
-set_input -8317674040211951790
+set_input -2902933842576717626
 SaveInput2
 SaveOutput
-expect 0 8610696109548040365
+expect 0 -4981121928082243585
 expect 1 0
 
 # test 64: Random
-set_input -629937328575033670
+set_input 8669669926121881727
 SaveInput1
-set_input -2023011258900816369
+set_input 8694437794140901556
 SaveInput2
 SaveOutput
-expect 0 2071654375540863477
+expect 0 -8647148886443540533
 expect 1 0
 
 # test 65: Random
-set_input 2380628170105426135
+set_input 7040566040331997959
 SaveInput1
-set_input 8181081525665617147
+set_input 5910874405930264910
 SaveInput2
 SaveOutput
-expect 0 -2380433900142596308
+expect 0 -4613098342609240327
 expect 1 0
 
 # test 66: Random
-set_input 7640904037324044390
+set_input 5631850902821775480
 SaveInput1
-set_input 5183905254092579104
+set_input -5287104448406710475
 SaveInput2
 SaveOutput
-expect 0 -4756047617686249505
+expect 0 -441434694849167409
 expect 1 0
 
 # test 67: Random
-set_input -520000779188636090
+set_input -7782294943304212274
 SaveInput1
-set_input 3047586937805158510
+set_input 9182235681715137973
 SaveInput2
 SaveOutput
-expect 0 -2902591985532022855
+expect 0 -1399945153644863621
 expect 1 0
 
 # test 68: Random
-set_input -4643278716825384734
+set_input 640870005803949364
 SaveInput1
-set_input 1492282215157211597
+set_input -2715835967525518963
 SaveInput2
 SaveOutput
-expect 0 -1478731541647720641
+expect 0 -595673152804192517
 expect 1 0
 
 # test 69: Random
-set_input -9114717815901708707
+set_input -1758968315460270461
 SaveInput1
-set_input -6492375887804686428
+set_input -3778613027817277412
 SaveInput2
 SaveOutput
-expect 0 9114722694988751355
+expect 0 4357616229163171839
 expect 1 0
 
 # test 70: Random
-set_input 4821642301402049747
+set_input 8445607628712384508
 SaveInput1
-set_input 4400306701052612182
+set_input 7035170659107828197
 SaveInput2
 SaveOutput
-expect 0 -283811455700051
+expect 0 -6998825130761327077
 expect 1 0
 
 # test 71: Random
-set_input 4880625161987544798
+set_input 1215967711694469973
 SaveInput1
-set_input 5130808647743063470
+set_input -418814439166359037
 SaveInput2
 SaveOutput
-expect 0 -4841442175278924943
+expect 0 -1157442904871143938
 expect 1 0
 
 # test 72: Random
-set_input 2409703729567657810
+set_input 8042646914797470929
 SaveInput1
-set_input -1339477501410386294
+set_input -594250594460240781
 SaveInput2
 SaveOutput
-expect 0 -2404984074562194947
+expect 0 -7457969785865831506
 expect 1 0
 
 # test 73: Random
-set_input -3838344391500434344
+set_input -6675467757650337513
 SaveInput1
-set_input 6512428440797765643
+set_input 6071759939552587621
 SaveInput2
 SaveOutput
-expect 0 -5341341762369675273
+expect 0 -18921977748693254
 expect 1 0
 
 # test 74: Random
-set_input 3087384501604515316
+set_input 4237054839017811140
 SaveInput1
-set_input 3138171183008952510
+set_input -7078400407565222507
 SaveInput2
 SaveOutput
-expect 0 -3064706212870009013
+expect 0 -1784560445076548741
 expect 1 0
 
 # test 75: Random
-set_input -2697875959082792469
+set_input -8002587577256855157
 SaveInput1
-set_input 8140844849196774204
+set_input 2328729040727657357
 SaveInput2
 SaveOutput
-expect 0 -5803468670910923049
+expect 0 -22809065665333642
+expect 1 0
+
+# Opcode 6: XNOR
+set_input 6
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input -91
+SaveInput1
+set_input -35
+SaveInput2
+SaveOutput
+expect 0 -121
+expect 1 0
+
+# test 27: Random Low-Range
+set_input 98
+SaveInput1
+set_input -85
+SaveInput2
+SaveOutput
+expect 0 54
+expect 1 0
+
+# test 28: Random Low-Range
+set_input -83
+SaveInput1
+set_input 16
+SaveInput2
+SaveOutput
+expect 0 66
+expect 1 0
+
+# test 29: Random Low-Range
+set_input -49
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 121
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -7
+SaveInput1
+set_input -26
+SaveInput2
+SaveOutput
+expect 0 -32
+expect 1 0
+
+# test 31: Random Low-Range
+set_input -88
+SaveInput1
+set_input -38
+SaveInput2
+SaveOutput
+expect 0 -115
+expect 1 0
+
+# test 32: Random Low-Range
+set_input 43
+SaveInput1
+set_input -86
+SaveInput2
+SaveOutput
+expect 0 126
+expect 1 0
+
+# test 33: Random Low-Range
+set_input 49
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 -10
+expect 1 0
+
+# test 34: Random Low-Range
+set_input -1
+SaveInput1
+set_input -62
+SaveInput2
+SaveOutput
+expect 0 -62
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 41
+SaveInput1
+set_input 83
+SaveInput2
+SaveOutput
+expect 0 -123
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 10
+SaveInput1
+set_input -82
+SaveInput2
+SaveOutput
+expect 0 91
+expect 1 0
+
+# test 37: Random Low-Range
+set_input -94
+SaveInput1
+set_input 11
+SaveInput2
+SaveOutput
+expect 0 86
+expect 1 0
+
+# test 38: Random Low-Range
+set_input 87
+SaveInput1
+set_input 44
+SaveInput2
+SaveOutput
+expect 0 -124
+expect 1 0
+
+# test 39: Random Low-Range
+set_input 11
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 15
+expect 1 0
+
+# test 40: Random Low-Range
+set_input 0
+SaveInput1
+set_input -74
+SaveInput2
+SaveOutput
+expect 0 73
+expect 1 0
+
+# test 41: Random Low-Range
+set_input 56
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 12
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -67
+SaveInput1
+set_input 45
+SaveInput2
+SaveOutput
+expect 0 111
+expect 1 0
+
+# test 43: Random Low-Range
+set_input 84
+SaveInput1
+set_input -74
+SaveInput2
+SaveOutput
+expect 0 29
+expect 1 0
+
+# test 44: Random Low-Range
+set_input -98
+SaveInput1
+set_input 65
+SaveInput2
+SaveOutput
+expect 0 32
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -45
+SaveInput1
+set_input -57
+SaveInput2
+SaveOutput
+expect 0 -21
+expect 1 0
+
+# test 46: Random Low-Range
+set_input 67
+SaveInput1
+set_input -21
+SaveInput2
+SaveOutput
+expect 0 87
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 32
+SaveInput1
+set_input 72
+SaveInput2
+SaveOutput
+expect 0 -105
+expect 1 0
+
+# test 48: Random Low-Range
+set_input -28
+SaveInput1
+set_input -11
+SaveInput2
+SaveOutput
+expect 0 -18
+expect 1 0
+
+# test 49: Random Low-Range
+set_input -89
+SaveInput1
+set_input -50
+SaveInput2
+SaveOutput
+expect 0 -106
+expect 1 0
+
+# test 50: Random Low-Range
+set_input 54
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 50
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input 1267625005563608702
+SaveInput1
+set_input 824196974577635288
+SaveInput2
+SaveOutput
+expect 0 -1938695125373006247
+expect 1 0
+
+# test 52: Random
+set_input 3717305180490436062
+SaveInput1
+set_input 7725776520631246495
+SaveInput2
+SaveOutput
+expect 0 -6386664532153815874
+expect 1 0
+
+# test 53: Random
+set_input -1476197301614906287
+SaveInput1
+set_input -4979943241400803956
+SaveInput2
+SaveOutput
+expect 0 -5863913633601874398
+expect 1 0
+
+# test 54: Random
+set_input 3431059285011334648
+SaveInput1
+set_input -929700919533625134
+SaveInput2
+SaveOutput
+expect 0 2556747380419451605
+expect 1 0
+
+# test 55: Random
+set_input 2668836854484705386
+SaveInput1
+set_input -1418300764259499933
+SaveInput2
+SaveOutput
+expect 0 3938202150149169142
+expect 1 0
+
+# test 56: Random
+set_input 844573406534612470
+SaveInput1
+set_input -996184878917419098
+SaveInput2
+SaveOutput
+expect 0 462656726118806959
+expect 1 0
+
+# test 57: Random
+set_input -8199477026314269205
+SaveInput1
+set_input -7029896714419147565
+SaveInput2
+SaveOutput
+expect 0 -1172432585399443769
+expect 1 0
+
+# test 58: Random
+set_input 3284835965241733193
+SaveInput1
+set_input 3362837996113997264
+SaveInput2
+SaveOutput
+expect 0 -233386457893871002
+expect 1 0
+
+# test 59: Random
+set_input -4204756391129576718
+SaveInput1
+set_input -1076981978014277567
+SaveInput2
+SaveOutput
+expect 0 -3794422117095516852
+expect 1 0
+
+# test 60: Random
+set_input 7634979465084415177
+SaveInput1
+set_input 5305601380052148718
+SaveInput2
+SaveOutput
+expect 0 -2329958629590338856
+expect 1 0
+
+# test 61: Random
+set_input -5941347062182082192
+SaveInput1
+set_input -1166691338949781999
+SaveInput2
+SaveOutput
+expect 0 -4774673480908808034
+expect 1 0
+
+# test 62: Random
+set_input -2500704542806957538
+SaveInput1
+set_input 2983503188115831126
+SaveInput2
+SaveOutput
+expect 0 852237921981654199
+expect 1 0
+
+# test 63: Random
+set_input -4025382943010950691
+SaveInput1
+set_input 62850770873803963
+SaveInput2
+SaveOutput
+expect 0 3963803211229260441
+expect 1 0
+
+# test 64: Random
+set_input 4219274257892216788
+SaveInput1
+set_input 4252057003537362302
+SaveInput2
+SaveOutput
+expect 0 -112458898804564651
+expect 1 0
+
+# test 65: Random
+set_input -7484200726794524127
+SaveInput1
+set_input -5451561595589453641
+SaveInput2
+SaveOutput
+expect 0 -3205136366871229079
+expect 1 0
+
+# test 66: Random
+set_input 2060309633531179149
+SaveInput1
+set_input -3095491532473035025
+SaveInput2
+SaveOutput
+expect 0 3918929474438568349
+expect 1 0
+
+# test 67: Random
+set_input 7815024108334664775
+SaveInput1
+set_input -5543036226962846827
+SaveInput2
+SaveOutput
+expect 0 2348725138802554925
+expect 1 0
+
+# test 68: Random
+set_input 5861950661594449783
+SaveInput1
+set_input 7364344776237876400
+SaveInput2
+SaveOutput
+expect 0 -3993212513639302088
+expect 1 0
+
+# test 69: Random
+set_input 5572070516086068503
+SaveInput1
+set_input 9146566707711692351
+SaveInput2
+SaveOutput
+expect 0 -3728093638583720745
+expect 1 0
+
+# test 70: Random
+set_input -6210695593071059676
+SaveInput1
+set_input 1148455935311969389
+SaveInput2
+SaveOutput
+expect 0 6467433131730329270
+expect 1 0
+
+# test 71: Random
+set_input 6643607944074598956
+SaveInput1
+set_input -1873048074505778237
+SaveInput2
+SaveOutput
+expect 0 5029590000029855248
+expect 1 0
+
+# test 72: Random
+set_input -7331186337151950271
+SaveInput1
+set_input -8829147490068662333
+SaveInput2
+SaveOutput
+expect 0 -2250381429310526851
+expect 1 0
+
+# test 73: Random
+set_input -8216248374488342569
+SaveInput1
+set_input -4631812614052955350
+SaveInput2
+SaveOutput
+expect 0 -3621592656520340734
+expect 1 0
+
+# test 74: Random
+set_input -6301045236543096088
+SaveInput1
+set_input -8713591093644662047
+SaveInput2
+SaveOutput
+expect 0 -3430946512138604554
+expect 1 0
+
+# test 75: Random
+set_input -2767706326844912501
+SaveInput1
+set_input -3726051081980828715
+SaveInput2
+SaveOutput
+expect 0 -1575496302548774751
+expect 1 0
+
+# Opcode 9: SHR
+set_input 9
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 2
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387904
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 4611686018427387903
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input -37
+SaveInput1
+set_input 11
+SaveInput2
+SaveOutput
+expect 0 9007199254740991
+expect 1 0
+
+# test 27: Random Low-Range
+set_input -21
+SaveInput1
+set_input 58
+SaveInput2
+SaveOutput
+expect 0 63
+expect 1 0
+
+# test 28: Random Low-Range
+set_input -56
+SaveInput1
+set_input 74
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 29: Random Low-Range
+set_input -67
+SaveInput1
+set_input 40
+SaveInput2
+SaveOutput
+expect 0 16777215
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -97
+SaveInput1
+set_input -10
+SaveInput2
+SaveOutput
+expect 0 -99328
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 65
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -54
+SaveInput1
+set_input -17
+SaveInput2
+SaveOutput
+expect 0 -7077888
+expect 1 0
+
+# test 33: Random Low-Range
+set_input -20
+SaveInput1
+set_input 73
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 34: Random Low-Range
+set_input -75
+SaveInput1
+set_input -5
+SaveInput2
+SaveOutput
+expect 0 -2400
+expect 1 0
+
+# test 35: Random Low-Range
+set_input 29
+SaveInput1
+set_input -21
+SaveInput2
+SaveOutput
+expect 0 60817408
+expect 1 0
+
+# test 36: Random Low-Range
+set_input 19
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 171136785840078848
+expect 1 0
+
+# test 37: Random Low-Range
+set_input 73
+SaveInput1
+set_input 32
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 38: Random Low-Range
+set_input 2
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 39: Random Low-Range
+set_input -83
+SaveInput1
+set_input -50
+SaveInput2
+SaveOutput
+expect 0 -93449692267937792
+expect 1 0
+
+# test 40: Random Low-Range
+set_input 75
+SaveInput1
+set_input 54
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 41: Random Low-Range
+set_input 29
+SaveInput1
+set_input 95
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 42: Random Low-Range
+set_input 26
+SaveInput1
+set_input -22
+SaveInput2
+SaveOutput
+expect 0 109051904
+expect 1 0
+
+# test 43: Random Low-Range
+set_input -49
+SaveInput1
+set_input -92
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 44: Random Low-Range
+set_input 42
+SaveInput1
+set_input -29
+SaveInput2
+SaveOutput
+expect 0 22548578304
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -90
+SaveInput1
+set_input -25
+SaveInput2
+SaveOutput
+expect 0 -3019898880
+expect 1 0
+
+# test 46: Random Low-Range
+set_input -7
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 -28672
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 11
+SaveInput1
+set_input -57
+SaveInput2
+SaveOutput
+expect 0 1585267068834414592
+expect 1 0
+
+# test 48: Random Low-Range
+set_input 78
+SaveInput1
+set_input -46
+SaveInput2
+SaveOutput
+expect 0 5488762045857792
+expect 1 0
+
+# test 49: Random Low-Range
+set_input 32
+SaveInput1
+set_input 56
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 50: Random Low-Range
+set_input 77
+SaveInput1
+set_input 59
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input 2177385941839037591
+SaveInput1
+set_input -3847250208317997909
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 52: Random
+set_input 6163558421114164428
+SaveInput1
+set_input -7524485773896059957
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 53: Random
+set_input 6640466946988831371
+SaveInput1
+set_input 5617857281092804373
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 54: Random
+set_input 7937437848713255837
+SaveInput1
+set_input 2794777618385139011
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 55: Random
+set_input -6206857768874492636
+SaveInput1
+set_input -4120280264845158348
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 56: Random
+set_input -3535965303289042539
+SaveInput1
+set_input -1857693190793816038
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 57: Random
+set_input -1778186351846670500
+SaveInput1
+set_input 2088589385501612591
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 58: Random
+set_input 130241620094002010
+SaveInput1
+set_input 2551812127074102445
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 59: Random
+set_input 7915921418429904172
+SaveInput1
+set_input 2580698506094724521
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 60: Random
+set_input -3025304660843572328
+SaveInput1
+set_input -7749179335056334156
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 61: Random
+set_input 6038092457967845065
+SaveInput1
+set_input 5885996890686102820
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 62: Random
+set_input -2528111533465551365
+SaveInput1
+set_input 4591085984610894809
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 63: Random
+set_input -7200478517880076274
+SaveInput1
+set_input -2484001538055424419
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 64: Random
+set_input -6961999537590211043
+SaveInput1
+set_input 2503554111804791010
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 65: Random
+set_input 3633332941213353258
+SaveInput1
+set_input -3437523028044282417
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 66: Random
+set_input -8830572080050026271
+SaveInput1
+set_input -2324443905959438923
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 67: Random
+set_input 3647520864905656454
+SaveInput1
+set_input 6018556732043727421
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 68: Random
+set_input -7777984058125524326
+SaveInput1
+set_input -150164327494770181
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 69: Random
+set_input 4602244088294408184
+SaveInput1
+set_input 8112443695970187741
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 70: Random
+set_input -1015249979637050098
+SaveInput1
+set_input -6598077192853715962
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 71: Random
+set_input 8138223502585537829
+SaveInput1
+set_input -8310613782739155353
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 72: Random
+set_input -7378143037091076626
+SaveInput1
+set_input 3250662527787521640
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 73: Random
+set_input -3083551542087457349
+SaveInput1
+set_input 1397500860712715301
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 74: Random
+set_input 4859161454655057068
+SaveInput1
+set_input -3436391986747581255
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 75: Random
+set_input 3957182153278264172
+SaveInput1
+set_input -4825091588127194280
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Opcode 4: XOR
+set_input 4
+SaveOpcode
+
+# test 1: Edge Case
+set_input 0
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 2: Edge Case
+set_input 0
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 3: Edge Case
+set_input 0
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 4: Edge Case
+set_input 0
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 5: Edge Case
+set_input 0
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 6: Edge Case
+set_input 1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 1
+expect 1 0
+
+# test 7: Edge Case
+set_input 1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 8: Edge Case
+set_input 1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 9: Edge Case
+set_input 1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 10: Edge Case
+set_input 1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 1 0
+
+# test 11: Edge Case
+set_input -1
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 12: Edge Case
+set_input -1
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -2
+expect 1 0
+
+# test 13: Edge Case
+set_input -1
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 14: Edge Case
+set_input -1
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 15: Edge Case
+set_input -1
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 16: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 17: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775807
+expect 1 0
+
+# test 18: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 19: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# test 20: Edge Case
+set_input -9223372036854775808
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 21: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 0
+SaveInput2
+SaveOutput
+expect 0 9223372036854775807
+expect 1 0
+
+# test 22: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 9223372036854775806
+expect 1 0
+
+# test 23: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -1
+SaveInput2
+SaveOutput
+expect 0 -9223372036854775808
+expect 1 0
+
+# test 24: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input -9223372036854775808
+SaveInput2
+SaveOutput
+expect 0 -1
+expect 1 0
+
+# test 25: Edge Case
+set_input 9223372036854775807
+SaveInput1
+set_input 9223372036854775807
+SaveInput2
+SaveOutput
+expect 0 0
+expect 1 0
+
+# Random Low-Range: (-100, 100)
+# test 26: Random Low-Range
+set_input -86
+SaveInput1
+set_input 55
+SaveInput2
+SaveOutput
+expect 0 -99
+expect 1 0
+
+# test 27: Random Low-Range
+set_input 35
+SaveInput1
+set_input 87
+SaveInput2
+SaveOutput
+expect 0 116
+expect 1 0
+
+# test 28: Random Low-Range
+set_input 74
+SaveInput1
+set_input -87
+SaveInput2
+SaveOutput
+expect 0 -29
+expect 1 0
+
+# test 29: Random Low-Range
+set_input -6
+SaveInput1
+set_input -36
+SaveInput2
+SaveOutput
+expect 0 38
+expect 1 0
+
+# test 30: Random Low-Range
+set_input -42
+SaveInput1
+set_input -49
+SaveInput2
+SaveOutput
+expect 0 25
+expect 1 0
+
+# test 31: Random Low-Range
+set_input 76
+SaveInput1
+set_input 68
+SaveInput2
+SaveOutput
+expect 0 8
+expect 1 0
+
+# test 32: Random Low-Range
+set_input -4
+SaveInput1
+set_input -53
+SaveInput2
+SaveOutput
+expect 0 55
+expect 1 0
+
+# test 33: Random Low-Range
+set_input -14
+SaveInput1
+set_input -97
+SaveInput2
+SaveOutput
+expect 0 109
+expect 1 0
+
+# test 34: Random Low-Range
+set_input -37
+SaveInput1
+set_input 21
+SaveInput2
+SaveOutput
+expect 0 -50
+expect 1 0
+
+# test 35: Random Low-Range
+set_input -88
+SaveInput1
+set_input -95
+SaveInput2
+SaveOutput
+expect 0 9
+expect 1 0
+
+# test 36: Random Low-Range
+set_input -90
+SaveInput1
+set_input -78
+SaveInput2
+SaveOutput
+expect 0 20
+expect 1 0
+
+# test 37: Random Low-Range
+set_input 31
+SaveInput1
+set_input -38
+SaveInput2
+SaveOutput
+expect 0 -59
+expect 1 0
+
+# test 38: Random Low-Range
+set_input -71
+SaveInput1
+set_input -12
+SaveInput2
+SaveOutput
+expect 0 77
+expect 1 0
+
+# test 39: Random Low-Range
+set_input 6
+SaveInput1
+set_input 5
+SaveInput2
+SaveOutput
+expect 0 3
+expect 1 0
+
+# test 40: Random Low-Range
+set_input -70
+SaveInput1
+set_input -76
+SaveInput2
+SaveOutput
+expect 0 14
+expect 1 0
+
+# test 41: Random Low-Range
+set_input -95
+SaveInput1
+set_input -42
+SaveInput2
+SaveOutput
+expect 0 119
+expect 1 0
+
+# test 42: Random Low-Range
+set_input -31
+SaveInput1
+set_input 1
+SaveInput2
+SaveOutput
+expect 0 -32
+expect 1 0
+
+# test 43: Random Low-Range
+set_input 99
+SaveInput1
+set_input 72
+SaveInput2
+SaveOutput
+expect 0 43
+expect 1 0
+
+# test 44: Random Low-Range
+set_input 97
+SaveInput1
+set_input -92
+SaveInput2
+SaveOutput
+expect 0 -59
+expect 1 0
+
+# test 45: Random Low-Range
+set_input -91
+SaveInput1
+set_input 85
+SaveInput2
+SaveOutput
+expect 0 -16
+expect 1 0
+
+# test 46: Random Low-Range
+set_input 25
+SaveInput1
+set_input -90
+SaveInput2
+SaveOutput
+expect 0 -65
+expect 1 0
+
+# test 47: Random Low-Range
+set_input 10
+SaveInput1
+set_input 39
+SaveInput2
+SaveOutput
+expect 0 45
+expect 1 0
+
+# test 48: Random Low-Range
+set_input 66
+SaveInput1
+set_input -35
+SaveInput2
+SaveOutput
+expect 0 -97
+expect 1 0
+
+# test 49: Random Low-Range
+set_input -68
+SaveInput1
+set_input 88
+SaveInput2
+SaveOutput
+expect 0 -28
+expect 1 0
+
+# test 50: Random Low-Range
+set_input 99
+SaveInput1
+set_input 57
+SaveInput2
+SaveOutput
+expect 0 90
+expect 1 0
+
+# Random: (-9223372036854775808, 9223372036854775807)
+# test 51: Random
+set_input -2253320281630114661
+SaveInput1
+set_input -8097734044668079104
+SaveInput2
+SaveOutput
+expect 0 8008958069301586075
+expect 1 0
+
+# test 52: Random
+set_input -2608419344855351314
+SaveInput1
+set_input 5600250974118328396
+SaveInput2
+SaveOutput
+expect 0 -7605138328434243678
+expect 1 0
+
+# test 53: Random
+set_input 5829733398556282355
+SaveInput1
+set_input 5323749111982722232
+SaveInput2
+SaveOutput
+expect 0 1803302698005922123
+expect 1 0
+
+# test 54: Random
+set_input 6991372947180296399
+SaveInput1
+set_input -6400132495635589921
+SaveInput2
+SaveOutput
+expect 0 -4167956382416253936
+expect 1 0
+
+# test 55: Random
+set_input 1785402531138825635
+SaveInput1
+set_input -2842799221348076189
+SaveInput2
+SaveOutput
+expect 0 -4590470877105710912
+expect 1 0
+
+# test 56: Random
+set_input -437214910657637335
+SaveInput1
+set_input -4936001122111613476
+SaveInput2
+SaveOutput
+expect 0 4796754146049180149
+expect 1 0
+
+# test 57: Random
+set_input -7037246853336904851
+SaveInput1
+set_input -2528613806228125789
+SaveInput2
+SaveOutput
+expect 0 4809319275296820430
+expect 1 0
+
+# test 58: Random
+set_input -670039372714761540
+SaveInput1
+set_input -4147826141820829653
+SaveInput2
+SaveOutput
+expect 0 3520826053343797911
+expect 1 0
+
+# test 59: Random
+set_input 3179186170486638270
+SaveInput1
+set_input -266973171688739154
+SaveInput2
+SaveOutput
+expect 0 -3434775735164852208
+expect 1 0
+
+# test 60: Random
+set_input -8437904311855450424
+SaveInput1
+set_input -8893582384773159430
+SaveInput2
+SaveOutput
+expect 0 1041790888209208114
+expect 1 0
+
+# test 61: Random
+set_input 6709155365088975147
+SaveInput1
+set_input 5013412302121047663
+SaveInput2
+SaveOutput
+expect 0 1767806542737264452
+expect 1 0
+
+# test 62: Random
+set_input 4101973474436262868
+SaveInput1
+set_input 1569059131442875302
+SaveInput2
+SaveOutput
+expect 0 3254776329729826930
+expect 1 0
+
+# test 63: Random
+set_input -5308914789887463336
+SaveInput1
+set_input 3709632780912890063
+SaveInput2
+SaveOutput
+expect 0 -8851348445336330089
+expect 1 0
+
+# test 64: Random
+set_input -1064033837115514031
+SaveInput1
+set_input 9091722876001868940
+SaveInput2
+SaveOutput
+expect 0 -8135890071546380323
+expect 1 0
+
+# test 65: Random
+set_input 1366770817503200941
+SaveInput1
+set_input -6919973721102240623
+SaveInput2
+SaveOutput
+expect 0 -8286361349944004036
+expect 1 0
+
+# test 66: Random
+set_input -7123993281540403952
+SaveInput1
+set_input -7609446482636982109
+SaveInput2
+SaveOutput
+expect 0 812808916840773043
+expect 1 0
+
+# test 67: Random
+set_input -6139672469756913808
+SaveInput1
+set_input 5646476392255308998
+SaveInput2
+SaveOutput
+expect 0 -1974880973650324554
+expect 1 0
+
+# test 68: Random
+set_input 298104747748525660
+SaveInput1
+set_input -5677806410080674625
+SaveInput2
+SaveOutput
+expect 0 -5397716338240382237
+expect 1 0
+
+# test 69: Random
+set_input -2594016602861739615
+SaveInput1
+set_input -6389424700691272291
+SaveInput2
+SaveOutput
+expect 0 8886736429699648572
+expect 1 0
+
+# test 70: Random
+set_input -390021577479862584
+SaveInput1
+set_input 3601996381848406042
+SaveInput2
+SaveOutput
+expect 0 -3789073401465647406
+expect 1 0
+
+# test 71: Random
+set_input -3066822031694762593
+SaveInput1
+set_input 642071462401801856
+SaveInput2
+SaveOutput
+expect 0 -2478830222663609569
+expect 1 0
+
+# test 72: Random
+set_input -5469316650368734794
+SaveInput1
+set_input 7496798704618400715
+SaveInput2
+SaveOutput
+expect 0 -2589306142127095171
+expect 1 0
+
+# test 73: Random
+set_input 2520687922268498825
+SaveInput1
+set_input 8039670881618720441
+SaveInput2
+SaveOutput
+expect 0 5578251697840528688
+expect 1 0
+
+# test 74: Random
+set_input -6014412395768084820
+SaveInput1
+set_input 7537269373896768
+SaveInput2
+SaveOutput
+expect 0 -6011666884018958612
+expect 1 0
+
+# test 75: Random
+set_input 5369286831142079119
+SaveInput1
+set_input -5911454212687919474
+SaveInput2
+SaveOutput
+expect 0 -1768293585231803391
 expect 1 0
 
 1 1 1 1

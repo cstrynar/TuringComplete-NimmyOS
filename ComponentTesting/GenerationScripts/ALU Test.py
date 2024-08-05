@@ -117,7 +117,7 @@ def GenerateALUTest(testTitle:str,                                              
     # two input operations
     twoInputOperations = list(op for op in operationDict if op not in singleInputOps)
     if (twoInputOperations != 0):
-        lines.append('# Double Input operation Tests:\n')
+        lines.append('# Double Input Operation Tests:\n')
     
     for op in twoInputOperations:
         opcode = operationDict[op][0]
